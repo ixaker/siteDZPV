@@ -1,0 +1,11 @@
+{
+  "locale": "en_US",
+  "menu": [
+    { "name": "About the factory" },
+    { "name": "Product" },
+    { "name": "Contacts" },
+    { "name": "Customers" },
+    { "name": "Casting" },
+    { "name": "Gallery" }
+  ]
+}
