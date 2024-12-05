@@ -7,5 +7,23 @@
     { "name": "Customers" },
     { "name": "Casting" },
     { "name": "Gallery" }
-  ]
+  ],
+
+  "modalInfo": {
+    "title": "Leave your drawing and phone number, and we will contact you promptly to discuss the details.",
+    "descriptionBtn": "Choose File",
+    "fileName": "File selected:",
+    "noFile": "File not selected",
+    "description": "Select File",
+    "limitation": "File size limit: up to 20 Mb*",
+    "inputTitle": "Mobile phone number",
+    "numberPhone": "+",
+    "submitBtn": "Submit",
+    "removeBtn": "Remove",
+    "sendingBtn ": "Sending...",
+    "fieldCheck": "Upload the file and enter your mobile phone number",
+    "dropFile": "Drag or select file"
+  },
+
+  "btnSend": "Send drawings for calculation"
 }

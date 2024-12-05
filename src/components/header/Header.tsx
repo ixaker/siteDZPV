@@ -17,14 +17,14 @@ const Header: React.FC<PageProps> = ({ translations, lang, supportedLanguages, d
           </div>
         </div>
 
-        <div className="flex justify-end items-center w-full mt-[30px] mr-[10px] ">
+        {/* <div className="flex justify-end items-center w-full mt-[30px] mr-[10px] ">
           <Menu
             translations={translations}
             lang={lang}
             supportedLanguages={supportedLanguages}
             defaultLanguage={defaultLanguage}
           />
-        </div>
+        </div> */}
       </div>
     </header>
   );

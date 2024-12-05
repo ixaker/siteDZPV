@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
-        activeColor: '#c43c1e',
+        activeColor: '#FFEB3B',
       },
       boxShadowColor: {
         default: '[0_10px_30px_#000]',

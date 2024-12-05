@@ -1,26 +1,21 @@
-import React, { useState, useRef } from 'react';
-import { Box, Popper, useTheme } from '@mui/material';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import Link from 'next/link';
-import CustomButton from '@/components/ui/button/CustomButton';
+import React from 'react';
 import { PageProps } from '@/context/withStaticPathsAndProps';
 import langUk from '../../../../locales/uk.json';
-import { darkTheme, lightTheme } from '@/theme';
 
-const MenuComponent: React.FC<PageProps> = ({ translations, lang }) => {
-  const theme = useTheme();
-  const menuItems = translations.menu || langUk.menu;
-
-  const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
-  const bgColor = currentTheme.palette.background.default;
-  const secondaryColor = currentTheme.palette.secondary.main;
+const MenuComponent: React.FC<PageProps> = ({ translations }) => {
+  const menuItems = translations?.menu || langUk.menu;
 
   return (
-    <nav className="flex items-center gap-5 sm:gap-[30px] md:gap-[40px] lg:gap-[80px]">
-      <ul>
+    <nav>
+      <ul className="flex flex-col gap-10 ">
         {menuItems.map((item, index) => (
-          <li key={index}>
-            <a href="#">{item.name}</a>
+          <li className="text-end" key={index}>
+            <a
+              className="text-[white] font-bold text-2xl hover:text-activeColor transition-all duration-300 ease-in-out"
+              href="#"
+            >
+              {item.name}
+            </a>
           </li>
         ))}
       </ul>

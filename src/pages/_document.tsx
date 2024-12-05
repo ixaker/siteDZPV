@@ -5,7 +5,6 @@ class MyDocument extends Document<{ lang: string }> {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
 
-    // Используем функцию для получения языка
     const lang = getDefaultLanguage(ctx.query.lang as string | undefined);
 
     return { ...initialProps, lang };

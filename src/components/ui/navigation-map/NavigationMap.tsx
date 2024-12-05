@@ -1,22 +1,19 @@
-import Link from 'next/link';
-import { NavigationMenu } from '../../../../locales/types';
-
 interface NavigationMapProps {
-  translationsMenuService: NavigationMenu[];
+  translationsMenuService: { name: string }[];
   lang: string;
 }
 
-const NavigationMap: React.FC<NavigationMapProps> = ({ lang, translationsMenuService = [] }) => {
+const NavigationMap: React.FC<NavigationMapProps> = ({ translationsMenuService = [] }) => {
   return (
-    <ul className="!bg-[rgba(26,25,25,0.56)] px-4 pb-4 pt-2 h-fit hidden lg:block relative top-[revert-layer] left-[0%] bottom-[110px] z-[99] w-fit">
+    <ul className="flex flex-col gap-10 items-end">
       {translationsMenuService.map((item, index) => (
-        <li className="mt-2" key={index}>
-          <Link
-            className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-[15px] text-nowrap no-underline"
-            href={`/${lang}/${item.href}`}
+        <li key={index}>
+          <a
+            className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-4xl text-nowrap no-underline "
+            href="#"
           >
-            {item.title}
-          </Link>
+            {item.name}
+          </a>
         </li>
       ))}
     </ul>
