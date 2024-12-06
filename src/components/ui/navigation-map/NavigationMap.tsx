@@ -5,7 +5,7 @@ interface NavigationMapProps {
 
 const NavigationMap: React.FC<NavigationMapProps> = ({ translationsMenuService = [] }) => {
   return (
-    <ul className="flex flex-col gap-10 items-end">
+    <ul className="flex flex-col gap-10 items-end relative z-10">
       {translationsMenuService.map((item, index) => (
         <li key={index}>
           <a

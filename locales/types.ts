@@ -8,4 +8,5 @@ export type Meta = {
 export type Translations = {
   locale: string;
   menu: { name: string }[];
+  title: string;
 };
