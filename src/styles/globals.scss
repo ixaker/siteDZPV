@@ -33,3 +33,33 @@ input[type='number']::-webkit-outer-spin-button {
     transform: translateX(-50%);
   }
 }
+
+.elem::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  height: 8px; /* Высота горизонтального скроллбара */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Цвет трека (фона скроллбара) */
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #555; /* Цвет ползунка */
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #999; /* Цвет ползунка при наведении */
+}
+
+/* Убираем вертикальный скроллбар, если он не нужен */
+.scrollbar-custom {
+  scrollbar-width: thin; /* Для Firefox: делаем скроллбар тоньше */
+  scrollbar-color: #555 #1a1a1a; /* Цвет ползунка и фона */
+}

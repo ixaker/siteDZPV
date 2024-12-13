@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Heading from '../typography/Heading';
 import Paragraph from '../typography/Paragraph';
-import NavigationMap from '../navigation-map/NavigationMap';
+import NavigationMap from '../navigation/Navigation';
 import { NavigationMenu } from '../../../../locales/types';
 import ButtonSubmitDrawing from '../button/ButtonSubmitDrawing';
 import { PageProps } from '@/context/withStaticPathsAndProps';

@@ -3,7 +3,7 @@ import Heading from '../typography/Heading';
 import Paragraph from '../typography/Paragraph';
 import ButtonSubmitDrawing from '../button/ButtonSubmitDrawing';
 import { PageProps } from '@/context/withStaticPathsAndProps';
-import NavigationMap from '../navigation-map/NavigationMap';
+import NavigationMap from '../navigation/Navigation';
 
 interface CapitalBlockrProps {
   title: string;

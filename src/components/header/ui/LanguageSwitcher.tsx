@@ -1,14 +1,11 @@
 import CustomButton from '@/components/ui/button/CustomButton';
+import { PageProps } from '@/context/withStaticPathsAndProps';
 import { useRouter } from 'next/router';
 
-interface LanguageSwitcherProps {
-  supportedLanguages: string[]; // Список поддерживаемых языков
-  currentLang: string; // Текущий язык
-}
-
-const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ supportedLanguages = [], currentLang }) => {
+const LanguageSwitcher: React.FC<PageProps> = (restProps) => {
   const router = useRouter();
   const { asPath } = router;
+  let supportedLanguages: string[] = restProps.supportedLanguages;
 
   supportedLanguages = supportedLanguages.filter((val) => val !== 'ru');
 
@@ -25,7 +22,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ supportedLanguages 
           key={lang}
           ariaLabel={`Switch to ${lang}`}
           variant="leng-btn"
-          className={`${currentLang === lang ? 'text-activeColor text-[white]' : ''}`}
+          className={`${restProps.lang === lang ? 'text-activeColor text-[white]' : ''}`}
           onClick={() => switchLanguage(lang)}
         >
           {lang.toUpperCase()}

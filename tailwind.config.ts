@@ -22,6 +22,7 @@ const config: Config = {
       height: {
         'fill-available': '-webkit-fill-available',
       },
+      scrollBehavior: ['smooth'],
     },
   },
   plugins: [],

@@ -25,7 +25,22 @@
     "dropFile": "Drag or select file"
   },
 
-  "title": "The leading manufacturer of rolling rolls in Ukraine",
+  "homePage": {
+    "title": "The leading manufacturer of rolling rolls in Ukraine"
+  },
+
+  "aboutFactory": {
+    "title": "About the Factory",
+    "image": "/assets/about-company.webp",
+    "paragraphs": [
+      "JSC 'Dnipropetrovsk Rolling Rolls Plant' is a Ukrainian asset of the international 'DniproTechService' Group.",
+      "The plant was founded in 1896 and today is one of the largest manufacturers of cast iron rolling rolls for long, pipe, and sheet hot rolling mills.",
+      "The enterprise has a full production cycle. Cast iron rolling rolls bearing our trademark are recognized by metallurgists from nearly all major multinational companies in the markets of Ukraine, the CIS countries, the EU, and beyond.",
+      "JSC DRRP is certified under the quality management system in compliance with the international standard EN ISO 9001:2015 and guarantees the supply of high-quality products that meet all necessary norms and requirements, providing excellent operational characteristics."
+    ]
+  },
+
+  "ourClients": { "title": "Our clients" },
 
   "btnSend": "Send drawings for calculation"
 }

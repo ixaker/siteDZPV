@@ -11,7 +11,7 @@ const Layout: React.FC<PageProps> = ({ children, ...restProps }) => {
     <>
       <Header {...restProps} />
       <main>
-        <div className=" text-white">{children}</div>
+        <div>{children}</div>
         <div>
           <CommunicationButton
             email={
@@ -23,7 +23,7 @@ const Layout: React.FC<PageProps> = ({ children, ...restProps }) => {
           />
         </div>
       </main>
-      {/* <Footer {...restProps} /> */}
+      <Footer {...restProps} />
     </>
   );
 };

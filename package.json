@@ -38,6 +38,7 @@
     "ftp-deploy": "^2.4.7",
     "postcss": "^8",
     "prettier": "^3.3.3",
+    "svg-react-loader": "^0.4.6",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

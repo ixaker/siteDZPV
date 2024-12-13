@@ -1,12 +1,12 @@
-export type Meta = {
-  title: string;
-  description: string;
-  keywords: string;
-  imgOg: string;
-};
-
 export type Translations = {
   locale: string;
   menu: { name: string }[];
-  title: string;
+  homePage: { title: string };
+  btnSend: string;
+  aboutFactory: {
+    title: string;
+    image: string;
+    paragraphs: string[];
+  };
+  ourClients: { title: string };
 };
