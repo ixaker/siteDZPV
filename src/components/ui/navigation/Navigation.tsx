@@ -1,7 +1,7 @@
-import { PageProps } from '@/context/withStaticPathsAndProps';
+import { HomeComponentProps } from '@/context/withStaticPathsAndProps';
 
-const Navigation: React.FC<PageProps> = (restProps) => {
-  const listMenu = restProps.translations.menu;
+const Navigation: React.FC<HomeComponentProps> = (componentProps) => {
+  const listMenu = componentProps.translations.menu;
 
   return (
     <nav className="flex w-auto justify-end items-end">

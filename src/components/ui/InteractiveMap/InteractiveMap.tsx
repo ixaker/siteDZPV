@@ -36,24 +36,18 @@ const InteractiveMap = () => {
   };
 
   return (
-    <div className="hidden relative w-full h-[268px] md:block max-w-[451px]">
-      <Image
-        className=" w-full h-full absolute"
-        src={`/assets/LaptopContacts.webp`}
-        alt="Laptop"
-        width={100}
-        height={100}
-      />
+    <div className="hidden relative w-full h-[350px] md:block max-w-[451px]">
+      <Image className=" w-full h-full absolute" src={`/assets/LaptopContacts.webp`} alt="Laptop" fill />
 
       <MapContainer
         center={[lat, lng]}
         zoom={13}
         style={{
-          height: '85.8%',
-          width: '78.9%',
+          height: '59.5%',
+          width: '91.5%',
           position: 'absolute',
-          left: '10.6%',
-          top: '2.2%',
+          left: '4.2%',
+          top: '4.3%',
           zIndex: 10,
           borderRadius: '10 10 10 10',
         }}

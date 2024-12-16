@@ -1,15 +1,34 @@
-export type Galery = { prev: string; full: string }[];
+export type Galery = {
+  title: string;
+  listPhotos: { prev: string; full: string }[];
+};
 
-export type Translations = {
-  locale: string;
-  menu: { name: string; href: string }[];
-  homePage: { title: string; gallery: Galery };
-  btnSend: string;
+export type Contacts = {
+  title: string;
+  listContacts: { id: string; title: string; description: string }[];
+  descriptionContact: string;
+};
+export type HomePage = {
+  title: string;
   aboutFactory: {
     title: string;
     image: string;
     paragraphs: string[];
   };
+  gallery: Galery;
+  ourClients: string;
+  contacts: Contacts;
+};
+
+export type Translations = {
+  locale: string;
+  menu: { name: string; href: string }[];
+  homePage: HomePage;
+  // aboutFactory: {
+  //   title: string;
+  //   image: string;
+  //   paragraphs: string[];
+  // };
   ourClients: { title: string };
   modalInfo: {
     title: string;
@@ -28,5 +47,7 @@ export type Translations = {
   contactPage: {
     title: string;
     listContacts: { id: string; title: string; description: string }[];
+    descriptionContact: string;
   };
+  btnSend: string;
 };

@@ -1,7 +1,7 @@
 import { GetStaticPropsContext, GetStaticPropsResult, GetStaticPaths } from 'next';
 import path from 'path';
 import fs from 'fs';
-import { Translations } from '../../locales/types';
+import { HomePage, Translations } from '../../locales/types';
 
 export const getDefaultLanguage = (langFromUrl?: string): string => {
   const defaultLanguage = 'en';
@@ -48,6 +48,7 @@ export const withStaticProps = async <P>(
       lang,
       supportedLanguages: SUPPORTED_LANGUAGES,
       defaultLanguage: getDefaultLanguage(),
+      version: `?v=${new Date().getTime()}`,
     } as P,
   };
 };
@@ -57,7 +58,16 @@ export type PageProps = {
   lang: string;
   supportedLanguages: string[];
   defaultLanguage: string;
+  version: string;
   children?: React.ReactNode;
+};
+
+export type HomeComponentProps = {
+  translations: Translations;
+  lang: string;
+  supportedLanguages: string[];
+  translationsPage: HomePage;
+  version: string;
 };
 
 // Функция для создания путей

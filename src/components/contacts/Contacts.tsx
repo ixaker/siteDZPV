@@ -1,19 +1,21 @@
-import { PageProps } from '@/context/withStaticPathsAndProps';
 import { darkTheme, lightTheme } from '@/theme';
 import { Email, Phone, Room } from '@mui/icons-material';
 import { useTheme } from '@mui/material';
 import dynamic from 'next/dynamic';
 import CustomButton from '../ui/button/CustomButton';
 import Heading from '../ui/typography/Heading';
+import Paragraph from '../ui/typography/Paragraph';
+import Container from '../ui/container/Container';
+import { HomePage } from '../../../locales/types';
 
 const DynamicInteractiveMap = dynamic(() => import('@/components/ui/InteractiveMap/InteractiveMap'), {
   ssr: false, // Отключаем SSR для этого компонента
 });
 
-const Contacts: React.FC<PageProps> = ({ ...restProps }) => {
-  const translationsPage = restProps.translations.contactPage;
+const Contacts: React.FC<HomePage> = ({ ...restProps }) => {
+  const contactData = restProps.contacts;
   const theme = useTheme();
-  const listContacts = translationsPage.listContacts;
+  const listContacts = contactData.listContacts;
   const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
   const secondaryColor = currentTheme.palette.secondary.main;
   const primaryColor = currentTheme.palette.primary.main;
@@ -51,24 +53,24 @@ const Contacts: React.FC<PageProps> = ({ ...restProps }) => {
   };
 
   return (
-    <>
-      <div
-        className="min-w-screen min-h-[calc(100vh-140px)] flex flex-col justify-center pb-[20px] relative z-10"
-        style={{ color: secondaryColor }}
-      >
-        <div className="min-w-screen px-4 py-8 mt-[40px]" style={{ backgroundColor: `${bgColor}e6` }}>
-          <Heading level="h1" text={translationsPage.title} alignment="center" />
-          <div className="mt-[20px] flex flex-row gap-10 justify-center items-center ">
-            <ul className="flex flex-col gap-10 w-auto">
-              {listContacts.map((item, index) => (
-                <li key={index}>{requiredItem(item.id, item.title, item.description)}</li>
-              ))}
-            </ul>
-            <DynamicInteractiveMap />
+    <section>
+      <Container>
+        <div className="flex flex-col pb-[20px] relative z-10" style={{ color: secondaryColor }}>
+          <div className="min-w-screen mt-[40px]" style={{ backgroundColor: `${bgColor}e6` }}>
+            <Heading level="h1" text={contactData.title} alignment="left" />
+            <div className="mt-[40px] flex flex-row-reverse gap-10 justify-center md:justify-between items-center ">
+              <ul className="flex flex-col items-start justify-between gap-10 w-auto">
+                {listContacts.map((item, index) => (
+                  <li key={index}>{requiredItem(item.id, item.title, item.description)}</li>
+                ))}
+              </ul>
+              <DynamicInteractiveMap />
+            </div>
           </div>
+          <Paragraph style="mt-10" alignment="center" text={contactData.descriptionContact} />
         </div>
-      </div>
-    </>
+      </Container>
+    </section>
   );
 };
 

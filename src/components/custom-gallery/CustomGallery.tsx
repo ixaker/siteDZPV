@@ -2,16 +2,16 @@ import { useRef, useState } from 'react';
 import Image from 'next/image';
 import Heading from '../ui/typography/Heading';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import Container from '../ui/container/Container';
+import { HomePage } from '../../../locales/types';
 
-interface CustomGallery {
-  photos: { prev: string; full: string }[];
-}
-
-const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
+const CustomGallery: React.FC<HomePage> = (componentProps) => {
+  const galleryData = componentProps.gallery;
+  const listPhotos = galleryData.listPhotos;
   const [currentIndex, setCurrentIndex] = useState(NaN);
   const changesPhoto = (e: React.MouseEvent<HTMLButtonElement>, direction: number) => {
     e.stopPropagation();
-    setCurrentIndex((prevIndex) => (prevIndex + direction + photos.length) % photos.length);
+    setCurrentIndex((prevIndex) => (prevIndex + direction + listPhotos.length) % listPhotos.length);
   };
 
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
@@ -28,12 +28,12 @@ const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
   };
 
   return (
-    <div className="px-3 mt-11 rounded-lg" id="gallery">
-      <div className="max-w-[1400px] px-4 my-0 mx-auto">
-        <Heading level="h1" text="Галерея" />
-      </div>
+    <section className="mt-11 rounded-lg" id="gallery">
+      <Container>
+        <Heading level="h1" text={galleryData.title} />
+      </Container>
       <div
-        className="flex gap-0 justify-between"
+        className="flex gap-0 justify-between px-3"
         style={{
           scrollSnapType: 'x mandatory',
           scrollBehavior: 'smooth', // Плавный скроллинг
@@ -45,15 +45,14 @@ const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
         </button>
         <div
           ref={scrollContainerRef}
-          className="flex gap-5 scroll-pl-0 snap-x overflow-x-scroll py-10 scrollbar-custom px-3"
+          className="flex gap-5 scroll-pl-0 snap-x overflow-x-scroll py-10 scrollbar-custom"
         >
-          {photos.map((photo, index) => (
+          {listPhotos.map((photo, index) => (
             <div
               key={index}
               className="flex min-w-[14em] w-[auto] sm:min-w-[337px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
               onClick={() => setCurrentIndex(index)}
             >
-              {/* 337x224 */}
               <Image
                 src={photo.prev}
                 alt={`Photo ${index + 1}`}
@@ -72,7 +71,7 @@ const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
 
       {!Number.isNaN(currentIndex) && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[999]"
           onClick={() => setCurrentIndex(NaN)}
         >
           <button onClick={(e) => changesPhoto(e, -1)} className="h-full">
@@ -80,7 +79,7 @@ const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
           </button>
           <div className="relative max-w-4xl max-h-[80vh]">
             <Image
-              src={photos[currentIndex].full}
+              src={listPhotos[currentIndex].full}
               alt="Selected"
               width={800}
               height={600}
@@ -92,7 +91,7 @@ const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
           </button>
         </div>
       )}
-    </div>
+    </section>
   );
 };
 

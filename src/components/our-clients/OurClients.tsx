@@ -1,17 +1,18 @@
-import { PageProps } from '@/context/withStaticPathsAndProps';
 import Heading from '../ui/typography/Heading';
 import MetinvestIcon from './custom-icons/MetinvestIcon';
 import EvrazIcon from './custom-icons/EvrazIcon';
 import ArcelorMittal from './custom-icons/ArcelorMittal';
+import Container from '../ui/container/Container';
+import { HomePage } from '../../../locales/types';
 
-const OurClients: React.FC<PageProps> = (restProps) => {
-  const translationPage = restProps.translations.ourClients;
+const OurClients: React.FC<HomePage> = (componentProps) => {
+  const ourClients = componentProps.ourClients;
 
   return (
     <section className="mt-[70px]">
-      <div className="max-w-[1400px]  px-4 my-0 mx-auto">
-        <Heading level="h1" text={translationPage.title} />
-      </div>
+      <Container>
+        <Heading level="h1" text={ourClients} />
+      </Container>
       <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">
         <div className="hidden lg:flex flex-row items-center justify-between">
           <MetinvestIcon />

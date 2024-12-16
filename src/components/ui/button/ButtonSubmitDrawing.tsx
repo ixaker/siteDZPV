@@ -3,17 +3,23 @@ import CustomButton from './CustomButton';
 import { PageProps } from '@/context/withStaticPathsAndProps';
 import ModalWindow from '../modal-window/ModalWindow';
 
-const ButtonSubmitDrawing: React.FC<PageProps> = (restProps) => {
+interface ButtonSubmitDrawingProps {
+  className?: string;
+  translations?: PageProps['translations'];
+  lang?: PageProps['lang'];
+}
+
+const ButtonSubmitDrawing: React.FC<ButtonSubmitDrawingProps> = ({ translations, className }) => {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => setOpen(true);
 
   return (
     <div>
-      <CustomButton variant="send-btn" onClick={handleOpen}>
-        {restProps.translations.btnSend}
+      <CustomButton className={className} variant="send-btn" onClick={handleOpen}>
+        {translations?.btnSend}
       </CustomButton>
-      <ModalWindow open={open} setOpen={setOpen} translations={restProps.translations} />
+      <ModalWindow open={open} setOpen={setOpen} translations={translations} />
     </div>
   );
 };

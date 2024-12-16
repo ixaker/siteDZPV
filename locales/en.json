@@ -25,45 +25,42 @@
   },
 
   "homePage": {
-    "title": "The leading manufacturer of rolling rolls in Ukraine",
-    "gallery": [
-      { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
-      { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
-      { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
-      { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
-      { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
-    ]
+    "title": "Leading Manufacturer of Rolling Rolls in Ukraine",
+    "aboutFactory": {
+      "title": "About the Factory",
+      "image": "/assets/about-company.webp",
+      "paragraphs": [
+        "PJSC 'Dnipropetrovsk Rolling Rolls Plant' is a Ukrainian asset of the international Group 'Dniprootehservis'.",
+        "The plant was founded in 1896 and today is one of the largest producers of cast iron rolling rolls for long, tubular, and flat hot rolling mills.",
+        "The enterprise has a full production cycle. Cast iron rolling rolls with the trademark of our enterprise are known to metallurgists of almost all the largest transnational companies in the markets of Ukraine, CIS countries, the EU, and far abroad.",
+        "PJSC DRRP is certified under the quality management system according to the requirements of the international standard EN ISO 9001:2015 and guarantees the supply of high-quality products that meet all necessary norms and requirements, offering excellent operational performance."
+      ]
+    },
+    "gallery": {
+      "title": "Gallery",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
+        { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
+        { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
+        { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
+        { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
+      ]
+    },
+    "ourClients": "Our Clients",
+    "contacts": {
+      "title": "Contacts",
+      "listContacts": [
+        {
+          "title": "Address",
+          "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "id": "address"
+        },
+        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
+        { "title": "Phone", "description": "+380989950760", "id": "phone" }
+      ],
+      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours."
+    }
   },
-
-  "aboutFactory": {
-    "title": "About the Factory",
-    "image": "/assets/about-company.webp",
-    "paragraphs": [
-      "JSC 'Dnipropetrovsk Rolling Rolls Plant' is a Ukrainian asset of the international 'DniproTechService' Group.",
-      "The plant was founded in 1896 and today is one of the largest manufacturers of cast iron rolling rolls for long, pipe, and sheet hot rolling mills.",
-      "The enterprise has a full production cycle. Cast iron rolling rolls bearing our trademark are recognized by metallurgists from nearly all major multinational companies in the markets of Ukraine, the CIS countries, the EU, and beyond.",
-      "JSC DRRP is certified under the quality management system in compliance with the international standard EN ISO 9001:2015 and guarantees the supply of high-quality products that meet all necessary norms and requirements, providing excellent operational characteristics."
-    ]
-  },
-
-  "contactPage": {
-    "srcImg": "logo.webp",
-    "title": "Contacts",
-    "description": "Contact us: Yakhnenkivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025. Email: info@qpart.com.ua, Phone: +380989950760.",
-    "address": "Address",
-    "ourLocation": "We are here!",
-    "buildRoute": "Build a route",
-    "listContacts": [
-      {
-        "title": "Address",
-        "description": "2 Yakhnenkivska Street, Dnipro, Dnipropetrovsk Oblast, 49025, Ukraine",
-        "id": "address"
-      },
-      { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
-      { "title": "Phone", "description": "+380989950760", "id": "phone" }
-    ]
-  },
-  "ourClients": { "title": "Our clients" },
 
   "btnSend": "Send drawings for calculation"
 }
