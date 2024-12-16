@@ -4,12 +4,9 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Image from 'next/image';
 
-type Props = {
-  companyLocation: { lat: number; lng: number };
-};
-
-const InteractiveMap: React.FC<Props> = ({ companyLocation }) => {
-  const { lat, lng } = companyLocation;
+const InteractiveMap = () => {
+  const lat = 48.499937;
+  const lng = 35.038598;
 
   // Кастомная иконка для маркера
   const customIcon = L.icon({
@@ -39,10 +36,10 @@ const InteractiveMap: React.FC<Props> = ({ companyLocation }) => {
   };
 
   return (
-    <>
+    <div className="hidden relative w-full h-[268px] md:block max-w-[451px]">
       <Image
         className=" w-full h-full absolute"
-        src="/assets/LaptopContacts.png"
+        src={`/assets/LaptopContacts.webp`}
         alt="Laptop"
         width={100}
         height={100}
@@ -68,15 +65,15 @@ const InteractiveMap: React.FC<Props> = ({ companyLocation }) => {
         <Marker position={[lat, lng]} icon={customIcon}>
           <Popup>
             <div>
-              <p>Мы здесь!</p>
+              {/* <p>{translationsPage.ourLocation}</p> */}
               <button onClick={handleRouteClick} style={{ cursor: 'pointer', padding: '5px 10px' }}>
-                Построить маршрут
+                {/* {translationsPage.buildRoute} */}
               </button>
             </div>
           </Popup>
         </Marker>
       </MapContainer>
-    </>
+    </div>
   );
 };
 

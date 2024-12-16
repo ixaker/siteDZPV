@@ -4,6 +4,7 @@ import MainBanner from '@/components/main-banner/MainBanner';
 import AboutFactory from '@/components/about-factory/AboutFactory';
 import OurClients from '@/components/our-clients/OurClients';
 import CustomGallery from '@/components/custom-gallery/CustomGallery';
+import Contacts from '@/components/contacts/Contacts';
 
 const Home: React.FC<PageProps> = (restProps) => {
   const translationPage = restProps.translations.homePage;
@@ -13,6 +14,7 @@ const Home: React.FC<PageProps> = (restProps) => {
       <AboutFactory {...restProps} />
       <OurClients {...restProps} />
       <CustomGallery photos={translationPage.gallery} />
+      <Contacts {...restProps} />
     </>
   );
 };

@@ -24,4 +24,9 @@ export type Translations = {
     errorMessage: string;
     unknownError: string;
   };
+
+  contactPage: {
+    title: string;
+    listContacts: { id: string; title: string; description: string }[];
+  };
 };
