@@ -1,12 +1,11 @@
 {
   "locale": "uk_UA",
   "menu": [
-    { "name": "Про завод" },
-    { "name": "Продукція" },
-    { "name": "Контакти" },
-    { "name": "Клієнти" },
-    { "name": "Лиття" },
-    { "name": "Галерея" }
+    { "name": "Про завод", "href": "about" },
+    { "name": "Лиття", "href": "casting" },
+    { "name": "Валки", "href": "rollers" },
+    { "name": "Мехобробка", "href": "mhrefachining" },
+    { "name": "Контакти", "href": "contacts" }
   ],
 
   "modalInfo": {

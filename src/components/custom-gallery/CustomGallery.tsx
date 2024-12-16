@@ -1,63 +1,100 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image';
-
 import Heading from '../ui/typography/Heading';
-
-const photos: string[] = [
-  '/assets/gallery-photo1.webp',
-  '/assets/gallery-photo2.webp',
-  '/assets/gallery-photo4.webp',
-  '/assets/gallery-photo5.webp',
-  '/assets/gallery-photo3.webp',
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+const photos: { prev: string; full: string }[] = [
+  { prev: '/assets/gallery-photo1.webp', full: '/assets/gallery-photo1.webp' },
+  { prev: '/assets/gallery-photo2.webp', full: '/assets/gallery-photo2.webp' },
+  { prev: '/assets/gallery-photo4.webp', full: '/assets/gallery-photo4.webp' },
+  { prev: '/assets/gallery-photo5.webp', full: '/assets/gallery-photo5.webp' },
+  { prev: '/assets/gallery-photo3.webp', full: '/assets/gallery-photo3.webp' },
 ];
 
 export default function CustomGallery() {
-  const [selectedImage, setSelectedImage] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(NaN);
+
+  const changesPhoto = (e: React.MouseEvent<HTMLButtonElement>, direction: number) => {
+    e.stopPropagation();
+    setCurrentIndex((prevIndex) => (prevIndex + direction + photos.length) % photos.length);
+  };
+
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (scrollContainerRef.current) {
+      const scrollAmount = 400; // Количество пикселей, на которое прокручиваем
+      if (direction === 'left') {
+        scrollContainerRef.current.scrollLeft -= scrollAmount;
+      } else {
+        scrollContainerRef.current.scrollLeft += scrollAmount;
+      }
+    }
+  };
 
   return (
-    <div className="px-6 mt-11 rounded-lg">
+    <div className="px-3 mt-11 rounded-lg" id="gallery">
       <div className="max-w-[1400px] px-4 my-0 mx-auto">
         <Heading level="h1" text="Галерея" />
       </div>
       <div
-        className="flex gap-5 scroll-pl-6 snap-x overflow-x-scroll py-10 scrollbar-custom px-10"
+        className="flex gap-0 justify-between"
         style={{
           scrollSnapType: 'x mandatory',
           scrollBehavior: 'smooth', // Плавный скроллинг
           WebkitOverflowScrolling: 'touch', // Дополнительно для тачскринов
         }}
       >
-        {photos.map((photo, index) => (
-          <div
-            key={index}
-            className="min-w-[400px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
-            onClick={() => setSelectedImage(photo)}
-          >
-            <Image
-              src={photo}
-              alt={`Photo ${index + 1}`}
-              width={400}
-              height={300}
-              className="object-cover w-full h-full"
-            />
-          </div>
-        ))}
+        <button onClick={() => scroll('left')} className="rounded border-1">
+          <ArrowBackIosIcon fontSize="large" />
+        </button>
+        <div
+          ref={scrollContainerRef}
+          className="flex gap-5 scroll-pl-0 snap-x overflow-x-scroll py-10 scrollbar-custom px-3"
+        >
+          {photos.map((photo, index) => (
+            <div
+              key={index}
+              className="flex min-w-[17em] w-full snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
+              onClick={() => setCurrentIndex(index)}
+            >
+              <Image
+                src={photo.prev}
+                alt={`Photo ${index + 1}`}
+                width={400}
+                height={300}
+                className="object-cover w-full h-full"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
+        <button onClick={() => scroll('right')}>
+          <ArrowBackIosIcon fontSize="large" sx={{ rotate: '180deg' }} />
+        </button>
       </div>
 
-      {selectedImage && (
+      {!Number.isNaN(currentIndex) && (
         <div
           className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50"
-          onClick={() => setSelectedImage('')}
+          onClick={() => setCurrentIndex(NaN)}
         >
+          <button onClick={(e) => changesPhoto(e, -1)} className="h-full">
+            <ArrowBackIosIcon fontSize="large" sx={{ color: 'white' }} />
+          </button>
           <div className="relative max-w-4xl max-h-[80vh]">
-            <Image src={selectedImage} alt="Selected" width={800} height={600} className="rounded-lg" />
+            <Image
+              src={photos[currentIndex].full}
+              alt="Selected"
+              width={800}
+              height={600}
+              className="rounded-lg"
+            />
           </div>
+          <button onClick={(e) => changesPhoto(e, 1)} className="h-full">
+            <ArrowBackIosIcon fontSize="large" sx={{ rotate: '180deg', color: 'white' }} />
+          </button>
         </div>
       )}
     </div>
   );
-}
-
-{
-  /* className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" */
 }

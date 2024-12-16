@@ -6,7 +6,7 @@ import Paragraph from '../ui/typography/Paragraph';
 const AboutFactory: React.FC<PageProps> = (restProps) => {
   const translationsPage = restProps.translations.aboutFactory;
   return (
-    <section className="flex gap-[40px] px-4 mt-10 max-w-[1400px] my-0 mx-auto">
+    <section id="about" className="flex gap-[40px] px-4 mt-10 max-w-[1400px] my-0 mx-auto">
       <div className="flex-1">
         <Heading level="h1" text={translationsPage.title} alignment="left" />
         <ul className="mt-5 flex flex-col gap-5">

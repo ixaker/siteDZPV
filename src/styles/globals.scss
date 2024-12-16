@@ -51,7 +51,7 @@ input[type='number']::-webkit-outer-spin-button {
 .scrollbar-custom::-webkit-scrollbar-thumb {
   background: #555; /* Цвет ползунка */
   border-radius: 4px;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .scrollbar-custom::-webkit-scrollbar-thumb:hover {
@@ -60,6 +60,7 @@ input[type='number']::-webkit-outer-spin-button {
 
 /* Убираем вертикальный скроллбар, если он не нужен */
 .scrollbar-custom {
-  scrollbar-width: thin; /* Для Firefox: делаем скроллбар тоньше */
+  scrollbar-width: none; /* Для Firefox: делаем скроллбар тоньше */
   scrollbar-color: #555 #1a1a1a; /* Цвет ползунка и фона */
+  scroll-behavior: smooth;
 }
