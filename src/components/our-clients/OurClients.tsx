@@ -9,13 +9,24 @@ const OurClients: React.FC<PageProps> = (restProps) => {
 
   return (
     <section className="mt-[70px]">
-      <div className="max-w-[1400px] px-4 my-0 mx-auto">
+      <div className="max-w-[1400px]  px-4 my-0 mx-auto">
         <Heading level="h1" text={translationPage.title} />
       </div>
-      <div className="flex items-center justify-between px-24 py-6 mt-10 bg-[#b3b3b3]">
-        <MetinvestIcon />
-        <EvrazIcon />
-        <ArcelorMittal />
+      <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">
+        <div className="hidden lg:flex flex-row items-center justify-between">
+          <MetinvestIcon />
+          <EvrazIcon />
+          <ArcelorMittal />
+        </div>
+
+        <div className="marquee flex gap-16 items-center animate-marquee lg:hidden">
+          <MetinvestIcon />
+          <EvrazIcon />
+          <ArcelorMittal />
+          <MetinvestIcon />
+          <EvrazIcon />
+          <ArcelorMittal />
+        </div>
       </div>
     </section>
   );

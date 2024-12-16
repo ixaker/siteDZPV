@@ -27,7 +27,14 @@
   "btnSend": "Надіслати креслення на прорахунок",
 
   "homePage": {
-    "title": "Лідер виробник прокатних валків в Україні"
+    "title": "Лідер виробник прокатних валків в Україні",
+    "gallery": [
+      { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
+      { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
+      { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
+      { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
+      { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
+    ]
   },
 
   "aboutFactory": {

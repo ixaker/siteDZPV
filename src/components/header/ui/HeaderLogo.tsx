@@ -8,7 +8,15 @@ const HeaderLogo = () => {
 
   return (
     <Link href={`/${currentLang}`}>
-      <Image src="/Logo.avif" alt="Logo" width={100} height={100} className="size-20" priority />
+      <span className="sm:hidden font-semibold text-2xl text-white">ДЗПВ</span>
+      <Image
+        src="/Logo.avif"
+        alt="Logo"
+        width={100}
+        height={100}
+        className="hidden sm:block sm:size-20"
+        priority
+      />
     </Link>
   );
 };

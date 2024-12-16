@@ -1,7 +1,9 @@
+export type Galery = { prev: string; full: string }[];
+
 export type Translations = {
   locale: string;
   menu: { name: string; href: string }[];
-  homePage: { title: string };
+  homePage: { title: string; gallery: Galery };
   btnSend: string;
   aboutFactory: {
     title: string;

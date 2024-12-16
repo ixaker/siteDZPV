@@ -25,7 +25,14 @@
   },
 
   "homePage": {
-    "title": "The leading manufacturer of rolling rolls in Ukraine"
+    "title": "The leading manufacturer of rolling rolls in Ukraine",
+    "gallery": [
+      { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
+      { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
+      { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
+      { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
+      { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
+    ]
   },
 
   "aboutFactory": {

@@ -2,17 +2,13 @@ import { useRef, useState } from 'react';
 import Image from 'next/image';
 import Heading from '../ui/typography/Heading';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-const photos: { prev: string; full: string }[] = [
-  { prev: '/assets/gallery-photo1.webp', full: '/assets/gallery-photo1.webp' },
-  { prev: '/assets/gallery-photo2.webp', full: '/assets/gallery-photo2.webp' },
-  { prev: '/assets/gallery-photo4.webp', full: '/assets/gallery-photo4.webp' },
-  { prev: '/assets/gallery-photo5.webp', full: '/assets/gallery-photo5.webp' },
-  { prev: '/assets/gallery-photo3.webp', full: '/assets/gallery-photo3.webp' },
-];
 
-export default function CustomGallery() {
+interface CustomGallery {
+  photos: { prev: string; full: string }[];
+}
+
+const CustomGallery: React.FC<CustomGallery> = ({ photos = [] }) => {
   const [currentIndex, setCurrentIndex] = useState(NaN);
-
   const changesPhoto = (e: React.MouseEvent<HTMLButtonElement>, direction: number) => {
     e.stopPropagation();
     setCurrentIndex((prevIndex) => (prevIndex + direction + photos.length) % photos.length);
@@ -54,14 +50,15 @@ export default function CustomGallery() {
           {photos.map((photo, index) => (
             <div
               key={index}
-              className="flex min-w-[17em] w-full snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
+              className="flex min-w-[14em] w-[auto] sm:min-w-[337px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
               onClick={() => setCurrentIndex(index)}
             >
+              {/* 337x224 */}
               <Image
                 src={photo.prev}
                 alt={`Photo ${index + 1}`}
-                width={400}
-                height={300}
+                width={337}
+                height={224}
                 className="object-cover w-full h-full"
                 loading="lazy"
               />
@@ -97,4 +94,6 @@ export default function CustomGallery() {
       )}
     </div>
   );
-}
+};
+
+export default CustomGallery;

@@ -64,3 +64,19 @@ input[type='number']::-webkit-outer-spin-button {
   scrollbar-color: #555 #1a1a1a; /* Цвет ползунка и фона */
   scroll-behavior: smooth;
 }
+
+.marquee {
+  display: flex;
+  flex-shrink: 0;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+/* Определение анимации */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}

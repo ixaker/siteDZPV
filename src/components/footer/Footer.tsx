@@ -62,7 +62,7 @@ const Footer: React.FC<PageProps> = () => {
 
   return (
     <footer
-      className="border-t border-gray-700 shadow-md shadow-gray-900 pt-4"
+      className="border-t border-gray-700 shadow-md shadow-gray-900 pt-4 mt-4"
       style={{ backgroundColor: bgColor }}
     >
       <nav>
