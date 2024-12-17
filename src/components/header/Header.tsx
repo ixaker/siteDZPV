@@ -43,7 +43,7 @@ const Header: React.FC<PageProps> = (restProps) => {
         </div>
       </div>
       {isMenuOpen && (
-        <div onClick={toggleMenu} className="bg-inherit absolute top-0 left-0 w-screen h-screen"></div>
+        <div onClick={toggleMenu} className="bg-inherit fixed top-0 left-0 w-screen h-screen"></div>
       )}
       <div
         id="mobile-menu"
@@ -58,7 +58,7 @@ const Header: React.FC<PageProps> = (restProps) => {
           </button>
         </div>
         <div className="pt-5">
-          <Navigation {...restProps} />
+          <Navigation {...restProps} setIsMenuOpen={setIsMenuOpen} />
         </div>
       </div>
     </header>
