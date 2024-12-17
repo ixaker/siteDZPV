@@ -13,6 +13,8 @@ export type Contacts = {
   title: string;
   listContacts: { id: string; title: string; description: string }[];
   descriptionContact: string;
+  ourLocation: string;
+  buildRoute: string;
 };
 export type HomePage = {
   metaData: MetaData;
@@ -27,11 +29,19 @@ export type HomePage = {
   contacts: Contacts;
 };
 
+export type PageDefault = {
+  title: string;
+  description: string;
+  srcImg: string;
+  infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
+};
+
 export type Translations = {
   locale: string;
   menu: { name: string; href: string }[];
   homePage: HomePage;
-  ourClients: { title: string };
+  lyttyaMetaluPage: PageDefault;
+
   modalInfo: {
     title: string;
     descriptionBtn: string;

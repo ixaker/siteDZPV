@@ -1,8 +1,9 @@
-import { HomeComponentProps } from '@/context/withStaticPathsAndProps';
+import { HomeComponentProps, PageProps } from '@/context/withStaticPathsAndProps';
+import langUk from '../../../../locales/uk.json';
 
-const Navigation: React.FC<HomeComponentProps> = (componentProps) => {
-  const listMenu = componentProps.translations.menu;
-
+const Navigation: React.FC<HomeComponentProps | PageProps> = (componentProps) => {
+  const listMenu = componentProps.translations?.menu || langUk.menu;
+  const lang = componentProps.lang;
   return (
     <nav className="flex w-auto justify-end items-end">
       <ul className="flex justify-end flex-col items-end w-full gap-5 sm:gap-10 relative z-10">
@@ -10,7 +11,7 @@ const Navigation: React.FC<HomeComponentProps> = (componentProps) => {
           <li key={index}>
             <a
               className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-[18px] md:text-[20] lg:text-[25px] xl:text-[40px] text-nowrap no-underline "
-              href={`#${item.href}`}
+              href={`/${lang}/${item.href}`}
             >
               {item.name}
             </a>

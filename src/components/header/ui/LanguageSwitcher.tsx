@@ -1,32 +1,23 @@
 import CustomButton from '@/components/ui/button/CustomButton';
-import { PageProps } from '@/context/withStaticPathsAndProps';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
-import clsx from 'clsx';
 
-const LanguageSwitcher: React.FC<PageProps> = (restProps) => {
+interface LanguageSwitcherProps {
+  supportedLanguages: string[]; // Список поддерживаемых языков
+  currentLang: string; // Текущий язык
+}
+
+const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ supportedLanguages = [], currentLang }) => {
   const router = useRouter();
   const { asPath } = router;
-  const supportedLanguages: string[] = restProps.supportedLanguages;
+
+  supportedLanguages = supportedLanguages.filter((val) => val !== 'ru');
 
   const switchLanguage = (newLang: string) => {
-    const newPath = asPath.startsWith(`/${restProps.lang}`)
-      ? asPath.replace(`/${restProps.lang}`, `/${newLang}`)
-      : `/${newLang}${asPath}`;
+    const newPath = asPath.replace(/^\/[a-z]{2}/, `/${newLang}`);
+
     router.push(newPath);
     localStorage.setItem('lang', newLang);
   };
-
-  useEffect(() => {
-    const savedLang = localStorage.getItem('lang');
-    if (savedLang && supportedLanguages.includes(savedLang)) {
-      switchLanguage(savedLang);
-    }
-  }, []);
-
-  if (!supportedLanguages || supportedLanguages.length === 0) {
-    return null;
-  }
 
   return (
     <div className="flex gap-3">
@@ -35,9 +26,7 @@ const LanguageSwitcher: React.FC<PageProps> = (restProps) => {
           key={lang}
           ariaLabel={`Switch to ${lang}`}
           variant="leng-btn"
-          className={clsx({
-            'text-activeColor text-[white]': restProps.lang === lang,
-          })}
+          className={`${currentLang === lang ? 'text-activeColor text-[white]' : ''}`}
           onClick={() => switchLanguage(lang)}
         >
           {lang.toUpperCase()}

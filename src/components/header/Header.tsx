@@ -11,7 +11,10 @@ const Header: React.FC<PageProps> = (restProps) => {
         <HeaderLogo />
         <div className="flex gap-10 items-center">
           <div className="flex gap-7 items-center">
-            <LanguageSwitcher {...restProps} />
+            <LanguageSwitcher
+              supportedLanguages={restProps.supportedLanguages}
+              currentLang={restProps.lang}
+            />
             <ThemeToggleButton />
           </div>
         </div>

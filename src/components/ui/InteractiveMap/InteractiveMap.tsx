@@ -3,8 +3,9 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import Image from 'next/image';
+import { Contacts } from '../../../../locales/types';
 
-const InteractiveMap = () => {
+const InteractiveMap: React.FC<Contacts> = (translationsPage) => {
   const lat = 48.499937;
   const lng = 35.038598;
 
@@ -59,9 +60,9 @@ const InteractiveMap = () => {
         <Marker position={[lat, lng]} icon={customIcon}>
           <Popup>
             <div>
-              {/* <p>{translationsPage.ourLocation}</p> */}
+              <p>{translationsPage.ourLocation}</p>
               <button onClick={handleRouteClick} style={{ cursor: 'pointer', padding: '5px 10px' }}>
-                {/* {translationsPage.buildRoute} */}
+                {translationsPage.buildRoute}
               </button>
             </div>
           </Popup>

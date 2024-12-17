@@ -2,7 +2,7 @@
   "locale": "en_US",
   "menu": [
     { "name": "About the factory", "href": "about" },
-    { "name": "Casting", "href": "casting" },
+    { "name": "Casting", "href": "/lyttya-metalu" },
     { "name": "Rollers", "href": "rollers" },
     { "name": "Machining", "href": "mhrefachining" },
     { "name": "Contacts", "href": "contacts" }
@@ -63,8 +63,16 @@
         { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
         { "title": "Phone", "description": "+380989950760", "id": "phone" }
       ],
-      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours."
+      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
+      "ourLocation": "We are here!",
+      "buildRoute": "Build a route"
     }
+  },
+
+  "lyttyaMetaluPage": {
+    "title": "Metal Casting for All Needs — Reliability, Precision, and Quality!",
+    "description": "Looking for professionals to produce high-quality metal products? We specialize in metal casting of any complexity for various industries, from mechanical engineering to construction. With modern equipment and advanced technologies, we ensure the production of parts that meet the highest standards of quality and precision.",
+    "srcImg": "/assets/lyttya-metalu.webp"
   },
 
   "btnSend": "Send drawings for calculation"

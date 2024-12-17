@@ -60,7 +60,7 @@ const Contacts: React.FC<Shared.HomePage> = ({ ...restProps }) => {
                   <li key={index}>{requiredItem(item.id, item.title, item.description)}</li>
                 ))}
               </ul>
-              <DynamicInteractiveMap />
+              <DynamicInteractiveMap {...contactData} />
             </div>
           </div>
           <Shared.Paragraph style="mt-10" alignment="center" text={contactData.descriptionContact} />
