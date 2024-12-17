@@ -49,7 +49,7 @@ const Contacts: React.FC<Shared.HomePage> = ({ ...restProps }) => {
   };
 
   return (
-    <section>
+    <section id="contacts">
       <Shared.Container>
         <div className="flex flex-col pb-[20px] relative z-10" style={{ color: secondaryColor }}>
           <div className="min-w-screen mt-[40px]" style={{ backgroundColor: `${bgColor}e6` }}>

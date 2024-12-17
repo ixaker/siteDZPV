@@ -30,10 +30,12 @@ export type HomePage = {
 };
 
 export type PageDefault = {
+  heading: string;
   title: string;
   description: string;
   srcImg: string;
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
+  gallery: Galery;
 };
 
 export type Translations = {

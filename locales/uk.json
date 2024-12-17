@@ -1,11 +1,11 @@
 {
   "locale": "uk_UA",
   "menu": [
-    { "name": "Про завод", "href": "about" },
+    { "name": "Про завод", "href": "#about" },
     { "name": "Лиття", "href": "/lyttya-metalu" },
-    { "name": "Валки", "href": "rollers" },
-    { "name": "Мехобробка", "href": "mhrefachining" },
-    { "name": "Контакти", "href": "contacts" }
+    { "name": "Валки", "href": "#rollers" },
+    { "name": "Мехобробка", "href": "#mhrefachining" },
+    { "name": "Контакти", "href": "#contacts" }
   ],
 
   "modalInfo": {
@@ -71,8 +71,36 @@
   },
 
   "lyttyaMetaluPage": {
+    "heading": "Лиття",
     "title": "Лиття металу для будь-яких потреб — Надійність, точність та якість!",
     "description": "Шукаєте професіоналів для виготовлення високоякісних металевих виробів? Ми спеціалізуємося на литті металу будь-якої складності та для різних галузей, від машинобудування до будівництва. Завдяки сучасному обладнанню та передовим технологіям, ми забезпечуємо виготовлення деталей, що відповідають найвищим стандартам якості та точності.",
-    "srcImg": "/assets/lyttya-metalu.webp"
+    "srcImg": "/assets/lyttya-metalu.webp",
+    "infoCard": [
+      {
+        "title": "Потужний парк обладнання",
+        "description": "Ми володіємо сучасними ливарними установками, що дозволяють виготовляти вироби будь-якої складності — від дрібних деталей до великих компонентів.",
+        "image": "/assets/lyttya-metalu2.webp"
+      },
+      {
+        "title": "Комплексний підхід",
+        "description": "Ми пропонуємо повний цикл послуг з лиття металу, від розробки проекту до виготовлення готових деталей, що дозволяє вам отримати готову продукцію без звертання до інших підрядників.",
+        "image": "/assets/lyttya-metalu3.webp"
+      },
+      {
+        "title": "Довіртесь професіоналам!",
+        "description": "Замовте послуги з лиття металу у нас сьогодні і отримайте якісні та точні деталі для вашого бізнесу!",
+        "image": "/assets/lyttya-metalu4.webp"
+      }
+    ],
+    "gallery": {
+      "title": "Галерея",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
+        { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
+        { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
+        { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
+        { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
+      ]
+    }
   }
 }

@@ -1,11 +1,11 @@
 {
   "locale": "en_US",
   "menu": [
-    { "name": "About the factory", "href": "about" },
+    { "name": "About the factory", "href": "#about" },
     { "name": "Casting", "href": "/lyttya-metalu" },
-    { "name": "Rollers", "href": "rollers" },
-    { "name": "Machining", "href": "mhrefachining" },
-    { "name": "Contacts", "href": "contacts" }
+    { "name": "Rollers", "href": "#rollers" },
+    { "name": "Machining", "href": "#mhrefachining" },
+    { "name": "Contacts", "href": "#contacts" }
   ],
 
   "modalInfo": {
@@ -70,9 +70,47 @@
   },
 
   "lyttyaMetaluPage": {
+    "heading": "Casting",
     "title": "Metal Casting for All Needs — Reliability, Precision, and Quality!",
     "description": "Looking for professionals to produce high-quality metal products? We specialize in metal casting of any complexity for various industries, from mechanical engineering to construction. With modern equipment and advanced technologies, we ensure the production of parts that meet the highest standards of quality and precision.",
-    "srcImg": "/assets/lyttya-metalu.webp"
+    "srcImg": "/assets/lyttya-metalu.webp",
+    "infoCard": [
+      {
+        "title": "Perfection and Long Service Life of Cast Products",
+        "description": "We offer a full range of metal casting services, including the production of complex parts for various industries. Thanks to our innovative solutions, you receive products with flawless precision, exceptional reliability, and long service life.",
+        "image": "/assets/lyttya-metalu2.webp"
+      },
+      {
+        "title": "Innovative Casting Technologies. Our capabilities include:",
+        "list": [
+          { "description": "Casting on automatic lines" },
+          { "description": "Centrifugal casting" },
+          { "description": "Die casting" },
+          { "description": "Low-pressure casting of high-temperature steels and non-ferrous metals" }
+        ],
+        "image": "/assets/lyttya-metalu3.webp"
+      },
+      {
+        "title": "Full Production Cycle",
+        "description": "We provide all stages, from the development of the technological process to the delivery of finished products. This ensures you receive products that meet the highest quality standards.",
+        "image": "/assets/lyttya-metalu4.webp"
+      },
+      {
+        "title": "Wide Selection of Materials",
+        "description": "We work with various types of metals, including high-alloy steels and non-ferrous alloys, to ensure the perfect result for any project.",
+        "image": "/assets/lyttya-metalu5.webp"
+      }
+    ],
+    "gallery": {
+      "title": "Gallery",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo1.webp", "full": "/assets/gallery-photo1.webp" },
+        { "prev": "/assets/gallery-photo2.webp", "full": "/assets/gallery-photo2.webp" },
+        { "prev": "/assets/gallery-photo4.webp", "full": "/assets/gallery-photo4.webp" },
+        { "prev": "/assets/gallery-photo5.webp", "full": "/assets/gallery-photo5.webp" },
+        { "prev": "/assets/gallery-photo3.webp", "full": "/assets/gallery-photo3.webp" }
+      ]
+    }
   },
 
   "btnSend": "Send drawings for calculation"

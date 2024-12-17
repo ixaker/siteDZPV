@@ -1,3 +1,6 @@
+import { useEffect, useRef, useState } from 'react';
+import * as Shared from '@/shared';
+
 interface InfoCardProps {
   title: string;
   srcImg: string;
@@ -47,7 +50,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
   return (
     <div
       ref={ref}
-      className={`pt-5 flex w-full mx-0 my-0 lg:max-w-[80%] lg:mx-auto lg:my-0 transition-all duration-700 ease-in-out ${
+      className={`pt-5 flex w-full max-w-[1300px] transition-all duration-700 ease-in-out ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
     >
@@ -56,7 +59,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
       >
         {/* Image */}
         <div className="sm:max-w-[400px] max-h-[200px] sm:max-h-[400px] h-full w-full relative">
-          <Image
+          <Shared.Image
             src={`${srcImg}${version}`}
             alt={srcImg}
             width={100}
@@ -71,12 +74,12 @@ const InfoCard: React.FC<InfoCardProps> = ({
             aligntText === 'start' ? 'sm:text-start' : 'sm:text-end'
           } justify-between md:justify-center gap-5 p-4 md:p-0`}
         >
-          <Heading level="h2" text={title} />
+          <Shared.Heading level="h2" text={title} />
           {list && list.length > 0 ? (
             <ul>
               {list.map((item, index) => (
                 <li key={index}>
-                  <Paragraph
+                  <Shared.Paragraph
                     text={`\u2022 ${item.description}`}
                     style={`transition-opacity duration-700 delay-[100ms] ${isVisible ? 'opacity-100' : 'opacity-0'}`}
                   />
@@ -85,7 +88,7 @@ const InfoCard: React.FC<InfoCardProps> = ({
             </ul>
           ) : (
             descriptionCard && (
-              <Paragraph
+              <Shared.Paragraph
                 text={descriptionCard}
                 style={`transition-opacity duration-700 delay-[200ms] ${isVisible ? 'opacity-100' : 'opacity-0'}`}
               />

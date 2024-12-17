@@ -15,7 +15,9 @@ const MainBanner: React.FC<Shared.HomeComponentProps> = (componentProps) => {
               translations={componentProps.translations}
             />
           </div>
-          <Shared.Navigation {...componentProps} />
+          <div className="hidden sm:block">
+            <Shared.Navigation {...componentProps} />
+          </div>
         </div>
       </Shared.BackCover>
     </section>
