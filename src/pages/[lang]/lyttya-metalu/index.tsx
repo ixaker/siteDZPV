@@ -1,6 +1,6 @@
 import { withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
-import MainBlock from './ui/MainBlock';
+import MainBlock from '../../../components/ui/main-block/MainBlock';
 
 const LyttyaMetalu: React.FC<Shared.PageProps> = (componentProps) => {
   const translationsPage = componentProps.translations.lyttyaMetaluPage;

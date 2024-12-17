@@ -11,7 +11,7 @@ const MainBlock: React.FC<Shared.PageProps> = (componentProps) => {
 
   return (
     <div
-      className="relative z-10 px-4 mx-auto my-0 sm:mx-0 sm:mr-10 py-10 max-w-[80%]"
+      className="relative z-10 px-4 mx-auto my-0 sm:mx-0 sm:mr-10 py-10 max-w-[75%]"
       style={{ background: bgColor }}
     >
       <Shared.Heading level="h1" text={translationsPage.heading} style="text-[#ef8535]" />
