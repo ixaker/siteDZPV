@@ -66,7 +66,7 @@ export type HomeComponentProps = {
   translations: Translations;
   lang: string;
   supportedLanguages: string[];
-  translationsPage?: HomePage;
+  translationsPage: HomePage;
   version: string;
 };
 

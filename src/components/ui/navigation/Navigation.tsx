@@ -1,9 +1,11 @@
-import { HomeComponentProps, PageProps } from '@/context/withStaticPathsAndProps';
 import langUk from '../../../../locales/uk.json';
 import Link from 'next/link';
+import { Translations } from '../../../../locales/types';
 
-interface NavigationProps extends PageProps, HomeComponentProps {
+interface NavigationProps {
   setIsMenuOpen?: (value: React.SetStateAction<boolean>) => void;
+  translations: Translations;
+  lang: string;
 }
 
 const Navigation: React.FC<NavigationProps> = ({ setIsMenuOpen, translations, lang }) => {

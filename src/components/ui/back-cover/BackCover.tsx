@@ -12,7 +12,3 @@ const BackCover: React.FC<BackCoverProps> = ({ children }) => {
 };
 
 export default BackCover;
-
-{
-  /* <div className="bg-[#00000054] h-[100%] w-full absolute top-0 left-0 z-0"></div> */
-}
