@@ -1,33 +1,26 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
-import {
-  withStaticProps,
-  withStaticPaths,
-  PageProps,
-  HomeComponentProps,
-} from '../../context/withStaticPathsAndProps';
+import { withStaticProps, withStaticPaths } from '../../context/withStaticPathsAndProps';
 import MainBanner from '@/components/main-banner/MainBanner';
 import AboutFactory from '@/components/about-factory/AboutFactory';
 import OurClients from '@/components/our-clients/OurClients';
-import CustomGallery from '@/components/custom-gallery/CustomGallery';
 import Contacts from '@/components/contacts/Contacts';
-import DynamicHead from '@/components/shared/DynamicHead';
+import * as Shared from '@/shared';
 
-const Home: React.FC<PageProps> = ({ ...restProps }) => {
+const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
   const translationsPage = restProps.translations.homePage;
-  const componentProps: HomeComponentProps = { ...restProps, translationsPage };
+  const componentProps: Shared.HomeComponentProps = { ...restProps, translationsPage };
   return (
     <>
-      <DynamicHead {...componentProps} />
+      <Shared.DynamicHead {...componentProps} />
       <MainBanner {...componentProps} />
       <AboutFactory {...componentProps.translationsPage} />
       <OurClients {...componentProps.translationsPage} />
-      <CustomGallery {...componentProps.translationsPage} />
+      <Shared.CustomGallery {...componentProps.translationsPage} />
       <Contacts {...componentProps.translationsPage} />
     </>
   );
 };
 
-export const getStaticPaths: GetStaticPaths = withStaticPaths;
-export const getStaticProps: GetStaticProps = withStaticProps;
+export const getStaticPaths: Shared.GetStaticPaths = withStaticPaths;
+export const getStaticProps: Shared.GetStaticProps = withStaticProps;
 
 export default Home;

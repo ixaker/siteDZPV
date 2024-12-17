@@ -1,0 +1,13 @@
+export { default as CustomGallery } from '@/components/custom-gallery/CustomGallery';
+export { default as DynamicHead } from '@/components/shared/DynamicHead';
+export type { GetStaticPaths, GetStaticProps } from 'next';
+export type { PageProps, HomeComponentProps } from '../context/withStaticPathsAndProps';
+export { default as BackCover } from '@/components/ui/back-cover/BackCover';
+export { default as ButtonSubmitDrawing } from '@/components/ui/button/ButtonSubmitDrawing';
+export { default as Navigation } from '@/components/ui/navigation/Navigation';
+export type { HomePage } from '../../locales/types';
+export { default as Heading } from '@/components/ui/typography/Heading';
+export { default as Image } from 'next/image';
+export { default as Paragraph } from '@/components/ui/typography/Paragraph';
+export { default as Container } from '@/components/ui/container/Container';
+export { default as CustomButton } from '@/components/ui/button/CustomButton';

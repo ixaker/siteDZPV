@@ -1,8 +1,7 @@
-import Heading from '../ui/typography/Heading';
 import MetinvestIcon from './custom-icons/MetinvestIcon';
 import EvrazIcon from './custom-icons/EvrazIcon';
 import ArcelorMittal from './custom-icons/ArcelorMittal';
-import Container from '../ui/container/Container';
+import * as Shared from '@/shared';
 import { HomePage } from '../../../locales/types';
 
 const OurClients: React.FC<HomePage> = (componentProps) => {
@@ -10,9 +9,9 @@ const OurClients: React.FC<HomePage> = (componentProps) => {
 
   return (
     <section className="mt-[70px]">
-      <Container>
-        <Heading level="h1" text={ourClients} />
-      </Container>
+      <Shared.Container>
+        <Shared.Heading level="h1" text={ourClients} />
+      </Shared.Container>
       <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">
         <div className="hidden lg:flex flex-row items-center justify-between">
           <MetinvestIcon />

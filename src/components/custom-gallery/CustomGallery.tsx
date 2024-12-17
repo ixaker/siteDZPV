@@ -1,11 +1,8 @@
 import { useRef, useState } from 'react';
-import Image from 'next/image';
-import Heading from '../ui/typography/Heading';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import Container from '../ui/container/Container';
-import { HomePage } from '../../../locales/types';
+import * as Shared from '@/shared';
 
-const CustomGallery: React.FC<HomePage> = (componentProps) => {
+const CustomGallery: React.FC<Shared.HomePage> = (componentProps) => {
   const galleryData = componentProps.gallery;
   const listPhotos = galleryData.listPhotos;
   const [currentIndex, setCurrentIndex] = useState(NaN);
@@ -29,9 +26,9 @@ const CustomGallery: React.FC<HomePage> = (componentProps) => {
 
   return (
     <section className="mt-11 rounded-lg" id="gallery">
-      <Container>
-        <Heading level="h1" text={galleryData.title} />
-      </Container>
+      <Shared.Container>
+        <Shared.Heading level="h1" text={galleryData.title} />
+      </Shared.Container>
       <div
         className="flex gap-0 justify-between px-3"
         style={{
@@ -53,7 +50,7 @@ const CustomGallery: React.FC<HomePage> = (componentProps) => {
               className="flex min-w-[14em] w-[auto] sm:min-w-[337px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
               onClick={() => setCurrentIndex(index)}
             >
-              <Image
+              <Shared.Image
                 src={photo.prev}
                 alt={`Photo ${index + 1}`}
                 width={337}
@@ -78,7 +75,7 @@ const CustomGallery: React.FC<HomePage> = (componentProps) => {
             <ArrowBackIosIcon fontSize="large" sx={{ color: 'white' }} />
           </button>
           <div className="relative max-w-4xl max-h-[80vh]">
-            <Image
+            <Shared.Image
               src={listPhotos[currentIndex].full}
               alt="Selected"
               width={800}
