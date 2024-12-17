@@ -45,7 +45,7 @@ const CustomGallery: React.FC<HomePage> = (componentProps) => {
         </button>
         <div
           ref={scrollContainerRef}
-          className="flex gap-5 scroll-pl-0 snap-x overflow-x-scroll py-10 scrollbar-custom"
+          className="flex gap-5 scroll-pl-0 snap-x overflow-x-scroll py-10 px-3 scrollbar-custom"
         >
           {listPhotos.map((photo, index) => (
             <div

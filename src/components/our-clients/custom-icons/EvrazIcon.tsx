@@ -7,7 +7,7 @@ const EvrazIcon = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_37_1386)">
+        <g clipPath="url(#clip0_37_1386)">
           <path
             d="M32.1851 0.000999451H0V6.39807H32.1851V0.000999451Z"
             className="fill-[#fbb92f] lg:fill-[#555557] group-hover:fill-[#fbb92f] transition-all duration-600 ease-in-out delay-600"

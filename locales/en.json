@@ -25,6 +25,11 @@
   },
 
   "homePage": {
+    "metaData": {
+      "title": "Dnipro Rolling Rolls Plant (DZPV) - the leading manufacturer of rolling rolls in Ukraine!",
+      "description": "To contact us, call ☎️ +380567214558 or email 📧: AK.Koshubskiy@gmail.com. We look forward to cooperating with you!",
+      "srcImg": "/assets/gallery-photo2.webp"
+    },
     "title": "Leading Manufacturer of Rolling Rolls in Ukraine",
     "aboutFactory": {
       "title": "About the Factory",
