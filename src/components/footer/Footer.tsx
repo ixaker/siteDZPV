@@ -61,10 +61,7 @@ const Footer: React.FC<PageProps> = () => {
   const bgColor = currentTheme.palette.background.default;
 
   return (
-    <footer
-      className="border-t border-gray-700 shadow-md shadow-gray-900 pt-4 mt-4"
-      style={{ backgroundColor: bgColor }}
-    >
+    <footer className="shadow-md shadow-gray-900  mt-10 pb-10" style={{ backgroundColor: bgColor }}>
       <nav>
         <div className="flex justify-center gap-4 mt-[20px] pb-[50px]">
           {socialList.map((item, index) => (
@@ -81,6 +78,10 @@ const Footer: React.FC<PageProps> = () => {
           ))}
         </div>
       </nav>
+      <p className="text-center">
+        З будь-яких питань, будь ласка, звяжіться з нами за наведеними нижче контактами. Ми працюємо з 8:00 до
+        17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.
+      </p>
     </footer>
   );
 };

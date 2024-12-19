@@ -36,6 +36,7 @@ export type PageDefault = {
   srcImg: string;
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
   gallery: Galery;
+  contacts: Contacts;
 };
 
 export type Translations = {

@@ -12,10 +12,10 @@ const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
     <>
       <Shared.DynamicHead {...componentProps} />
       <MainBanner {...componentProps} />
-      <AboutFactory {...componentProps.translationsPage} />
-      <OurClients {...componentProps.translationsPage} />
-      <Shared.CustomGallery {...componentProps.translationsPage} />
-      <Contacts {...componentProps.translationsPage} />
+      <AboutFactory {...componentProps} />
+      <OurClients {...componentProps} />
+      <Shared.CustomGallery {...componentProps} />
+      <Contacts {...componentProps} />
     </>
   );
 };

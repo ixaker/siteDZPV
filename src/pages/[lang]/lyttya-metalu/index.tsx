@@ -1,9 +1,10 @@
-import { withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
+import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
 import MainBlock from '../../../components/ui/main-block/MainBlock';
 
-const LyttyaMetalu: React.FC<Shared.PageProps> = (componentProps) => {
-  const translationsPage = componentProps.translations.lyttyaMetaluPage;
+const LyttyaMetalu: React.FC<Shared.PageProps> = ({ ...restProps }) => {
+  const translationsPage = restProps.translations.lyttyaMetaluPage;
+  const componentProps: DefaultPage = { ...restProps, translationsPage };
   return (
     <>
       <Shared.BackCover>
@@ -15,7 +16,7 @@ const LyttyaMetalu: React.FC<Shared.PageProps> = (componentProps) => {
         </div>
       </Shared.BackCover>
       <div className="block sm:hidden">
-        <Shared.CustomGallery {...translationsPage} />
+        <Shared.CustomGallery {...componentProps} />
       </div>
     </>
   );

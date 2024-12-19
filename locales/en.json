@@ -98,32 +98,32 @@
     "heading": "Casting",
     "title": "Metal Casting for All Needs — Reliability, Precision, and Quality!",
     "description": "Looking for professionals to produce high-quality metal products? We specialize in metal casting of any complexity for various industries, from mechanical engineering to construction. With modern equipment and advanced technologies, we ensure the production of parts that meet the highest standards of quality and precision.",
-    "srcImg": "/assets/lyttya-metalu.webp",
+    "srcImg": "/assets/gallery-photo7f.webp",
     "infoCard": [
       {
-        "title": "Perfection and Long Service Life of Cast Products",
-        "description": "We offer a full range of metal casting services, including the production of complex parts for various industries. Thanks to our innovative solutions, you receive products with flawless precision, exceptional reliability, and long service life.",
-        "image": "/assets/lyttya-metalu2.webp"
+        "title": "Quality and Durability of Metal Products",
+        "description": "We provide a full range of services in the field of metal casting, creating complex components for various industries. Thanks to modern technologies, our products are characterized by high precision, reliability, and long service life.",
+        "image": "/assets/gallery-photo2s.webp"
       },
       {
-        "title": "Innovative Casting Technologies. Our capabilities include:",
+        "title": "Modern Casting Methods. We offer:",
         "list": [
-          { "description": "Casting on automatic lines" },
+          { "description": "Casting on automated lines" },
           { "description": "Centrifugal casting" },
-          { "description": "Die casting" },
-          { "description": "Low-pressure casting of high-temperature steels and non-ferrous metals" }
+          { "description": "Permanent mold casting" },
+          { "description": "Casting using HTS technologies and low-pressure casting of non-ferrous metals" }
         ],
-        "image": "/assets/lyttya-metalu3.webp"
+        "image": "/assets/gallery-photo3s.webp"
       },
       {
-        "title": "Full Production Cycle",
-        "description": "We provide all stages, from the development of the technological process to the delivery of finished products. This ensures you receive products that meet the highest quality standards.",
-        "image": "/assets/lyttya-metalu4.webp"
+        "title": "End-to-End Production Process",
+        "description": "We ensure a full production cycle: from creating a technical project to delivering the finished product. This guarantees high quality and compliance with all client requirements.",
+        "image": "/assets/gallery-photo4s.webp"
       },
       {
-        "title": "Wide Selection of Materials",
-        "description": "We work with various types of metals, including high-alloy steels and non-ferrous alloys, to ensure the perfect result for any project.",
-        "image": "/assets/lyttya-metalu5.webp"
+        "title": "Variety of Materials",
+        "description": "We work with a wide range of metals, including alloyed steels and non-ferrous metal alloys, to achieve the best results for your project.",
+        "image": "/assets/gallery-photo5s.webp"
       }
     ],
     "gallery": {
@@ -136,30 +136,23 @@
         { "prev": "/assets/gallery-photo5s.webp", "full": "/assets/gallery-photo5f.webp" },
         { "prev": "/assets/gallery-photo6s.webp", "full": "/assets/gallery-photo6f.webp" },
         { "prev": "/assets/gallery-photo7s.webp", "full": "/assets/gallery-photo7f.webp" },
-        { "prev": "/assets/gallery-photo8s.webp", "full": "/assets/gallery-photo8f.webp" },
-        { "prev": "/assets/gallery-photo9s.webp", "full": "/assets/gallery-photo9f.webp" },
-        { "prev": "/assets/gallery-photo10s.webp", "full": "/assets/gallery-photo10f.webp" },
-        { "prev": "/assets/gallery-photo11s.webp", "full": "/assets/gallery-photo11f.webp" },
-        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
-        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
-        { "prev": "/assets/gallery-photo14s.webp", "full": "/assets/gallery-photo14f.webp" },
-        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
-        { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
-        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" },
-        { "prev": "/assets/gallery-photo18s.webp", "full": "/assets/gallery-photo18f.webp" },
-        { "prev": "/assets/gallery-photo19s.webp", "full": "/assets/gallery-photo19f.webp" },
-        { "prev": "/assets/gallery-photo20s.webp", "full": "/assets/gallery-photo20f.webp" },
-        { "prev": "/assets/gallery-photo21s.webp", "full": "/assets/gallery-photo21f.webp" },
-        { "prev": "/assets/gallery-photo22s.webp", "full": "/assets/gallery-photo22f.webp" },
-        { "prev": "/assets/gallery-photo23s.webp", "full": "/assets/gallery-photo23f.webp" },
-        { "prev": "/assets/gallery-photo24s.webp", "full": "/assets/gallery-photo24f.webp" },
-        { "prev": "/assets/gallery-photo25s.webp", "full": "/assets/gallery-photo25f.webp" },
-        { "prev": "/assets/gallery-photo26s.webp", "full": "/assets/gallery-photo26f.webp" },
-        { "prev": "/assets/gallery-photo27s.webp", "full": "/assets/gallery-photo27f.webp" },
-        { "prev": "/assets/gallery-photo28s.webp", "full": "/assets/gallery-photo28f.webp" },
-        { "prev": "/assets/gallery-photo29s.webp", "full": "/assets/gallery-photo29f.webp" },
-        { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
+        { "prev": "/assets/gallery-photo8s.webp", "full": "/assets/gallery-photo8f.webp" }
       ]
+    },
+    "contacts": {
+      "title": "Contacts",
+      "listContacts": [
+        {
+          "title": "Address",
+          "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "id": "address"
+        },
+        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
+        { "title": "Phone", "description": "+380989950760", "id": "phone" }
+      ],
+      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
+      "ourLocation": "We are here!",
+      "buildRoute": "Build a route"
     }
   },
 

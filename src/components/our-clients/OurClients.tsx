@@ -2,10 +2,9 @@ import MetinvestIcon from './custom-icons/MetinvestIcon';
 import EvrazIcon from './custom-icons/EvrazIcon';
 import ArcelorMittal from './custom-icons/ArcelorMittal';
 import * as Shared from '@/shared';
-import { HomePage } from '../../../locales/types';
 
-const OurClients: React.FC<HomePage> = (componentProps) => {
-  const ourClients = componentProps.ourClients;
+const OurClients: React.FC<Shared.HomeComponentProps> = (componentProps) => {
+  const ourClients = componentProps.translationsPage.ourClients;
 
   return (
     <section className="mt-[70px]">
