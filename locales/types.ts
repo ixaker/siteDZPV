@@ -44,6 +44,7 @@ export type Translations = {
   menu: { name: string; href: string }[];
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;
+  mehobrobka: PageDefault;
 
   modalInfo: {
     title: string;

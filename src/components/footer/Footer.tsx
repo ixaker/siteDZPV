@@ -63,7 +63,7 @@ const Footer: React.FC<PageProps> = () => {
   return (
     <footer className="shadow-md shadow-gray-900  mt-10 pb-10" style={{ backgroundColor: bgColor }}>
       <nav>
-        <div className="flex justify-center gap-4 mt-[20px] pb-[50px]">
+        <div className="flex justify-center gap-4 pt-[20px] pb-[50px]">
           {socialList.map((item, index) => (
             <a
               aria-label={item.name}
