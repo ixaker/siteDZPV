@@ -3,7 +3,7 @@ import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withSta
 import * as Shared from '@/shared';
 
 const Mehoobrobka: React.FC<Shared.PageProps> = ({ ...restProps }) => {
-  const translationsPage = restProps.translations.lyttyaMetaluPage;
+  const translationsPage = restProps.translations.mehobrobka;
   const componentProps: DefaultPage = { ...restProps, translationsPage };
   return (
     <>

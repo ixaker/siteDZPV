@@ -2,10 +2,9 @@ import { DefaultPage } from '@/context/withStaticPathsAndProps';
 import InfoCard from './InfoCard';
 
 const InfoCardLis: React.FC<DefaultPage> = (componentProps) => {
-  const infoCard = componentProps.translations.lyttyaMetaluPage.infoCard;
   return (
     <>
-      {infoCard.map((item, index) => (
+      {componentProps.translationsPage.infoCard.map((item, index) => (
         <div className="flex items-center justify-center" key={index}>
           <InfoCard
             version={componentProps.version}

@@ -160,6 +160,64 @@
     "heading": "Механічна обробка",
     "title": "Механічна обробка металу — висока якість та точність!",
     "description": "Ми перетворюємо ваші найскладніші завдання в ефективні та точні рішення! Завдяки найсучаснішому обладнанню та передовим технологіям механічної обробки, ми виготовляємо продукцію найвищої якості, гарантуючи бездоганну точність і надійність на кожному етапі виробництва.",
-    "srcImg": "/assets/gallery-photo8f.webp"
+    "srcImg": "/assets/gallery-photo11f.webp",
+    "infoCard": [
+      {
+        "title": "Потужний парк сучасного обладнання.Ми надаємо повний спектр послуг з механічної обробки:",
+        "list": [
+          { "description": "Токарні роботи" },
+          { "description": "Фрезерні роботи" },
+          { "description": "Шліфування" },
+          { "description": "Свердління та розточування" },
+          { "description": "ЧПК-обробка" },
+          { "description": "Обробка металів і сплавів" }
+        ],
+        "image": "/assets/gallery-photo11s.webp"
+      },
+      {
+        "title": "Висока точність і надійність.",
+        "description": "Ми використовуємо тільки найкраще обладнання і технології для досягнення максимальної точності на всіх етапах обробки. Це дозволяє нам виготовляти деталі, що відповідають найвищим вимогам до надійності та довговічності.",
+        "image": "/assets/gallery-photo12s.webp"
+      },
+      {
+        "title": "Комплексний підхід.",
+        "description": "Ми пропонуємо повний цикл послуг з механічної обробки – від попереднього проектування до виготовлення готових виробів. Це дозволяє вам не витрачати час на пошук інших підрядників і отримати продукцію, що точно відповідає вашим вимогам.",
+        "image": "/assets/gallery-photo13s.webp"
+      },
+      {
+        "title": "Індивідуальні рішення для кожного проекту.",
+        "description": "Ми враховуємо всі особливості вашого замовлення і надаємо індивідуальний підхід до кожного проекту. Від розробки специфікацій до виготовлення та постійного контролю якості, ми забезпечуємо найкращі результати, які задовольняють всі ваші вимоги.",
+        "image": "/assets/gallery-photo14s.webp"
+      }
+    ],
+    "gallery": {
+      "title": "Галерея",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo9s.webp", "full": "/assets/gallery-photo9f.webp" },
+        { "prev": "/assets/gallery-photo10s.webp", "full": "/assets/gallery-photo10f.webp" },
+        { "prev": "/assets/gallery-photo11s.webp", "full": "/assets/gallery-photo11f.webp" },
+        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
+        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
+        { "prev": "/assets/gallery-photo14s.webp", "full": "/assets/gallery-photo14f.webp" },
+        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
+        { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
+        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" }
+      ]
+    },
+    "contacts": {
+      "title": "Контакти",
+      "listContacts": [
+        {
+          "title": "Адреса",
+          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
+          "id": "address"
+        },
+        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
+        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
+      ],
+      "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
+      "ourLocation": "Ми тут!",
+      "buildRoute": "Побудувати маршрут"
+    }
   }
 }

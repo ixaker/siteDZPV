@@ -155,6 +155,70 @@
       "buildRoute": "Build a route"
     }
   },
+  "mehobrobka": {
+    "heading": "Mechanical Processing",
+    "title": "Metal Processing – High Quality and Precision!",
+    "description": "We turn your most complex tasks into efficient and precise solutions! With the most advanced equipment and cutting-edge mechanical processing technologies, we produce products of the highest quality, ensuring impeccable precision and reliability at every stage of production.",
+    "srcImg": "/assets/gallery-photo11f.webp",
+    "infoCard": [
+      {
+        "title": "Powerful fleet of modern equipment. We provide a full range of mechanical processing services:",
+        "list": [
+          { "description": "Turning works" },
+          { "description": "Milling works" },
+          { "description": "Grinding" },
+          { "description": "Drilling and boring" },
+          { "description": "CNC machining" },
+          { "description": "Metal and alloy processing" }
+        ],
+        "image": "/assets/gallery-photo11s.webp"
+      },
+      {
+        "title": "High precision and reliability.",
+        "description": "We use only the best equipment and technologies to achieve maximum precision at all stages of processing. This allows us to manufacture parts that meet the highest requirements for reliability and durability.",
+        "image": "/assets/gallery-photo12s.webp"
+      },
+      {
+        "title": "Comprehensive approach.",
+        "description": "We offer a full cycle of mechanical processing services – from preliminary design to the manufacture of finished products. This saves you time searching for other contractors and ensures products that perfectly meet your requirements.",
+        "image": "/assets/gallery-photo13s.webp"
+      },
+      {
+        "title": "Tailored solutions for every project.",
+        "description": "We consider all the specifics of your order and provide an individual approach to each project. From specification development to manufacturing and continuous quality control, we deliver the best results that meet all your requirements.",
+        "image": "/assets/gallery-photo14s.webp"
+      }
+    ],
+    "gallery": {
+      "title": "Gallery",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo9s.webp", "full": "/assets/gallery-photo9f.webp" },
+        { "prev": "/assets/gallery-photo10s.webp", "full": "/assets/gallery-photo10f.webp" },
+        { "prev": "/assets/gallery-photo11s.webp", "full": "/assets/gallery-photo11f.webp" },
+        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
+        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
+        { "prev": "/assets/gallery-photo14s.webp", "full": "/assets/gallery-photo14f.webp" },
+        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
+        { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
+        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" }
+      ]
+    },
+    "contacts": {
+      "title": "Contacts",
+      "listContacts": [
+        {
+          "title": "Address",
+          "description": "Yakhnenkovska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "id": "address"
+        },
+        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
+        { "title": "Phone", "description": "+380989950760", "id": "phone" }
+      ],
+      "descriptionContact": "For any inquiries, please contact us using the information above. We operate from 8:00 AM to 5:00 PM Mon-Fri. Email inquiries are processed within 24 hours.",
+      "ourLocation": "We are here!",
+      "buildRoute": "Build Route"
+    }
+  },
 
   "btnSend": "Send drawings for calculation"
 }
