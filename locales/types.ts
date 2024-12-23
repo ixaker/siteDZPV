@@ -37,6 +37,7 @@ export type PageDefault = {
   heading: string;
   title: string;
   description: string;
+  descriptionList?: string[];
   srcImg: string;
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
   gallery: Galery;
@@ -49,6 +50,7 @@ export type Translations = {
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;
   mehobrobka: PageDefault;
+  rollersPage: PageDefault;
   footer: {
     description: string;
   };

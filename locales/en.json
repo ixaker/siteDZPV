@@ -3,7 +3,7 @@
   "menu": [
     { "name": "About the factory", "href": "#about" },
     { "name": "Casting", "href": "/lyttya-metalu" },
-    { "name": "Rollers", "href": "#rollers" },
+    { "name": "Rollers", "href": "/rollers" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
   ],
@@ -168,7 +168,7 @@
     "heading": "Mechanical Processing",
     "title": "Metal Processing – High Quality and Precision!",
     "description": "We turn your most complex tasks into efficient and precise solutions! With the most advanced equipment and cutting-edge mechanical processing technologies, we produce products of the highest quality, ensuring impeccable precision and reliability at every stage of production.",
-    "srcImg": "/assets/gallery-photo11f.webp",
+    "srcImg": "/assets/gallery-photo16f.webp",
     "infoCard": [
       {
         "title": "Powerful fleet of modern equipment. We provide a full range of mechanical processing services:",

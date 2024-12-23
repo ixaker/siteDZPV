@@ -2,8 +2,8 @@ import MainBlock from '@/components/ui/main-block/MainBlock';
 import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
 
-const Mehoobrobka: React.FC<Shared.PageProps> = ({ ...restProps }) => {
-  const translationsPage = restProps.translations.mehobrobka;
+const Rollers: React.FC<Shared.PageProps> = ({ ...restProps }) => {
+  const translationsPage = restProps.translations.rollersPage;
   const componentProps: DefaultPage = { ...restProps, translationsPage };
   return (
     <>
@@ -15,9 +15,9 @@ const Mehoobrobka: React.FC<Shared.PageProps> = ({ ...restProps }) => {
           </div>
         </div>
       </Shared.BackCover>
-      <div className="block sm:hidden">
+      {/* <div className="block sm:hidden">
         <Shared.CustomGallery {...componentProps} />
-      </div>
+      </div> */}
     </>
   );
 };
@@ -25,4 +25,4 @@ const Mehoobrobka: React.FC<Shared.PageProps> = ({ ...restProps }) => {
 export const getStaticPaths: Shared.GetStaticPaths = withStaticPaths;
 export const getStaticProps: Shared.GetStaticProps = withStaticProps;
 
-export default Mehoobrobka;
+export default Rollers;

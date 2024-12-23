@@ -54,7 +54,7 @@ const socialList = [
 ];
 
 const Footer: React.FC<PageProps> = (restProps) => {
-  const transltionPage = restProps.translations.footer;
+  const transltionPage = restProps.translations?.footer || '';
 
   const theme = useTheme();
 
