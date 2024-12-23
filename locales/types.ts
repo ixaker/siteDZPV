@@ -24,6 +24,10 @@ export type HomePage = {
     image: string;
     paragraphs: string[];
   };
+  table: {
+    title: string;
+    list: { title: string; count: number; unit: string }[];
+  };
   gallery: Galery;
   ourClients: string;
   contacts: Contacts;
@@ -45,6 +49,9 @@ export type Translations = {
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;
   mehobrobka: PageDefault;
+  footer: {
+    description: string;
+  };
 
   modalInfo: {
     title: string;

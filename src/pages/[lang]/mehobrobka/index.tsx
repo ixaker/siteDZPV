@@ -10,9 +10,6 @@ const Mehoobrobka: React.FC<Shared.PageProps> = ({ ...restProps }) => {
       <Shared.BackCover>
         <div className="pt-40 flex justify-center sm:justify-between sm:pr-4 pb-10">
           <MainBlock {...componentProps} />
-          <div className="hidden md:block">
-            <Shared.Navigation {...componentProps} />
-          </div>
         </div>
       </Shared.BackCover>
       <div className="block sm:hidden">

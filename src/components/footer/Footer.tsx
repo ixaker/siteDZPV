@@ -17,7 +17,7 @@ const socialList = [
       </svg>
     ),
     name: 'facebook',
-    href: 'https://www.facebook.com/profile.php?id=61568292527269',
+    href: 'https://www.facebook.com/profile.php?id=61570941514618',
   },
   {
     icon: (
@@ -53,7 +53,9 @@ const socialList = [
   },
 ];
 
-const Footer: React.FC<PageProps> = () => {
+const Footer: React.FC<PageProps> = (restProps) => {
+  const transltionPage = restProps.translations.footer;
+
   const theme = useTheme();
 
   const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
@@ -61,7 +63,7 @@ const Footer: React.FC<PageProps> = () => {
   const bgColor = currentTheme.palette.background.default;
 
   return (
-    <footer className="shadow-md shadow-gray-900  mt-10 pb-10" style={{ backgroundColor: bgColor }}>
+    <footer className="shadow-md shadow-gray-900  mt-10 pb-10 px-4" style={{ backgroundColor: bgColor }}>
       <nav>
         <div className="flex justify-center gap-4 pt-[20px] pb-[50px]">
           {socialList.map((item, index) => (
@@ -78,10 +80,7 @@ const Footer: React.FC<PageProps> = () => {
           ))}
         </div>
       </nav>
-      <p className="text-center">
-        З будь-яких питань, будь ласка, звяжіться з нами за наведеними нижче контактами. Ми працюємо з 8:00 до
-        17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.
-      </p>
+      <p className="text-center">{transltionPage.description}</p>
     </footer>
   );
 };

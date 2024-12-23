@@ -8,25 +8,26 @@ const OurClients: React.FC<Shared.HomeComponentProps> = (componentProps) => {
 
   return (
     <section className="mt-[70px]">
-      <Shared.Container>
+      <Shared.Container className="!p-0">
         <Shared.Heading level="h1" text={ourClients} />
-      </Shared.Container>
-      <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">
-        <div className="hidden lg:flex flex-row items-center justify-between">
-          <MetinvestIcon />
-          <EvrazIcon />
-          <ArcelorMittal />
-        </div>
 
-        <div className="marquee flex gap-16 items-center animate-marquee lg:hidden">
-          <MetinvestIcon />
-          <EvrazIcon />
-          <ArcelorMittal />
-          <MetinvestIcon />
-          <EvrazIcon />
-          <ArcelorMittal />
+        <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">
+          <div className="hidden lg:flex flex-row items-center justify-between">
+            <MetinvestIcon />
+            <EvrazIcon />
+            <ArcelorMittal />
+          </div>
+
+          <div className="marquee flex gap-16 items-center animate-marquee lg:hidden">
+            <MetinvestIcon />
+            <EvrazIcon />
+            <ArcelorMittal />
+            <MetinvestIcon />
+            <EvrazIcon />
+            <ArcelorMittal />
+          </div>
         </div>
-      </div>
+      </Shared.Container>
     </section>
   );
 };

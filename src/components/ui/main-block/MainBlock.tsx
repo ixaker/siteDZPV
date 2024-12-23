@@ -18,17 +18,17 @@ const MainBlock: React.FC<DefaultPage> = ({ ...componentProps }) => {
       <Shared.Heading level="h1" text={componentProps.translationsPage.heading} style="text-[#ef8535]" />
       <div className="mt-10">
         <div className="flex justify-center w-full">
-          <div className="flex gap-10 max-w-[1050px]  justify-between bg-inherit  ">
+          <div className="flex gap-10 max-w-[1050px] justify-between bg-inherit">
             <div className="hidden md:block max-w-[350px] h-[450px] w-full">
               <Shared.Image
                 width={100}
                 height={100}
                 src={`${componentProps.translationsPage.srcImg}${componentProps.version}`}
                 alt={componentProps.translationsPage.srcImg}
-                className=" w-full h-full object-cover shadow-[0_0_20px_11px_#ef8535]"
+                className="w-full h-full object-cover shadow-[0_0_20px_11px_#ef8535]"
               />
             </div>
-            <div className="w-full gap-4 sm:max-w-[60%] flex flex-col justify-around ">
+            <div className="w-full gap-4 sm:max-w-[60%] flex flex-col justify-around">
               <h1 className="uppercase md:text-xl lg:ttext-2xl xl:text-4xl font-semibold">
                 {componentProps.translationsPage.title}
               </h1>
@@ -42,14 +42,17 @@ const MainBlock: React.FC<DefaultPage> = ({ ...componentProps }) => {
             </div>
           </div>
         </div>
-        <div className="flex mt-5  justify-center lg:hidden">
+        <div className="flex mt-5 justify-center lg:hidden">
           <Shared.ButtonSubmitDrawing lang={componentProps.lang} translations={componentProps.translations} />
         </div>
+        {/* Навигация */}
       </div>
+      {/* Список информационных карточек */}
       <InfoCardLis {...componentProps} />
       <div className="hidden sm:block">
         <Shared.CustomGallery {...componentProps} />
       </div>
+      {/* Контакты */}
       <Contacts {...componentProps} />
     </div>
   );

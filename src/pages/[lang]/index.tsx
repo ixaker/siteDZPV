@@ -4,6 +4,7 @@ import AboutFactory from '@/components/about-factory/AboutFactory';
 import OurClients from '@/components/our-clients/OurClients';
 import Contacts from '@/components/contacts/Contacts';
 import * as Shared from '@/shared';
+import Table from '@/components/ui/table/Table';
 
 const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
   const translationsPage = restProps.translations.homePage;
@@ -13,6 +14,7 @@ const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
       <Shared.DynamicHead {...componentProps} />
       <MainBanner {...componentProps} />
       <AboutFactory {...componentProps} />
+      <Table {...componentProps} />
       <OurClients {...componentProps} />
       <Shared.CustomGallery {...componentProps} />
       <Contacts {...componentProps} />

@@ -4,7 +4,7 @@
     { "name": "About the factory", "href": "#about" },
     { "name": "Casting", "href": "/lyttya-metalu" },
     { "name": "Rollers", "href": "#rollers" },
-    { "name": "Machining", "href": "#mhrefachining" },
+    { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
   ],
 
@@ -35,10 +35,19 @@
       "title": "About the Factory",
       "image": "/assets/about-company.webp",
       "paragraphs": [
-        "PJSC 'Dnipropetrovsk Rolling Rolls Plant' is a Ukrainian asset of the international Group 'Dniprootehservis'.",
-        "The plant was founded in 1896 and today is one of the largest producers of cast iron rolling rolls for long, tubular, and flat hot rolling mills.",
-        "The enterprise has a full production cycle. Cast iron rolling rolls with the trademark of our enterprise are known to metallurgists of almost all the largest transnational companies in the markets of Ukraine, CIS countries, the EU, and far abroad.",
-        "PJSC DRRP is certified under the quality management system according to the requirements of the international standard EN ISO 9001:2015 and guarantees the supply of high-quality products that meet all necessary norms and requirements, offering excellent operational performance."
+        "Dnipro Metallurgical Rolling Mill is a leading manufacturer of cast rolling rolls in Ukraine.",
+        "We are located in the central part of Ukraine, in a major industrial and scientific center — the city of Dnipro.",
+        "Our company is renowned for its long history and strong traditions dating back to 1896.",
+        "We produce cast rolls for modern plate, section, and pipe rolling mills, as well as non-metallurgical rolls and rollers."
+      ]
+    },
+    "table": {
+      "title": "Factory Capabilities",
+      "list": [
+        { "title": "Maximum roll weight", "count": 15000, "unit": "kg" },
+        { "title": "Maximum barrel diameter of the roll", "count": 1300, "unit": "mm" },
+        { "title": "Maximum total length", "count": 6000, "unit": "mm" },
+        { "title": "Maximum hardness of the working layer", "count": 85, "unit": "HSD" }
       ]
     },
     "gallery": {
@@ -214,10 +223,13 @@
         { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
         { "title": "Phone", "description": "+380989950760", "id": "phone" }
       ],
-      "descriptionContact": "For any inquiries, please contact us using the information above. We operate from 8:00 AM to 5:00 PM Mon-Fri. Email inquiries are processed within 24 hours.",
       "ourLocation": "We are here!",
       "buildRoute": "Build Route"
     }
+  },
+
+  "footer": {
+    "description": "For any inquiries, please contact us using the information above. We operate from 8:00 AM to 5:00 PM Mon-Fri. Email inquiries are processed within 24 hours."
   },
 
   "btnSend": "Send drawings for calculation"
