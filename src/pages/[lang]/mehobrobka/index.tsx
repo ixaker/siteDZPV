@@ -1,4 +1,4 @@
-import MainBlock from '@/components/ui/main-block/MainBlock';
+import MainBlock from '@/components/ui/wrapper/Wrapper';
 import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
 

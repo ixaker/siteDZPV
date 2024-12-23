@@ -1,6 +1,9 @@
 import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
-import MainBlock from '../../../components/ui/main-block/MainBlock';
+import Wrapper from '../../../components/ui/wrapper/Wrapper';
+import InfoBlock from '@/components/ui/Info-block/InfoBlock';
+import InfoCardLis from '@/components/ui/info-card/InfoCardList';
+import Contacts from '@/components/contacts/Contacts';
 
 const LyttyaMetalu: React.FC<Shared.PageProps> = ({ ...restProps }) => {
   const translationsPage = restProps.translations.lyttyaMetaluPage;
@@ -9,7 +12,14 @@ const LyttyaMetalu: React.FC<Shared.PageProps> = ({ ...restProps }) => {
     <>
       <Shared.BackCover>
         <div className="pt-40 flex justify-center sm:justify-between sm:pr-4 pb-10">
-          <MainBlock {...componentProps} />
+          <Wrapper>
+            <InfoBlock {...componentProps} />
+            <InfoCardLis {...componentProps} />
+            <div className="hidden sm:block">
+              <Shared.CustomGallery {...componentProps} />
+            </div>
+            <Contacts {...componentProps} />
+          </Wrapper>
           <div className="hidden md:block">
             <Shared.Navigation {...componentProps} />
           </div>

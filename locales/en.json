@@ -41,7 +41,7 @@
         "We produce cast rolls for modern plate, section, and pipe rolling mills, as well as non-metallurgical rolls and rollers."
       ]
     },
-    "table": {
+    "productionCapabilities": {
       "title": "Factory Capabilities",
       "list": [
         { "title": "Maximum roll weight", "count": 15000, "unit": "kg" },
@@ -225,6 +225,75 @@
       ],
       "ourLocation": "We are here!",
       "buildRoute": "Build Route"
+    }
+  },
+  "rollersPage": {
+    "heading": "Casting of Cast Iron Rolls",
+    "title": "Purpose",
+    "descriptionList": [
+      "Rolls for hot rolling sheet mills",
+      "Rolls for small, medium, and large section mills",
+      "Rolls and rollers for pipe-rolling mills"
+    ],
+    "srcImg": "/assets/gallery-photo26s.webp",
+    "infoCard": [
+      {
+        "title": "Alloying",
+        "list": [
+          { "description": "Chromium (Cr)" },
+          { "description": "Nickel (Ni)" },
+          { "description": "Molybdenum (Mo)" },
+          { "description": "Copper (Cu)" },
+          { "description": "Tungsten (W)" },
+          { "description": "Vanadium (V)" },
+          { "description": "Aluminum (Al)" },
+          { "description": "Titanium (Ti)" },
+          { "description": "Rare Earth Metals (RE)" }
+        ],
+        "image": "/assets/gallery-photo27s.webp"
+      },
+      {
+        "title": "Roll Profiles",
+        "list": [
+          { "description": "Rolls with a smooth barrel" },
+          { "description": "Rolls with cast grooves" }
+        ],
+        "image": "/assets/gallery-photo28s.webp"
+      }
+    ],
+    "table": {
+      "title": "Geometric Dimensions of Centrifugally Cast Rolls",
+      "thead": ["Parameter", "Sheet and Section Rolling Rolls", "Rollers"],
+      "tbody": [
+        ["Roll barrel length", "min: 1000 max: 2500", "unlimited 3000"],
+        ["Roll barrel diameter", "min: 500 max: 1000", "min: 320 max: 1100"],
+        ["Inner hole diameter", "", "125"],
+        ["Working layer thickness", "150", ""],
+        ["Wall thickness", "", "250"]
+      ]
+    },
+    "gallery": {
+      "title": "Gallery",
+      "listPhotos": [
+        { "prev": "/assets/gallery-photo25s.webp", "full": "/assets/gallery-photo25f.webp" },
+        { "prev": "/assets/gallery-photo26s.webp", "full": "/assets/gallery-photo26f.webp" },
+        { "prev": "/assets/gallery-photo27s.webp", "full": "/assets/gallery-photo27f.webp" },
+        { "prev": "/assets/gallery-photo28s.webp", "full": "/assets/gallery-photo28f.webp" },
+        { "prev": "/assets/gallery-photo29s.webp", "full": "/assets/gallery-photo29f.webp" },
+        { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
+      ]
+    },
+    "contacts": {
+      "title": "Contacts",
+      "listContacts": [
+        {
+          "title": "Address",
+          "description": "Yakhnenkovska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "id": "address"
+        },
+        { "title": "Email", "description": "", "id": "email" },
+        { "title": "Phone", "description": "+380989950760", "id": "phone" }
+      ]
     }
   },
 

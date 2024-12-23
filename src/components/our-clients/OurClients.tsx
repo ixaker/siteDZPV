@@ -8,7 +8,7 @@ const OurClients: React.FC<Shared.HomeComponentProps> = (componentProps) => {
 
   return (
     <section className="mt-[70px]">
-      <Shared.Container className="!p-0">
+      <Shared.Container>
         <Shared.Heading level="h1" text={ourClients} />
 
         <div className=" overflow-x-auto  px-10 py-6 mt-10 bg-[#b3b3b3]">

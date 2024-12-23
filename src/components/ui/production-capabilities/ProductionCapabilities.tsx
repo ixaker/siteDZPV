@@ -1,10 +1,10 @@
 import { Container, Heading, HomeComponentProps } from '@/shared';
 import { useEffect, useRef, useState } from 'react';
 
-const TableRow: React.FC<{ item: { title: string; count: number; unit: string }; isVisible: boolean }> = ({
-  item,
-  isVisible,
-}) => {
+const ProductionCapabilitiesRow: React.FC<{
+  item: { title: string; count: number; unit: string };
+  isVisible: boolean;
+}> = ({ item, isVisible }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ const TableRow: React.FC<{ item: { title: string; count: number; unit: string };
   }, [isVisible, item.count]);
 
   return (
-    <li className="flex flex-col gap-2">
+    <li className="flex flex-col gap-2 h-[150px]  justify-between">
       <span className="text-[white] text-center w-full text-[25px] max-w-[290px]">{item.title}</span>
       <span className="text-[45px] text-activeColor font-semibold text-center">
         {count} {item.unit}
@@ -46,8 +46,8 @@ const TableRow: React.FC<{ item: { title: string; count: number; unit: string };
   );
 };
 
-const Table: React.FC<HomeComponentProps> = (componentProps) => {
-  const tableData = componentProps.translationsPage.table;
+const ProductionCapabilities: React.FC<HomeComponentProps> = (componentProps) => {
+  const productionCapabilities = componentProps.translationsPage.productionCapabilities;
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -75,12 +75,12 @@ const Table: React.FC<HomeComponentProps> = (componentProps) => {
   }, []);
 
   return (
-    <Container className="!p-0">
+    <Container>
       <div ref={ref} className="mt-10">
-        <Heading level="h2" text={tableData.title} />
+        <Heading level="h2" text={productionCapabilities.title} />
         <ul className="mt-10 flex justify-around flex-wrap items-center bg-[#212121] p-5 gap-2">
-          {tableData.list.map((item, index) => (
-            <TableRow key={index} item={item} isVisible={isVisible} />
+          {productionCapabilities.list.map((item, index) => (
+            <ProductionCapabilitiesRow key={index} item={item} isVisible={isVisible} />
           ))}
         </ul>
       </div>
@@ -88,4 +88,4 @@ const Table: React.FC<HomeComponentProps> = (componentProps) => {
   );
 };
 
-export default Table;
+export default ProductionCapabilities;

@@ -9,6 +9,12 @@ export type Galery = {
   listPhotos: { prev: string; full: string }[];
 };
 
+export type Table = {
+  title: string;
+  thead: string[];
+  tbody: string[][];
+};
+
 export type Contacts = {
   title: string;
   listContacts: { id: string; title: string; description: string }[];
@@ -24,7 +30,7 @@ export type HomePage = {
     image: string;
     paragraphs: string[];
   };
-  table: {
+  productionCapabilities: {
     title: string;
     list: { title: string; count: number; unit: string }[];
   };
@@ -42,6 +48,7 @@ export type PageDefault = {
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
   gallery: Galery;
   contacts: Contacts;
+  table: Table;
 };
 
 export type Translations = {
