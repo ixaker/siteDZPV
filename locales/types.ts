@@ -15,6 +15,32 @@ export type Table = {
   tbody: string[][];
 };
 
+export type RollersPage = {
+  heading: string;
+  infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
+  gallery: Galery;
+  contacts: Contacts;
+  table: Table;
+  productionCapabilities: {
+    title: string;
+    list: { title: string; count: number; unit: string }[];
+  };
+  characteristics: {
+    heading: string;
+    information: {
+      title: string;
+      titleCard: string;
+      descriptionCard: { description: string }[];
+      image: string;
+    }[];
+  };
+  castIronRolls: {
+    title: string;
+    imageBlackTheme: string;
+    imageWhiteTheme: string;
+  };
+};
+
 export type Contacts = {
   title: string;
   listContacts: { id: string; title: string; description: string }[];
@@ -48,7 +74,6 @@ export type PageDefault = {
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
   gallery: Galery;
   contacts: Contacts;
-  table: Table;
 };
 
 export type Translations = {
@@ -57,7 +82,7 @@ export type Translations = {
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;
   mehobrobka: PageDefault;
-  rollersPage: PageDefault;
+  rollersPage: RollersPage;
   footer: {
     description: string;
   };

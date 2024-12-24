@@ -45,9 +45,9 @@
     "productionCapabilities": {
       "title": "Можливості заводу",
       "list": [
-        { "title": "Максимальна маса валка", "count": 15000, "unit": "kg " },
+        { "title": "Максимальна маса валка", "count": 20000, "unit": "kg " },
         { "title": "Максимальний діаметр бочки валка", "count": 1300, "unit": "mm" },
-        { "title": "Максимальна загальна довжина", "count": 6000, "unit": "mm" },
+        { "title": "Максимальна загальна довжина", "count": 8000, "unit": "mm" },
         { "title": "Максимальна твердість робочого шару", "count": 85, "unit": "HSD " }
       ]
     },
@@ -230,14 +230,37 @@
   },
   "rollersPage": {
     "heading": "Лиття чавунних валків",
-    "title": "Призначення",
-    "descriptionList": [
-      "Валки для листових станів гарячої прокатки",
-      "Валки для дрібно-,середньо-і велико- сортних станів",
-      "Валки та ролика для трубопрокатних станів"
-    ],
-    "srcImg": "/assets/gallery-photo26s.webp",
     "infoCard": [
+      {
+        "title": "Призначення",
+        "list": [
+          { "description": "Валки для листових станів гарячої прокатки" },
+          { "description": "Валки для дрібно-,середньо-і велико- сортних станів" },
+          { "description": "Валки та ролика для трубопрокатних станів" }
+        ],
+        "image": "/assets/cast-iron-rolls1.webp"
+      },
+      {
+        "title": "Термічна обробка",
+        "list": [
+          { "description": "Відпустка" },
+          { "description": "Нормалізація" },
+          { "description": "Високо і низько-температурний відпал" }
+        ],
+        "image": "/assets/cast-iron-rolls2.webp"
+      },
+      {
+        "title": "Матеріали валків",
+        "list": [
+          { "description": "Чавун з невираженим відбілом (IC)" },
+          { "description": "Перлітний чавун з кулястим графітом (SGP)" },
+          { "description": "Голчастий чавун з кулястим графітом (SGA)" },
+          { "description": "Адаміт(ADAMIT)" },
+          { "description": "ICDP" },
+          { "description": "HiCr" }
+        ],
+        "image": "/assets/cast-iron-rolls3.webp"
+      },
       {
         "title": "Легування",
         "list": [
@@ -251,14 +274,52 @@
           { "description": "Титан (Ti)" },
           { "description": "РЗМ (RE)" }
         ],
-        "image": "/assets/gallery-photo27s.webp"
+        "image": "/assets/cast-iron-rolls4.webp"
       },
       {
         "title": "Профіль валків",
         "list": [{ "description": "Валки з гладкою бочкою" }, { "description": "Валки з литими калібрами" }],
-        "image": "/assets/gallery-photo28s.webp"
+        "image": "/assets/cast-iron-rolls5.webp"
       }
     ],
+    "characteristics": {
+      "heading": "ХАРАКТЕРИСТИКИ ВАЛКІВ",
+      "information": [
+        {
+          "title": "Для сортів та трубопрокатних станів Наступні типи матеріалів застосовуються для статично та відцентрово-литих валків. Відмінною особливістю таких валків є можливість їх отримання з литими калібрами",
+          "titleCard": "Матеріал твердість, HSD",
+          "descriptionCard": [
+            { "description": "Чавун з невираженим відбілом (IC) 45 – 75" },
+            { "description": "Перлітний чавун з кулястим графітом (SGP) 40 – 65" },
+            { "description": "Голковий чавун з кулястим графітом (SGA) 60 – 70" },
+            { "description": "Адаміт(ADAMIT) 43 – 58" }
+          ],
+          "image": "/assets/gallery-photo25s.webp"
+        },
+        {
+          "title": "Для листопрокатних валків. Для такого типу валків застосовується ц/б лиття. Опис робочого шару",
+          "titleCard": "Матеріал твердість, HSD",
+          "descriptionCard": [
+            {
+              "description": "ICDP (поліпшений ICDP) 60 – 85"
+            },
+            {
+              "description": "HiCr (покращений HiCr) 70 – 85"
+            }
+          ],
+          "image": "/assets/gallery-photo28s.webp"
+        }
+      ]
+    },
+    "productionCapabilities": {
+      "title": "Можливості заводу",
+      "list": [
+        { "title": "Максимальна маса валка", "count": 20000, "unit": "kg " },
+        { "title": "Максимальний діаметр бочки валка", "count": 1300, "unit": "mm" },
+        { "title": "Максимальна загальна довжина", "count": 8000, "unit": "mm" },
+        { "title": "Максимальна твердість робочого шару", "count": 85, "unit": "HSD " }
+      ]
+    },
     "table": {
       "thead": [
         [{ "title": "Геометричні розміри відцентрово литих валків", "colSpan": 5, "rowSpan": 1 }],
@@ -281,6 +342,11 @@
         ["Товщина робочого шару, mm-радіус", "x", "150", "x", "x"],
         ["Товщина стінки, mm-радіус", "x", "x", "x", "250"]
       ]
+    },
+    "castIronRolls": {
+      "title": "Чавунні валки з литими калібрами",
+      "imageBlackTheme": "/assets/rollers-black.webp",
+      "imageWhiteTheme": "/assets/rollers-white.webp"
     },
     "gallery": {
       "title": "Gallery",

@@ -33,7 +33,7 @@ const socialList = [
       </svg>
     ),
     name: 'instagram',
-    href: 'https://www.instagram.com/qpart.ua/profilecard/?igsh=MXdsa202NTVoMDQ4bA==',
+    href: 'https://www.instagram.com/dzpv.ua/',
   },
   {
     icon: (
@@ -49,7 +49,7 @@ const socialList = [
       </svg>
     ),
     name: 'linkedin',
-    href: 'https://www.linkedin.com/company/105055423/admin/dashboard/',
+    href: 'https://www.linkedin.com/company/105343720/admin/dashboard/',
   },
 ];
 

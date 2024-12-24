@@ -8,7 +8,7 @@ interface ImageSectionProps {
   isVisible?: boolean;
 }
 
-const ImageSection: React.FC<ImageSectionProps> = ({ src, alt, version, variant, isVisible }) => {
+const ImageSection: React.FC<ImageSectionProps> = ({ src, alt, version, variant }) => {
   switch (variant) {
     case 'first':
       return (

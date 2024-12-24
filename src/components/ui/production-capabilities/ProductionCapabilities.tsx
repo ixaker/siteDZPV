@@ -1,3 +1,4 @@
+import { RollersPageProps } from '@/context/withStaticPathsAndProps';
 import { Container, Heading, HomeComponentProps } from '@/shared';
 import { useEffect, useRef, useState } from 'react';
 
@@ -37,17 +38,19 @@ const ProductionCapabilitiesRow: React.FC<{
   }, [isVisible, item.count]);
 
   return (
-    <li className="flex flex-col gap-2 h-[150px]  justify-between">
-      <span className="text-[white] text-center w-full text-[25px] max-w-[290px]">{item.title}</span>
-      <span className="text-[45px] text-activeColor font-semibold text-center">
+    <li className="flex flex-col gap-2 h-auto md:h-[150px]  justify-between">
+      <span className="text-[white] text-center w-full text-[18px] md:text-[25px] max-w-[290px]">
+        {item.title}
+      </span>
+      <span className="text-[35px] md:text-[45px] text-activeColor font-semibold text-center">
         {count} {item.unit}
       </span>
     </li>
   );
 };
 
-const ProductionCapabilities: React.FC<HomeComponentProps> = (componentProps) => {
-  const productionCapabilities = componentProps.translationsPage.productionCapabilities;
+const ProductionCapabilities: React.FC<HomeComponentProps | RollersPageProps> = ({ translationsPage }) => {
+  const productionCapabilities = translationsPage.productionCapabilities;
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 

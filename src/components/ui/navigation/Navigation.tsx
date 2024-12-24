@@ -22,7 +22,7 @@ const Navigation: React.FC<NavigationProps> = ({ setIsMenuOpen, translations, la
             key={index}
           >
             <Link
-              className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-[18px] md:text-[20] lg:text-[25px] xl:text-[40px] text-nowrap no-underline "
+              className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-[18px] md:text-[20] lg:text-[25px] xl:text-[35px] text-nowrap no-underline "
               href={`/${lang}${item.href}`}
             >
               {item.name}

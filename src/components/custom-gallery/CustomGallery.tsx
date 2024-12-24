@@ -1,9 +1,11 @@
 import { useRef, useState } from 'react';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import * as Shared from '@/shared';
-import { DefaultPage } from '@/context/withStaticPathsAndProps';
+import { DefaultPage, RollersPageProps } from '@/context/withStaticPathsAndProps';
 
-const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage> = (componentProps) => {
+const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPageProps> = (
+  componentProps
+) => {
   const galleryData = componentProps.translationsPage.gallery;
   const listPhotos = galleryData.listPhotos;
   const [currentIndex, setCurrentIndex] = useState(NaN);

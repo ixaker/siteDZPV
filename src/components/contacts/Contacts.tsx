@@ -3,13 +3,13 @@ import { Email, Phone, Room } from '@mui/icons-material';
 import { useTheme } from '@mui/material';
 import dynamic from 'next/dynamic';
 import * as Shared from '@/shared';
-import { DefaultPage } from '@/context/withStaticPathsAndProps';
+import { DefaultPage, RollersPageProps } from '@/context/withStaticPathsAndProps';
 
 const DynamicInteractiveMap = dynamic(() => import('@/components/ui/InteractiveMap/InteractiveMap'), {
   ssr: false, // Отключаем SSR для этого компонента
 });
 
-const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage> = (componentProps) => {
+const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPageProps> = (componentProps) => {
   const contactData = componentProps.translationsPage.contacts;
   const theme = useTheme();
   const listContacts = contactData.listContacts;

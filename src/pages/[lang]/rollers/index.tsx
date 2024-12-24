@@ -1,25 +1,33 @@
 import Contacts from '@/components/contacts/Contacts';
-import InfoBlock from '@/components/ui/Info-block/InfoBlock';
+import CastIronRolls from '@/components/ui/cast-iron-rolls/CastIronRolls';
+import CharacteristicsRollers from '@/components/ui/characteristics/CharacteristicsRollers';
 import InfoCardLis from '@/components/ui/info-card/InfoCardList';
+import ProductionCapabilities from '@/components/ui/production-capabilities/ProductionCapabilities';
+import TableInformation from '@/components/ui/table-information/TableInformation';
 import CustomTable from '@/components/ui/table/CustomTable';
 import Wrapper from '@/components/ui/wrapper/Wrapper';
-import { DefaultPage, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
+import { RollersPageProps, withStaticPaths, withStaticProps } from '@/context/withStaticPathsAndProps';
 import * as Shared from '@/shared';
 
 const Rollers: React.FC<Shared.PageProps> = ({ ...restProps }) => {
   const translationsPage = restProps.translations.rollersPage;
-  const componentProps: DefaultPage = { ...restProps, translationsPage };
+  const componentProps: RollersPageProps = { ...restProps, translationsPage };
   return (
     <>
       <Shared.BackCover>
         <div className="pt-40 flex justify-center sm:justify-between sm:pr-4 pb-10">
           <Wrapper>
-            <InfoBlock {...componentProps} />
-            <InfoCardLis {...componentProps} />
+            <Shared.Heading text={translationsPage.heading} style="text-[#ef8535]" level="h1" />
+            <InfoCardLis variant="second" {...componentProps} />
+            <CharacteristicsRollers {...componentProps} />
+            <CustomTable {...componentProps} />
+            <ProductionCapabilities {...componentProps} />
+            <CastIronRolls {...componentProps} />
+            <TableInformation />
+
             <div className="hidden sm:block">
               <Shared.CustomGallery {...componentProps} />
             </div>
-            <CustomTable {...componentProps} />
             <Contacts {...componentProps} />
           </Wrapper>
           <div className="hidden md:block">

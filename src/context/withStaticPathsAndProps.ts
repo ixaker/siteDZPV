@@ -1,7 +1,7 @@
 import { GetStaticPropsContext, GetStaticPropsResult, GetStaticPaths } from 'next';
 import path from 'path';
 import fs from 'fs';
-import { HomePage, PageDefault, Translations } from '../../locales/types';
+import { HomePage, PageDefault, RollersPage, Translations } from '../../locales/types';
 
 export const getDefaultLanguage = (langFromUrl?: string): string => {
   const defaultLanguage = 'en';
@@ -67,6 +67,14 @@ export type HomeComponentProps = {
   lang: string;
   supportedLanguages: string[];
   translationsPage: HomePage;
+  version: string;
+};
+
+export type RollersPageProps = {
+  translations: Translations;
+  lang: string;
+  supportedLanguages: string[];
+  translationsPage: RollersPage;
   version: string;
 };
 

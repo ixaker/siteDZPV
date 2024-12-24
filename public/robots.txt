@@ -1,6 +1,3 @@
 # *
 User-agent: *
 Disallow: /
-
-# Sitemaps
-Sitemap: https://site.qpart.com.ua/sitemap.xml

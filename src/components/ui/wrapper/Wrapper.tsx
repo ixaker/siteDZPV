@@ -12,7 +12,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
 
   return (
     <div
-      className="relative z-10 px-4 mx-auto my-0 sm:mx-0 md:mr-2 py-10 max-w-[90%] md:max-w-[80%] "
+      className="relative z-10 px-4 mx-auto my-0 sm:mx-0 md:mr-2 py-10 max-w-[90%] md:max-w-[75%] "
       style={{ background: bgColor }}
     >
       {children}

@@ -1,8 +1,8 @@
-import { DefaultPage } from '@/context/withStaticPathsAndProps';
+import { RollersPageProps } from '@/context/withStaticPathsAndProps';
 import { darkTheme, lightTheme } from '@/theme';
 import { useTheme } from '@mui/material';
 
-const CustomTable: React.FC<DefaultPage> = ({ translationsPage }) => {
+const CustomTable: React.FC<RollersPageProps> = ({ translationsPage }) => {
   const theme = useTheme();
   const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
   const secondaryColor = currentTheme.palette.secondary.main;
@@ -11,8 +11,11 @@ const CustomTable: React.FC<DefaultPage> = ({ translationsPage }) => {
   const tbody = translationsPage.table.tbody;
 
   return (
-    <section>
-      <table style={{ borderCollapse: `collapse` }} className="w-full text-center text-[9px] md:text-[15px]">
+    <section className="mt-10">
+      <table
+        style={{ borderCollapse: `collapse` }}
+        className="w-full text-center text-[9px] md:text-[15px] lg:text-[20px]"
+      >
         <thead>
           {thead.map((row, index) => (
             <tr key={index}>

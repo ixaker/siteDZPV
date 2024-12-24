@@ -44,9 +44,9 @@
     "productionCapabilities": {
       "title": "Factory Capabilities",
       "list": [
-        { "title": "Maximum roll weight", "count": 15000, "unit": "kg" },
+        { "title": "Maximum roll weight", "count": 20000, "unit": "kg" },
         { "title": "Maximum barrel diameter of the roll", "count": 1300, "unit": "mm" },
-        { "title": "Maximum total length", "count": 6000, "unit": "mm" },
+        { "title": "Maximum total length", "count": 8000, "unit": "mm" },
         { "title": "Maximum hardness of the working layer", "count": 85, "unit": "HSD" }
       ]
     },
@@ -164,6 +164,7 @@
       "buildRoute": "Build a route"
     }
   },
+
   "mehobrobka": {
     "heading": "Mechanical Processing",
     "title": "Metal Processing – High Quality and Precision!",
@@ -227,6 +228,7 @@
       "buildRoute": "Build Route"
     }
   },
+
   "rollersPage": {
     "heading": "Casting of Cast Iron Rolls",
     "title": "Purpose",
@@ -237,6 +239,36 @@
     ],
     "srcImg": "/assets/gallery-photo26s.webp",
     "infoCard": [
+      {
+        "title": "Purpose",
+        "list": [
+          { "description": "Rolls for hot rolling sheet mills" },
+          { "description": "Rolls for small-, medium-, and large-section mills" },
+          { "description": "Rolls and rollers for tube rolling mills" }
+        ],
+        "image": "/assets/cast-iron-rolls1.webp"
+      },
+      {
+        "title": "Heat Treatment",
+        "list": [
+          { "description": "Tempering" },
+          { "description": "Normalization" },
+          { "description": "High- and low-temperature annealing" }
+        ],
+        "image": "/assets/cast-iron-rolls2.webp"
+      },
+      {
+        "title": "Roll Materials",
+        "list": [
+          { "description": "Cast iron with indistinct chill (IC)" },
+          { "description": "Pearlitic cast iron with nodular graphite (SGP)" },
+          { "description": "Acicular cast iron with nodular graphite (SGA)" },
+          { "description": "Adamite (ADAMIT)" },
+          { "description": "ICDP" },
+          { "description": "HiCr" }
+        ],
+        "image": "/assets/cast-iron-rolls3.webp"
+      },
       {
         "title": "Alloying",
         "list": [
@@ -250,17 +282,60 @@
           { "description": "Titanium (Ti)" },
           { "description": "Rare Earth Metals (RE)" }
         ],
-        "image": "/assets/gallery-photo27s.webp"
+        "image": "/assets/cast-iron-rolls4.webp"
       },
       {
-        "title": "Roll Profiles",
+        "title": "Roll Profile",
         "list": [
           { "description": "Rolls with a smooth barrel" },
-          { "description": "Rolls with cast grooves" }
+          { "description": "Rolls with cast calibers" }
         ],
-        "image": "/assets/gallery-photo28s.webp"
+        "image": "/assets/cast-iron-rolls5.webp"
       }
     ],
+    "productionCapabilities": {
+      "title": "Factory Capabilities",
+      "list": [
+        { "title": "Maximum roll weight", "count": 20000, "unit": "kg" },
+        { "title": "Maximum barrel diameter of the roll", "count": 1300, "unit": "mm" },
+        { "title": "Maximum total length", "count": 8000, "unit": "mm" },
+        { "title": "Maximum hardness of the working layer", "count": 85, "unit": "HSD" }
+      ]
+    },
+    "characteristics": {
+      "heading": "ROLL CHARACTERISTICS",
+      "information": [
+        {
+          "title": "For section and tube rolling mills. The following types of materials are used for static and centrifugally cast rolls. A distinctive feature of such rolls is the possibility of producing them with cast calibers.",
+          "titleCard": "Material Hardness, HSD",
+          "descriptionCard": [
+            { "description": "Cast iron with indistinct chill (IC) 45 – 75" },
+            { "description": "Pearlitic cast iron with nodular graphite (SGP) 40 – 65" },
+            { "description": "Acicular cast iron with nodular graphite (SGA) 60 – 70" },
+            { "description": "Adamite (ADAMIT) 43 – 58" }
+          ],
+          "image": "/assets/gallery-photo25s.webp"
+        },
+        {
+          "title": "For sheet rolling rolls. Centrifugal casting is used for this type of rolls. Description of the working layer:",
+          "titleCard": "Material Hardness, HSD",
+          "descriptionCard": [
+            {
+              "description": "ICDP (Improved ICDP) 60 – 85"
+            },
+            {
+              "description": "HiCr (Improved HiCr) 70 – 85"
+            }
+          ],
+          "image": "/assets/gallery-photo28s.webp"
+        }
+      ]
+    },
+    "castIronRolls": {
+      "title": "Cast Iron Rolls with Cast Calibers",
+      "imageBlackTheme": "/assets/rollers-black.webp",
+      "imageWhiteTheme": "/assets/rollers-white.webp"
+    },
     "table": {
       "thead": [
         [{ "title": "Geometric dimensions of centrifugally cast rolls", "colSpan": 5, "rowSpan": 1 }],
