@@ -23,7 +23,7 @@ const Rollers: React.FC<Shared.PageProps> = ({ ...restProps }) => {
             <CustomTable {...componentProps} />
             <ProductionCapabilities {...componentProps} />
             <CastIronRolls {...componentProps} />
-            <TableInformation />
+            <TableInformation {...componentProps} />
 
             <div className="hidden sm:block">
               <Shared.CustomGallery {...componentProps} />

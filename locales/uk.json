@@ -348,6 +348,10 @@
       "imageBlackTheme": "/assets/rollers-black.webp",
       "imageWhiteTheme": "/assets/rollers-white.webp"
     },
+    "tableInformation": {
+      "title": "АТ 'Дніпропетровський завод прокатних валків'",
+      "image": ["/assets/table-photo-ru1.webp", "/assets/table-photo-ru2.webp"]
+    },
     "gallery": {
       "title": "Gallery",
       "listPhotos": [
@@ -360,16 +364,19 @@
       ]
     },
     "contacts": {
-      "title": "Contacts",
+      "title": "Контакти",
       "listContacts": [
         {
-          "title": "Address",
-          "description": "Yakhnenkovska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "title": "Адреса",
+          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
           "id": "address"
         },
-        { "title": "Email", "description": "", "id": "email" },
-        { "title": "Phone", "description": "+380989950760", "id": "phone" }
-      ]
+        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
+        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
+      ],
+      "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
+      "ourLocation": "Ми тут!",
+      "buildRoute": "Побудувати маршрут"
     }
   },
 

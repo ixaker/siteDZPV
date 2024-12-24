@@ -359,6 +359,10 @@
         ["Wall thickness, mm-radius", "x", "x", "x", "250"]
       ]
     },
+    "tableInformation": {
+      "title": "JSC 'Dnipro Rolling Mills Plant'",
+      "image": ["/assets/table-photo-en1.webp", "/assets/table-photo-en2.webp"]
+    },
     "gallery": {
       "title": "Gallery",
       "listPhotos": [
@@ -375,12 +379,15 @@
       "listContacts": [
         {
           "title": "Address",
-          "description": "Yakhnenkovska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+          "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
           "id": "address"
         },
-        { "title": "Email", "description": "", "id": "email" },
+        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
         { "title": "Phone", "description": "+380989950760", "id": "phone" }
-      ]
+      ],
+      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
+      "ourLocation": "We are here!",
+      "buildRoute": "Build a route"
     }
   },
 

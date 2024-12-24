@@ -39,6 +39,10 @@ export type RollersPage = {
     imageBlackTheme: string;
     imageWhiteTheme: string;
   };
+  tableInformation: {
+    title: string;
+    image: string[];
+  };
 };
 
 export type Contacts = {
