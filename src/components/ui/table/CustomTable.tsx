@@ -1,40 +1,48 @@
 import { DefaultPage } from '@/context/withStaticPathsAndProps';
-import { Heading, Paragraph } from '@/shared';
-import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material';
+import { darkTheme, lightTheme } from '@/theme';
+import { useTheme } from '@mui/material';
 
-const CustomTable: React.FC<DefaultPage> = (componentProps) => {
-  const tableTitle = componentProps.translationsPage.table.title;
-  const thead = componentProps.translationsPage.table.thead;
-  const tbody = componentProps.translationsPage.table.tbody;
+const CustomTable: React.FC<DefaultPage> = ({ translationsPage }) => {
+  const theme = useTheme();
+  const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
+  const secondaryColor = currentTheme.palette.secondary.main;
+
+  const thead = translationsPage.table.thead;
+  const tbody = translationsPage.table.tbody;
 
   return (
     <section>
-      <Heading text={tableTitle} level="h2" />
-
-      <TableContainer component={Paper} sx={{ marginTop: '40px' }}>
-        <Table aria-label="table">
-          <TableHead>
-            <TableRow>
-              {thead.map((title, index) => (
-                <TableCell key={index}>
-                  <Paragraph style="font-bold" text={title} />
-                </TableCell>
+      <table style={{ borderCollapse: `collapse` }} className="w-full text-center text-[9px] md:text-[15px]">
+        <thead>
+          {thead.map((row, index) => (
+            <tr key={index}>
+              {row.map((cell, index) => (
+                <th
+                  key={index}
+                  style={{ border: `1px solid ${secondaryColor}` }}
+                  colSpan={cell.colSpan}
+                  rowSpan={cell.rowSpan}
+                  className="p-1"
+                >
+                  {cell.title}
+                </th>
               ))}
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {tbody.map((row, index) => (
-              <TableRow key={index}>
-                {row.map((data, index) => (
-                  <TableCell key={index}>
-                    <Paragraph text={data} />
-                  </TableCell>
-                ))}
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+            </tr>
+          ))}
+        </thead>
+
+        <tbody>
+          {tbody.map((row, index) => (
+            <tr key={index}>
+              {row.map((cell, index) => (
+                <td key={index} style={{ border: `1px solid ${secondaryColor}` }} className="p-1 md:p-2">
+                  {cell}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </section>
   );
 };

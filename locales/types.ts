@@ -11,7 +11,7 @@ export type Galery = {
 
 export type Table = {
   title: string;
-  thead: string[];
+  thead: { title: string; colSpan: number; rowSpan: number }[][];
   tbody: string[][];
 };
 

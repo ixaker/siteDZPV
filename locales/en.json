@@ -262,14 +262,26 @@
       }
     ],
     "table": {
-      "title": "Geometric Dimensions of Centrifugally Cast Rolls",
-      "thead": ["Parameter", "Sheet and Section Rolling Rolls", "Rollers"],
+      "thead": [
+        [{ "title": "Geometric dimensions of centrifugally cast rolls", "colSpan": 5, "rowSpan": 1 }],
+        [
+          { "title": "Parameter", "colSpan": 1, "rowSpan": 2 },
+          { "title": "Plate and section rolls", "colSpan": 2, "rowSpan": 1 },
+          { "title": "Rollers", "colSpan": 2, "rowSpan": 1 }
+        ],
+        [
+          { "title": "min", "colSpan": 1, "rowSpan": 1 },
+          { "title": "max", "colSpan": 1, "rowSpan": 1 },
+          { "title": "min", "colSpan": 1, "rowSpan": 1 },
+          { "title": "max", "colSpan": 1, "rowSpan": 1 }
+        ]
+      ],
       "tbody": [
-        ["Roll barrel length", "min: 1000 max: 2500", "unlimited 3000"],
-        ["Roll barrel diameter", "min: 500 max: 1000", "min: 320 max: 1100"],
-        ["Inner hole diameter", "", "125"],
-        ["Working layer thickness", "150", ""],
-        ["Wall thickness", "", "250"]
+        ["Roll barrel length, mm", "1000", "2500", "unlimited", "3000"],
+        ["Roll barrel diameter, mm", "500", "1000", "320", "1100"],
+        ["Inner bore diameter, mm", "x", "x", "125", "x"],
+        ["Working layer thickness, mm-radius", "x", "150", "x", "x"],
+        ["Wall thickness, mm-radius", "x", "x", "x", "250"]
       ]
     },
     "gallery": {
