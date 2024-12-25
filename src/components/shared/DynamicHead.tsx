@@ -1,8 +1,8 @@
 import { NextSeo } from 'next-seo';
 import React, { useEffect, useState } from 'react';
-import { HomeComponentProps } from '@/context/withStaticPathsAndProps';
+import { DefaultPage, HomeComponentProps, RollersPageProps } from '@/context/withStaticPathsAndProps';
 
-const DynamicHead: React.FC<HomeComponentProps> = (componentProps) => {
+const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage> = (componentProps) => {
   const pageData = componentProps.translationsPage.metaData;
 
   const [fullUrl, setFullUrl] = useState('');

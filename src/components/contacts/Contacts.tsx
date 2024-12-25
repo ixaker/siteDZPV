@@ -9,8 +9,8 @@ const DynamicInteractiveMap = dynamic(() => import('@/components/ui/InteractiveM
   ssr: false, // Отключаем SSR для этого компонента
 });
 
-const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPageProps> = (componentProps) => {
-  const contactData = componentProps.translations.contacts;
+const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPageProps> = ({ translations }) => {
+  const contactData = translations.contacts;
   const theme = useTheme();
   const listContacts = contactData.listContacts;
   const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;

@@ -89,6 +89,11 @@
   },
 
   "lyttyaMetaluPage": {
+    "metaData": {
+      "title": "Metal Casting for Any Need – Reliability, Precision, and Quality!",
+      "description": "We specialize in full-cycle metal casting, creating complex parts for various industries. To get in touch, call us at ☎️ +380567214558 or email 📧: AK.Koshubskiy@gmail.com. We look forward to working with you!",
+      "srcImg": "/assets/gallery-photo7s.webp"
+    },
     "heading": "Casting",
     "title": "Metal Casting for All Needs — Reliability, Precision, and Quality!",
     "description": "Looking for professionals to produce high-quality metal products? We specialize in metal casting of any complexity for various industries, from mechanical engineering to construction. With modern equipment and advanced technologies, we ensure the production of parts that meet the highest standards of quality and precision.",
@@ -151,6 +156,11 @@
   },
 
   "mehobrobka": {
+    "metaData": {
+      "title": "Metal Machining – High Quality and Precision!",
+      "description": "We provide metal machining services: turning, milling, grinding, and other types of processing. Guaranteed precision and quality! To get in touch, call us at ☎️ +380567214558 or email 📧: AK.Koshubskiy@gmail.com. We look forward to working with you!",
+      "srcImg": "/assets/gallery-photo16s.webp"
+    },
     "heading": "Mechanical Processing",
     "title": "Metal Processing – High Quality and Precision!",
     "description": "We turn your most complex tasks into efficient and precise solutions! With the most advanced equipment and cutting-edge mechanical processing technologies, we produce products of the highest quality, ensuring impeccable precision and reliability at every stage of production.",
@@ -201,6 +211,11 @@
   },
 
   "rollersPage": {
+    "metaData": {
+      "title": "Cast Iron Rolls Casting – Quality and Reliability for Your Production",
+      "description": "We offer high-quality cast iron rolls casting services. Reliability, durability, and a personalized approach to every client. Contact us! To get in touch, call us at ☎️ +380567214558 or email 📧: AK.Koshubskiy@gmail.com. We look forward to working with you!",
+      "srcImg": "/assets/cast-iron-rolls4.webp"
+    },
     "heading": "Casting of Cast Iron Rolls",
     "title": "Purpose",
     "descriptionList": [

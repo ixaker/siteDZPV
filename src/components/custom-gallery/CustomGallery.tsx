@@ -8,6 +8,8 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
 ) => {
   const galleryData = componentProps.translationsPage.gallery;
   const listPhotos = galleryData.listPhotos;
+  const version = componentProps.version;
+
   const [currentIndex, setCurrentIndex] = useState(NaN);
   const changesPhoto = (e: React.MouseEvent<HTMLButtonElement>, direction: number) => {
     e.stopPropagation();
@@ -54,7 +56,7 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
                 onClick={() => setCurrentIndex(index)}
               >
                 <Shared.Image
-                  src={photo.prev}
+                  src={`${photo.prev}${version}`}
                   alt={`Photo ${index + 1}`}
                   width={337}
                   height={224}

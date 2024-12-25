@@ -10,7 +10,7 @@ const CastIronRolls: React.FC<RollersPageProps> = ({ translationsPage }) => {
       <Heading level="h2" alignment="center" text={translationsPage.castIronRolls.title} />
       <Image
         src={`${currentTheme ? translationsPage.castIronRolls.imageBlackTheme : translationsPage.castIronRolls.imageWhiteTheme}`}
-        alt="Чавунні валки з литими калібрами"
+        alt={`Photo: ${translationsPage.castIronRolls.title}`}
         width={100}
         height={100}
         className="w-full"

@@ -18,7 +18,6 @@ const InfoCard: React.FC<InfoCardProps> = ({
   title,
   list,
   version,
-  // index,
   direction,
   aligntText,
 }) => {

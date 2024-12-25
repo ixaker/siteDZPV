@@ -2,9 +2,7 @@ import { withStaticProps, withStaticPaths } from '../../context/withStaticPathsA
 import MainBanner from '@/components/main-banner/MainBanner';
 import AboutFactory from '@/components/about-factory/AboutFactory';
 import OurClients from '@/components/our-clients/OurClients';
-import Contacts from '@/components/contacts/Contacts';
 import * as Shared from '@/shared';
-import ProductionCapabilities from '@/components/ui/production-capabilities/ProductionCapabilities';
 
 const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
   const translationsPage = restProps.translations.homePage;
@@ -14,10 +12,10 @@ const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
       <Shared.DynamicHead {...componentProps} />
       <MainBanner {...componentProps} />
       <AboutFactory {...componentProps} />
-      <ProductionCapabilities {...componentProps} />
+      <Shared.ProductionCapabilities {...componentProps} />
       <OurClients {...componentProps} />
       <Shared.CustomGallery {...componentProps} />
-      <Contacts {...componentProps} />
+      <Shared.Contacts {...componentProps} />
     </>
   );
 };

@@ -42,7 +42,6 @@ const InfoBlock: React.FC<DefaultPage> = (componentProps) => {
         <div className="flex mt-5 justify-center lg:hidden">
           <Shared.ButtonSubmitDrawing lang={componentProps.lang} translations={componentProps.translations} />
         </div>
-        {/* Навигация */}
       </div>
     </>
   );

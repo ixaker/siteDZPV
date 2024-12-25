@@ -16,6 +16,7 @@ export type Table = {
 };
 
 export type RollersPage = {
+  metaData: MetaData;
   heading: string;
   infoCard: { title: string; description?: string; list?: { description: string }[]; image: string }[];
   gallery: Galery;
@@ -70,6 +71,7 @@ export type HomePage = {
 };
 
 export type PageDefault = {
+  metaData: MetaData;
   heading: string;
   title: string;
   description: string;

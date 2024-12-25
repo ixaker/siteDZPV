@@ -1,7 +1,7 @@
 import * as Shared from '@/shared';
 
-const AboutFactory: React.FC<Shared.HomeComponentProps> = (componentProps) => {
-  const aboutFactoryData = componentProps.translationsPage.aboutFactory;
+const AboutFactory: React.FC<Shared.HomeComponentProps> = ({ translationsPage }) => {
+  const aboutFactoryData = translationsPage.aboutFactory;
 
   return (
     <section id="about">

@@ -5,8 +5,10 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import { RollersPageProps } from '@/context/withStaticPathsAndProps';
 
-const TableInformation: React.FC<RollersPageProps> = ({ translationsPage }) => {
-  const tableInformation = translationsPage.tableInformation;
+const TableInformation: React.FC<RollersPageProps> = (componentProps) => {
+  const tableInformation = componentProps.translationsPage.tableInformation;
+  const version = componentProps.version;
+
   const [open, setOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
 
@@ -31,7 +33,7 @@ const TableInformation: React.FC<RollersPageProps> = ({ translationsPage }) => {
             </div>
             <Image
               className="w-full h-full object-cover cursor-pointer"
-              src={src}
+              src={`${src}${version}`}
               width={100}
               height={100}
               alt={`Table Photo ${index + 1}`}

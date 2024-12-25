@@ -2,8 +2,9 @@ import { RollersPageProps } from '@/context/withStaticPathsAndProps';
 import { Heading, Paragraph } from '@/shared';
 import InfoCard from '../info-card/InfoCard';
 
-const CharacteristicsRollers: React.FC<RollersPageProps> = ({ translationsPage }) => {
-  const characteristicsData = translationsPage.characteristics;
+const CharacteristicsRollers: React.FC<RollersPageProps> = (componentProps) => {
+  const characteristicsData = componentProps.translationsPage.characteristics;
+  const version = componentProps.version;
 
   return (
     <section className="mt-10">
@@ -15,7 +16,7 @@ const CharacteristicsRollers: React.FC<RollersPageProps> = ({ translationsPage }
             index={index}
             srcImg={item.image}
             title={item.titleCard}
-            version=""
+            version={version}
             list={item.descriptionCard}
             aligntText={index % 2 === 0 ? 'end' : 'start'}
             direction={index % 2 === 0 ? 'row' : 'row-reverse'}
