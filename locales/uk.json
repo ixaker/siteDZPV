@@ -136,21 +136,6 @@
         { "prev": "/assets/gallery-photo7s.webp", "full": "/assets/gallery-photo7f.webp" },
         { "prev": "/assets/gallery-photo8s.webp", "full": "/assets/gallery-photo8f.webp" }
       ]
-    },
-    "contacts": {
-      "title": "Контакти",
-      "listContacts": [
-        {
-          "title": "Адреса",
-          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
-          "id": "address"
-        },
-        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
-      ],
-      "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
-      "ourLocation": "Ми тут!",
-      "buildRoute": "Побудувати маршрут"
     }
   },
   "mehobrobka": {
@@ -205,20 +190,6 @@
         { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
         { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" }
       ]
-    },
-    "contacts": {
-      "title": "Контакти",
-      "listContacts": [
-        {
-          "title": "Адреса",
-          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
-          "id": "address"
-        },
-        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
-      ],
-      "ourLocation": "Ми тут!",
-      "buildRoute": "Побудувати маршрут"
     }
   },
   "rollersPage": {
