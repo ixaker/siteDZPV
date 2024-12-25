@@ -87,6 +87,7 @@ export type Translations = {
   lyttyaMetaluPage: PageDefault;
   mehobrobka: PageDefault;
   rollersPage: RollersPage;
+  contacts: Contacts;
   footer: {
     description: string;
   };

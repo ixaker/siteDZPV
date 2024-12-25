@@ -85,22 +85,7 @@
         { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
       ]
     },
-    "ourClients": "Our Clients",
-    "contacts": {
-      "title": "Contacts",
-      "listContacts": [
-        {
-          "title": "Address",
-          "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
-          "id": "address"
-        },
-        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Phone", "description": "+380989950760", "id": "phone" }
-      ],
-      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
-      "ourLocation": "We are here!",
-      "buildRoute": "Build a route"
-    }
+    "ourClients": "Our Clients"
   },
 
   "lyttyaMetaluPage": {
@@ -212,20 +197,6 @@
         { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
         { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" }
       ]
-    },
-    "contacts": {
-      "title": "Contacts",
-      "listContacts": [
-        {
-          "title": "Address",
-          "description": "Yakhnenkovska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
-          "id": "address"
-        },
-        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Phone", "description": "+380989950760", "id": "phone" }
-      ],
-      "ourLocation": "We are here!",
-      "buildRoute": "Build Route"
     }
   },
 
@@ -373,22 +344,22 @@
         { "prev": "/assets/gallery-photo29s.webp", "full": "/assets/gallery-photo29f.webp" },
         { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
       ]
-    },
-    "contacts": {
-      "title": "Contacts",
-      "listContacts": [
-        {
-          "title": "Address",
-          "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
-          "id": "address"
-        },
-        { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Phone", "description": "+380989950760", "id": "phone" }
-      ],
-      "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
-      "ourLocation": "We are here!",
-      "buildRoute": "Build a route"
     }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "listContacts": [
+      {
+        "title": "Address",
+        "description": "Yakhnenskivska Street, 2, Dnipro, Dnipropetrovsk Region, 49025, Ukraine",
+        "id": "address"
+      },
+      { "title": "Email", "description": "info@qpart.com.ua", "id": "email" },
+      { "title": "Phone", "description": "+380989950760", "id": "phone" }
+    ],
+    "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
+    "ourLocation": "We are here!",
+    "buildRoute": "Build a route"
   },
 
   "footer": {

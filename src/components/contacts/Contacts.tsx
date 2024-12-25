@@ -10,7 +10,7 @@ const DynamicInteractiveMap = dynamic(() => import('@/components/ui/InteractiveM
 });
 
 const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPageProps> = (componentProps) => {
-  const contactData = componentProps.translationsPage.contacts;
+  const contactData = componentProps.translations.contacts;
   const theme = useTheme();
   const listContacts = contactData.listContacts;
   const currentTheme = theme.palette.mode === 'dark' ? darkTheme : lightTheme;
@@ -64,7 +64,6 @@ const Contacts: React.FC<Shared.HomeComponentProps | DefaultPage | RollersPagePr
               <DynamicInteractiveMap {...contactData} />
             </div>
           </div>
-          {/* <Shared.Paragraph style="mt-10" alignment="center" text={contactData.descriptionContact} /> */}
         </div>
       </Shared.Container>
     </section>

@@ -86,22 +86,7 @@
         { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
       ]
     },
-    "ourClients": "Наші клієнти",
-    "contacts": {
-      "title": "Контакти",
-      "listContacts": [
-        {
-          "title": "Адреса",
-          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
-          "id": "address"
-        },
-        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
-      ],
-      "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
-      "ourLocation": "Ми тут!",
-      "buildRoute": "Побудувати маршрут"
-    }
+    "ourClients": "Наші клієнти"
   },
 
   "lyttyaMetaluPage": {
@@ -362,22 +347,23 @@
         { "prev": "/assets/gallery-photo29s.webp", "full": "/assets/gallery-photo29f.webp" },
         { "prev": "/assets/gallery-photo30s.webp", "full": "/assets/gallery-photo30f.webp" }
       ]
-    },
-    "contacts": {
-      "title": "Контакти",
-      "listContacts": [
-        {
-          "title": "Адреса",
-          "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
-          "id": "address"
-        },
-        { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
-        { "title": "Телефон", "description": "+380989950760", "id": "phone" }
-      ],
-      "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
-      "ourLocation": "Ми тут!",
-      "buildRoute": "Побудувати маршрут"
     }
+  },
+
+  "contacts": {
+    "title": "Контакти",
+    "listContacts": [
+      {
+        "title": "Адреса",
+        "description": "вулиця Яхненківська, 2, м. Дніпро, Дніпропетровська область, 49025, Україна",
+        "id": "address"
+      },
+      { "title": "Пошта", "description": "info@qpart.com.ua", "id": "email" },
+      { "title": "Телефон", "description": "+380989950760", "id": "phone" }
+    ],
+    "descriptionContact": "З будь-яких питань, будь ласка, зв'яжіться з нами за наведеними вище контактами. Ми працюємо з 8:00 до 17:00 ПН-ПТ. Запити через email обробляються протягом 24 годин.",
+    "ourLocation": "Ми тут!",
+    "buildRoute": "Побудувати маршрут"
   },
 
   "footer": {
