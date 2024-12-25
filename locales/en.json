@@ -3,7 +3,7 @@
   "menu": [
     { "name": "About the factory", "href": "#about" },
     { "name": "Casting", "href": "/lyttya-metalu" },
-    { "name": "Rollers", "href": "/rollers" },
+    { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
   ],
@@ -26,16 +26,16 @@
 
   "homePage": {
     "metaData": {
-      "title": "Dnipro Rolling Rolls Plant (DZPV) - the leading manufacturer of rolling rolls in Ukraine!",
+      "title": "Dnipro Rolling Rolls Plant (DZPV) - the leading manufacturer of rolling rolls",
       "description": "To contact us, call ☎️ +380567214558 or email 📧: AK.Koshubskiy@gmail.com. We look forward to cooperating with you!",
       "srcImg": "/assets/gallery-photo2.webp"
     },
-    "title": "Leading Manufacturer of Rolling Rolls in Ukraine",
+    "title": "Leading Manufacturer of Rolling Rolls",
     "aboutFactory": {
       "title": "About the Factory",
       "image": "/assets/about-company.webp",
       "paragraphs": [
-        "Dnipro Metallurgical Rolling Mill is a leading manufacturer of cast rolling rolls in Ukraine.",
+        "Dnipro Metallurgical Rolling Mill is a leading manufacturer of cast rolling rolls.",
         "We are located in the central part of Ukraine, in a major industrial and scientific center — the city of Dnipro.",
         "Our company is renowned for its long history and strong traditions dating back to 1896.",
         "We produce cast rolls for modern plate, section, and pipe rolling mills, as well as non-metallurgical rolls and rollers."
@@ -251,9 +251,9 @@
       {
         "title": "Heat Treatment",
         "list": [
-          { "description": "Tempering" },
+          { "description": "Stress relief (annealing)" },
           { "description": "Normalization" },
-          { "description": "High- and low-temperature annealing" }
+          { "description": "Annealing" }
         ],
         "image": "/assets/cast-iron-rolls2.webp"
       },

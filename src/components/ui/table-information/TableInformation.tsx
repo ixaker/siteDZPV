@@ -30,7 +30,7 @@ const TableInformation: React.FC<RollersPageProps> = ({ translationsPage }) => {
               <ZoomInIcon style={{ fontSize: '40px' }} />
             </div>
             <Image
-              className="w-full object-cover cursor-pointer"
+              className="w-full h-full object-cover cursor-pointer"
               src={src}
               width={100}
               height={100}

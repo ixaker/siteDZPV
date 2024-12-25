@@ -21,11 +21,11 @@ const CustomTable: React.FC<RollersPageProps> = ({ translationsPage }) => {
             <tr key={index}>
               {row.map((cell, index) => (
                 <th
+                  className={`${index === 2 ? 'w-[15%]' : 'w-auto'} ${index === 3 ? 'w-[15%]' : 'w-auto'} p-1`}
                   key={index}
                   style={{ border: `1px solid ${secondaryColor}` }}
                   colSpan={cell.colSpan}
                   rowSpan={cell.rowSpan}
-                  className="p-1"
                 >
                   {cell.title}
                 </th>
