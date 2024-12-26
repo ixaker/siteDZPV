@@ -1,9 +1,9 @@
 {
   "locale": "en_US",
   "menu": [
+    { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "About the factory", "href": "#about" },
     { "name": "Casting", "href": "/lyttya-metalu" },
-    { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
   ],
@@ -53,6 +53,12 @@
     "gallery": {
       "title": "Gallery",
       "listPhotos": [
+        { "prev": "/assets/rolls-stock-s.webp", "full": "/assets/rolls-stock-f.webp" },
+        { "prev": "/assets/rolls-stock2-s.webp", "full": "/assets/rolls-stock2-f.webp" },
+        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
+        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
+        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
+        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" },
         { "prev": "/assets/gallery-photo1s.webp", "full": "/assets/gallery-photo1f.webp" },
         { "prev": "/assets/gallery-photo2s.webp", "full": "/assets/gallery-photo2f.webp" },
         { "prev": "/assets/gallery-photo3s.webp", "full": "/assets/gallery-photo3f.webp" },
@@ -64,12 +70,8 @@
         { "prev": "/assets/gallery-photo9s.webp", "full": "/assets/gallery-photo9f.webp" },
         { "prev": "/assets/gallery-photo10s.webp", "full": "/assets/gallery-photo10f.webp" },
         { "prev": "/assets/gallery-photo11s.webp", "full": "/assets/gallery-photo11f.webp" },
-        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
-        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
         { "prev": "/assets/gallery-photo14s.webp", "full": "/assets/gallery-photo14f.webp" },
-        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
         { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
-        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" },
         { "prev": "/assets/gallery-photo18s.webp", "full": "/assets/gallery-photo18f.webp" },
         { "prev": "/assets/gallery-photo19s.webp", "full": "/assets/gallery-photo19f.webp" },
         { "prev": "/assets/gallery-photo20s.webp", "full": "/assets/gallery-photo20f.webp" },
@@ -237,9 +239,9 @@
       {
         "title": "Heat Treatment",
         "list": [
-          { "description": "Stress relief (annealing)" },
+          { "description": "Annealing (stress relief)" },
           { "description": "Normalization" },
-          { "description": "Annealing" }
+          { "description": "Tempering" }
         ],
         "image": "/assets/cast-iron-rolls2.webp"
       },
@@ -295,15 +297,15 @@
           "title": "For section and tube rolling mills. The following types of materials are used for static and centrifugally cast rolls. A distinctive feature of such rolls is the possibility of producing them with cast calibers.",
           "titleCard": "Material Hardness, HSD",
           "descriptionCard": [
-            { "description": "Cast iron with indistinct chill (IC) 45 – 75" },
-            { "description": "Pearlitic cast iron with nodular graphite (SGP) 40 – 65" },
-            { "description": "Acicular cast iron with nodular graphite (SGA) 60 – 70" },
+            { "description": "Cast iron with faint chilling (IC) 45 – 75" },
+            { "description": "Pearlitic cast iron with spheroidal graphite (SGP) 40 – 65" },
+            { "description": "Needle-like cast iron with spheroidal graphite (SGA) 60 – 70" },
             { "description": "Adamite (ADAMIT) 43 – 58" }
           ],
           "image": "/assets/gallery-photo25s.webp"
         },
         {
-          "title": "For sheet rolling rolls. Centrifugal casting is used for this type of rolls. Description of the working layer:",
+          "title": "The method of centrifugal casting is used for the production of sheet rolling rolls. Description of the working layer:",
           "titleCard": "Material Hardness, HSD",
           "descriptionCard": [
             {

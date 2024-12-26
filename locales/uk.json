@@ -1,9 +1,9 @@
 {
   "locale": "uk_UA",
   "menu": [
+    { "name": "Валки та ролики", "href": "/rollers" },
     { "name": "Про завод", "href": "#about" },
     { "name": "Лиття", "href": "/lyttya-metalu" },
-    { "name": "Валки та ролики", "href": "/rollers" },
     { "name": "Мехобробка", "href": "/mehobrobka" },
     { "name": "Контакти", "href": "#contacts" }
   ],
@@ -43,7 +43,7 @@
     "productionCapabilities": {
       "title": "Можливості заводу",
       "list": [
-        { "title": "Максимальна маса валка", "count": 20000, "unit": "kg " },
+        { "title": "Максимальна вага валка", "count": 20000, "unit": "kg " },
         { "title": "Максимальний діаметр бочки валка", "count": 1300, "unit": "mm" },
         { "title": "Максимальна загальна довжина", "count": 8000, "unit": "mm" },
         { "title": "Максимальна твердість робочого шару", "count": 85, "unit": "HSD " }
@@ -52,6 +52,12 @@
     "gallery": {
       "title": "Галерея",
       "listPhotos": [
+        { "prev": "/assets/rolls-stock-s.webp", "full": "/assets/rolls-stock-f.webp" },
+        { "prev": "/assets/rolls-stock2-s.webp", "full": "/assets/rolls-stock2-f.webp" },
+        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
+        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
+        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
+        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" },
         { "prev": "/assets/gallery-photo1s.webp", "full": "/assets/gallery-photo1f.webp" },
         { "prev": "/assets/gallery-photo2s.webp", "full": "/assets/gallery-photo2f.webp" },
         { "prev": "/assets/gallery-photo3s.webp", "full": "/assets/gallery-photo3f.webp" },
@@ -63,12 +69,8 @@
         { "prev": "/assets/gallery-photo9s.webp", "full": "/assets/gallery-photo9f.webp" },
         { "prev": "/assets/gallery-photo10s.webp", "full": "/assets/gallery-photo10f.webp" },
         { "prev": "/assets/gallery-photo11s.webp", "full": "/assets/gallery-photo11f.webp" },
-        { "prev": "/assets/gallery-photo12s.webp", "full": "/assets/gallery-photo12f.webp" },
-        { "prev": "/assets/gallery-photo13s.webp", "full": "/assets/gallery-photo13f.webp" },
         { "prev": "/assets/gallery-photo14s.webp", "full": "/assets/gallery-photo14f.webp" },
-        { "prev": "/assets/gallery-photo15s.webp", "full": "/assets/gallery-photo15f.webp" },
         { "prev": "/assets/gallery-photo16s.webp", "full": "/assets/gallery-photo16f.webp" },
-        { "prev": "/assets/gallery-photo17s.webp", "full": "/assets/gallery-photo17f.webp" },
         { "prev": "/assets/gallery-photo18s.webp", "full": "/assets/gallery-photo18f.webp" },
         { "prev": "/assets/gallery-photo19s.webp", "full": "/assets/gallery-photo19f.webp" },
         { "prev": "/assets/gallery-photo20s.webp", "full": "/assets/gallery-photo20f.webp" },
@@ -205,16 +207,16 @@
         "list": [
           { "description": "Валки для листових станів гарячої прокатки" },
           { "description": "Валки для дрібно-,середньо-і велико- сортних станів" },
-          { "description": "Валки та ролика для трубопрокатних станів" }
+          { "description": "Валки та ролики для трубопрокатних станів" }
         ],
-        "image": "/assets/cast-iron-rolls1.webp"
+        "image": "/assets/gallery-photo15s.webp"
       },
       {
         "title": "Термічна обробка",
         "list": [
           { "description": "Відпуск(знаття напружень)" },
           { "description": "Нормалізація" },
-          { "description": "Відпал" }
+          { "description": "Віджиг" }
         ],
         "image": "/assets/cast-iron-rolls2.webp"
       },
@@ -260,17 +262,17 @@
           "descriptionCard": [
             { "description": "Чавун з невираженим відбілом (IC) 45 – 75" },
             { "description": "Перлітний чавун з кулястим графітом (SGP) 40 – 65" },
-            { "description": "Голковий чавун з кулястим графітом (SGA) 60 – 70" },
+            { "description": "Голчастий чавун з кулястим графітом (SGA) 60 – 70" },
             { "description": "Адаміт(ADAMIT) 43 – 58" }
           ],
           "image": "/assets/gallery-photo25s.webp"
         },
         {
-          "title": "Для листопрокатних валків. Для такого типу валків застосовується ц/б лиття. Опис робочого шару",
+          "title": "Для виготовлення листопрокатних валків застосовується метод відцентрованого лиття. Опис робочого шару:",
           "titleCard": "Матеріал твердість, HSD",
           "descriptionCard": [
             {
-              "description": "ICDP (поліпшений ICDP) 60 – 85"
+              "description": "ICDP (покращений ICDP) 60 – 85"
             },
             {
               "description": "HiCr (покращений HiCr) 70 – 85"
@@ -283,7 +285,7 @@
     "productionCapabilities": {
       "title": "Можливості заводу",
       "list": [
-        { "title": "Максимальна маса валка", "count": 20000, "unit": "kg " },
+        { "title": "Максимальна вага валка", "count": 20000, "unit": "kg " },
         { "title": "Максимальний діаметр бочки валка", "count": 1300, "unit": "mm" },
         { "title": "Максимальна загальна довжина", "count": 8000, "unit": "mm" },
         { "title": "Максимальна твердість робочого шару", "count": 85, "unit": "HSD " }

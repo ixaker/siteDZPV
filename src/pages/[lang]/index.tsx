@@ -1,7 +1,6 @@
 import { withStaticProps, withStaticPaths } from '../../context/withStaticPathsAndProps';
 import MainBanner from '@/components/main-banner/MainBanner';
 import AboutFactory from '@/components/about-factory/AboutFactory';
-import OurClients from '@/components/our-clients/OurClients';
 import * as Shared from '@/shared';
 
 const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
@@ -13,7 +12,6 @@ const Home: React.FC<Shared.PageProps> = ({ ...restProps }) => {
       <MainBanner {...componentProps} />
       <AboutFactory {...componentProps} />
       <Shared.ProductionCapabilities {...componentProps} />
-      <OurClients {...componentProps} />
       <Shared.CustomGallery {...componentProps} />
       <Shared.Contacts {...componentProps} />
     </>
