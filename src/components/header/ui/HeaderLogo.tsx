@@ -10,7 +10,7 @@ const HeaderLogo = () => {
     <Link href={`/${currentLang}`}>
       <span className="sm:hidden font-semibold text-2xl text-white">ДЗПВ</span>
       <Image
-        src="/Logo.avif"
+        src="/Logo.svg"
         alt="Logo"
         width={100}
         height={100}
