@@ -1,8 +1,8 @@
 {
   "locale": "en_US",
   "menu": [
-    { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "About the factory", "href": "#about" },
+    { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "Casting", "href": "/lyttya-metalu" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
@@ -354,6 +354,8 @@
     "gallery": {
       "title": "Gallery",
       "listPhotos": [
+        { "prev": "/assets/rolls-stock-s.webp", "full": "/assets/rolls-stock-f.webp" },
+        { "prev": "/assets/rolls-stock2-s.webp", "full": "/assets/rolls-stock2-f.webp" },
         { "prev": "/assets/gallery-photo25s.webp", "full": "/assets/gallery-photo25f.webp" },
         { "prev": "/assets/gallery-photo26s.webp", "full": "/assets/gallery-photo26f.webp" },
         { "prev": "/assets/gallery-photo27s.webp", "full": "/assets/gallery-photo27f.webp" },
