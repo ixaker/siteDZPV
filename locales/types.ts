@@ -87,6 +87,7 @@ export type Translations = {
   menu: { name: string; href: string }[];
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;
+  termoobrobkaPage: PageDefault;
   mehobrobka: PageDefault;
   rollersPage: RollersPage;
   contacts: Contacts;

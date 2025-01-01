@@ -4,6 +4,7 @@
     { "name": "About the factory", "href": "#about" },
     { "name": "Rollers and rollers", "href": "/rollers" },
     { "name": "Casting", "href": "/lyttya-metalu" },
+    { "name": "Heat Treatment", "href": "/termoobrobka" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" }
   ],
@@ -154,6 +155,57 @@
       "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
       "ourLocation": "We are here!",
       "buildRoute": "Build a route"
+    }
+  },
+
+  "termoobrobkaPage": {
+    "metaData": {
+      "title": "«Heat Treatment of Metals — Strength, Reliability, and Precision!»",
+      "description": "We provide heat treatment services for metals, ensuring high-quality results for any industrial needs. Contact us at ☎️ +380567214558 or email us at 📧: AK.Koshubskiy@gmail.com. Your reliable partner in metalworking!",
+      "srcImg": "/assets/termoobrobka.webp"
+    },
+    "heading": "Metal Heat Treatment",
+    "title": "HEAT TREATMENT",
+    "description": "We specialize in professional heat treatment of metals, which helps to enhance the properties of your products. Using modern technologies and an individual approach, we transform metal into a material that withstands the highest loads.",
+    "srcImg": "/assets/termoobrobka.webp",
+    "infoCard": [
+      {
+        "title": "Our Technological Capabilities",
+        "description": "We utilize a variety of modern equipment to achieve the best results:",
+        "list": [
+          { "description": "Electric furnaces" },
+          { "description": "Gas furnaces" },
+          { "description": "Induction heating units" }
+        ],
+        "image": "/assets/termoobrobka2.webp"
+      },
+      {
+        "title": "Innovative Approaches to Processing",
+        "description": "We use cutting-edge technologies to produce components that meet the highest quality standards and the most demanding industrial requirements.",
+        "image": "/assets/termoobrobka3.webp"
+      },
+      {
+        "title": "Optimization of Heat Treatment Processes",
+        "description": "We continuously improve our heat treatment methods to achieve maximum efficiency and cost reduction. Through optimized processes, we ensure consistent quality and shorter order fulfillment times.",
+        "image": "/assets/termoobrobka4.webp"
+      },
+      {
+        "title": "Durability and Longevity of Products",
+        "description": "We offer professional heat treatment of metals to achieve optimal mechanical properties for your components. With modern technologies, we guarantee high quality and reliability of treated products.",
+        "image": "/assets/termoobrobka5.webp"
+      }
+    ],
+    "gallery": {
+      "title": "Gallery",
+      "listPhotos": [
+        { "prev": "/assets/termoobrobka.webp", "full": "/assets/termoobrobka.webp" },
+        { "prev": "/assets/termoobrobka2.webp", "full": "/assets/termoobrobka2.webp" },
+        { "prev": "/assets/termoobrobka6.webp", "full": "/assets/termoobrobka6.webp" },
+        { "prev": "/assets/termoobrobka7.webp", "full": "/assets/termoobrobka7.webp" },
+        { "prev": "/assets/termoobrobka8.webp", "full": "/assets/termoobrobka8.webp" },
+        { "prev": "/assets/termoobrobka9.webp", "full": "/assets/termoobrobka9.webp" },
+        { "prev": "/assets/gallery-photo8s.webp", "full": "/assets/gallery-photo8f.webp" }
+      ]
     }
   },
 
