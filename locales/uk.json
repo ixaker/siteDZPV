@@ -130,12 +130,12 @@
     "gallery": {
       "title": "Галерея",
       "listPhotos": [
-        { "prev": "/assets/termoobrobka.webp", "full": "/assets/termoobrobka.webp" },
-        { "prev": "/assets/termoobrobka2.webp", "full": "/assets/termoobrobka2.webp" },
-        { "prev": "/assets/termoobrobka6.webp", "full": "/assets/termoobrobka6.webp" },
+        { "prev": "/assets/termoobrobka-s.webp", "full": "/assets/termoobrobka.webp" },
+        { "prev": "/assets/termoobrobka2s.webp", "full": "/assets/termoobrobka2.webp" },
+        { "prev": "/assets/termoobrobka6-s.webp", "full": "/assets/termoobrobka6.webp" },
         { "prev": "/assets/termoobrobka7.webp", "full": "/assets/termoobrobka7.webp" },
-        { "prev": "/assets/termoobrobka8.webp", "full": "/assets/termoobrobka8.webp" },
-        { "prev": "/assets/termoobrobka9.webp", "full": "/assets/termoobrobka9.webp" },
+        { "prev": "/assets/termoobrobka8-s.webp", "full": "/assets/termoobrobka8.webp" },
+        { "prev": "/assets/termoobrobka9-s.webp", "full": "/assets/termoobrobka9.webp" },
         { "prev": "/assets/gallery-photo8s.webp", "full": "/assets/gallery-photo8f.webp" }
       ]
     }

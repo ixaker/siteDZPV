@@ -52,13 +52,13 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
             {listPhotos.map((photo, index) => (
               <div
                 key={index}
-                className="flex min-w-[14em] w-[auto] sm:min-w-[337px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
+                className="flex min-w-[14em] w-[auto] sm:min-w-[330px] max-h-[220px] snap-center relative cursor-pointer overflow-hidden border-2 border-gray-600 rounded-lg hover:scale-105 hover:border-yellow-500 transition-transform duration-300"
                 onClick={() => setCurrentIndex(index)}
               >
                 <Shared.Image
                   src={`${photo.prev}${version}`}
                   alt={`Photo ${index + 1}`}
-                  width={337}
+                  width={330}
                   height={224}
                   className="object-cover w-full h-full"
                   loading="lazy"
