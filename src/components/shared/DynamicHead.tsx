@@ -1,6 +1,7 @@
 import { NextSeo } from 'next-seo';
 import React, { useEffect, useState } from 'react';
 import { DefaultPage, HomeComponentProps, RollersPageProps } from '@/context/withStaticPathsAndProps';
+import Script from 'next/script';
 
 const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage> = (componentProps) => {
   const pageData = componentProps.translationsPage.metaData;
@@ -29,7 +30,7 @@ const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage>
               alt: 'Image for Open Graph',
             },
           ],
-          site_name: 'QPART',
+          site_name: 'DZPV',
           locale: componentProps.translations.locale,
         }}
         additionalMetaTags={[
@@ -42,12 +43,27 @@ const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage>
           ...componentProps.supportedLanguages.map((lang) => ({
             rel: 'alternate',
             hrefLang: lang,
-            href: `https://site.qpart.com.ua/${lang}/`,
+            href: `https://www.dzpv.dp.ua/${lang}/`,
           })),
-          { rel: 'alternate', hrefLang: 'x-default', href: 'https://site.qpart.com.ua/' },
+          { rel: 'alternate', hrefLang: 'x-default', href: 'https://www.dzpv.dp.ua/' },
           { rel: 'manifest', href: `/manifest_${componentProps.lang}.json` },
         ]}
       />
+      <>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KL0QS6LVRZ"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KL0QS6LVRZ');
+      `}
+        </Script>
+      </>
     </>
   );
 };
