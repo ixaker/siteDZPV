@@ -1,5 +1,6 @@
 {
   "locale": "uk_UA",
+  "logo": "ДЗПВ",
   "menu": [
     { "name": "Про завод", "href": "#about" },
     { "name": "Валки та ролики", "href": "/rollers" },

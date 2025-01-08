@@ -1,14 +1,19 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
-const HeaderLogo = () => {
+
+interface HeaderLogoProps {
+  logoTranslate: string;
+}
+
+const HeaderLogo: React.FC<HeaderLogoProps> = ({ logoTranslate }) => {
   const router = useRouter();
   const { asPath } = router;
   const currentLang = asPath.split('/')[1];
 
   return (
     <Link href={`/${currentLang}`}>
-      <span className="sm:hidden font-semibold text-2xl text-white">ДЗПВ</span>
+      <span className="sm:hidden font-semibold text-2xl text-white">{logoTranslate}</span>
       <Image
         src="/Logo.svg"
         alt="Logo"

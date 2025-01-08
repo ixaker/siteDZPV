@@ -84,6 +84,7 @@ export type PageDefault = {
 
 export type Translations = {
   locale: string;
+  logo: string;
   menu: { name: string; href: string }[];
   homePage: HomePage;
   lyttyaMetaluPage: PageDefault;

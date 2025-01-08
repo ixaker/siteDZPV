@@ -1,5 +1,6 @@
 {
   "locale": "en_US",
+  "logo": "DRRP",
   "menu": [
     { "name": "About the factory", "href": "#about" },
     { "name": "Rollers and rollers", "href": "/rollers" },
