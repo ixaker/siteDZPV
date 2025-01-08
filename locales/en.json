@@ -3,7 +3,7 @@
   "logo": "DRRP",
   "menu": [
     { "name": "About the factory", "href": "#about" },
-    { "name": "Rollers and rollers", "href": "/rollers" },
+    { "name": "Rolls and rollers", "href": "/rollers" },
     { "name": "Casting", "href": "/lyttya-metalu" },
     { "name": "Heat Treatment", "href": "/termoobrobka" },
     { "name": "Machining", "href": "/mehobrobka" },
