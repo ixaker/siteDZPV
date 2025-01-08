@@ -13,7 +13,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
   const [displayLanguages, setDisplayLanguages] = useState<string[]>([]);
 
   useEffect(() => {
-    const defaultLanguages = ['en', 'uk'];
+    const defaultLanguages = ['en', 'ua'];
     const browserLang = navigator.language.split('-')[0];
 
     const languages = [...defaultLanguages];
@@ -29,6 +29,10 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
   }, [supportedLanguages]);
 
   const switchLanguage = (newLang: string) => {
+    if (newLang === 'ua') {
+      newLang = 'uk';
+    }
+
     const newPath = asPath.replace(/^\/[a-z]{2}/, `/${newLang}`);
 
     router.push(newPath);
@@ -42,7 +46,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
           key={lang}
           ariaLabel={`Switch to ${lang}`}
           variant="leng-btn"
-          className={`${currentLang === lang ? 'text-activeColor text-[white]' : ''}`}
+          className={`${currentLang === (lang === 'ua' ? 'uk' : lang) ? 'text-activeColor text-[white]' : ''}`}
           onClick={() => switchLanguage(lang)}
         >
           {lang?.toUpperCase()}
