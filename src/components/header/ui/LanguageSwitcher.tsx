@@ -17,6 +17,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
     const browserLang = navigator.language.split('-')[0];
 
     const languages = [...defaultLanguages];
+
     if (
       !defaultLanguages.includes(browserLang) &&
       browserLang !== 'ru' &&
@@ -26,6 +27,7 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
     }
 
     setDisplayLanguages(languages);
+    console.log('languages', languages);
   }, [supportedLanguages]);
 
   const switchLanguage = (newLang: string) => {
@@ -41,17 +43,19 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
 
   return (
     <div className="flex gap-3">
-      {displayLanguages.map((lang) => (
-        <CustomButton
-          key={lang}
-          ariaLabel={`Switch to ${lang}`}
-          variant="leng-btn"
-          className={`${currentLang === (lang === 'ua' ? 'uk' : lang) ? 'text-activeColor text-[white]' : ''}`}
-          onClick={() => switchLanguage(lang)}
-        >
-          {lang?.toUpperCase()}
-        </CustomButton>
-      ))}
+      {displayLanguages
+        .filter((lang) => lang !== 'uk')
+        .map((lang) => (
+          <CustomButton
+            key={lang}
+            ariaLabel={`Switch to ${lang}`}
+            variant="leng-btn"
+            className={`${currentLang === (lang === 'ua' && 'uk' ? 'uk' : lang) ? 'text-activeColor text-[white]' : ''}`}
+            onClick={() => switchLanguage(lang)}
+          >
+            {lang?.toUpperCase()}
+          </CustomButton>
+        ))}
     </div>
   );
 };
