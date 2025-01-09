@@ -1,6 +1,10 @@
 {
   "locale": "uk_UA",
   "logo": "ДЗПВ",
+  "nameCompany": {
+    "top": "Дніпропетровський Завод",
+    "bottom": "Прокатних Валків"
+  },
   "menu": [
     { "name": "Про завод", "href": "#about" },
     { "name": "Валки та ролики", "href": "/rollers" },

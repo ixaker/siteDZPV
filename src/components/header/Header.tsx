@@ -8,6 +8,7 @@ import BurgerMenu from './ui/BurgerMenu';
 
 const Header: React.FC<PageProps> = (restProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const nameCompany = restProps.translations?.nameCompany || '';
   const logoTranslate = restProps.translations?.logo || '';
   useEffect(() => {
     document.body.classList.toggle('overflow-hidden', isMenuOpen);
@@ -21,7 +22,13 @@ const Header: React.FC<PageProps> = (restProps) => {
   return (
     <header className="relative z-20">
       <div className="flex justify-between items-center flex-wrap p-3 bg-inherit w-full absolute">
-        <HeaderLogo logoTranslate={logoTranslate} />
+        <div className="flex gap-4 items-center">
+          <HeaderLogo logoTranslate={logoTranslate} />
+          <span className="hidden sm:block text-white drop-shadow-2xl font-bold  text-2xl animate-gradient ">
+            {nameCompany.top} <br /> {nameCompany.bottom}
+          </span>
+        </div>
+
         <div className="flex gap-10 items-center">
           <div className="flex gap-7 items-center">
             <LanguageSwitcher

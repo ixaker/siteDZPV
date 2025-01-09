@@ -27,7 +27,6 @@ const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, suppor
     }
 
     setDisplayLanguages(languages);
-    console.log('languages', languages);
   }, [supportedLanguages]);
 
   const switchLanguage = (newLang: string) => {
