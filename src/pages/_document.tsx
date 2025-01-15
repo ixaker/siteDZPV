@@ -22,6 +22,27 @@ class MyDocument extends Document<{ lang: string }> {
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
           <meta property="og:type" content="website" />
+
+          <meta
+            name="description"
+            content="Для зв'язку з нами, звертайтесь за номером ☎️ +380567214558. Або на електронну адресу 📧: AK.Koshubskiy@gmail.com. Будемо раді співпраці!"
+          />
+
+          <meta
+            property="og:title"
+            content="Дніпропетровський Завод Прокатних Валків | Dnipropetrovsk Rolling Rolls Plant"
+          />
+          <meta
+            property="og:description"
+            content="Дніпропетровський завод прокатних валків» (ДЗПВ) - лідер виробник прокатних валків!  Для зв'язку з нами, звертайтесь за номером ☎️ +380567214558. Або на електронну адресу 📧: AK.Koshubskiy@gmail.com. Будемо раді співпраці!"
+          />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://dzpv.dp.ua/" />
+          <meta property="og:image" content="/assets/gallery-photo7f.webp" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+
+          <link rel="canonical" href="https://dzpv.dp.ua/" />
         </Head>
         <body>
           <Main />
