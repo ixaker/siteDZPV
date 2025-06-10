@@ -2,7 +2,7 @@ import React from 'react';
 
 interface HeadingProps {
   text: string;
-  level: 'h1' | 'h2';
+  level: 'h1' | 'h2' | 'h3';
   style?: string;
   alignment?: 'left' | 'center' | 'right' | 'justify';
   display?: 'block' | 'none';

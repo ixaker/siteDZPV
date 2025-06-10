@@ -1,7 +1,12 @@
 export { default as CustomGallery } from '@/components/custom-gallery/CustomGallery';
 export { default as DynamicHead } from '@/components/shared/DynamicHead';
 export type { GetStaticPaths, GetStaticProps } from 'next';
-export type { PageProps, HomeComponentProps, RollersPageProps } from '../context/withStaticPathsAndProps';
+export type {
+  PageProps,
+  HomeComponentProps,
+  RollersPageProps,
+  CorporateDoxPageProps,
+} from '../context/withStaticPathsAndProps';
 export { default as BackCover } from '@/components/ui/back-cover/BackCover';
 export { default as ButtonSubmitDrawing } from '@/components/ui/button/ButtonSubmitDrawing';
 export { default as Navigation } from '@/components/ui/navigation/Navigation';
@@ -20,3 +25,4 @@ export { default as CastIronRolls } from '@/components/ui/cast-iron-rolls/CastIr
 export { default as TableInformation } from '@/components/ui/table-information/TableInformation';
 export { default as Contacts } from '@/components/contacts/Contacts';
 export { default as InfoBlock } from '@/components/ui/Info-block/InfoBlock';
+export { default as InfoDocs } from '@/components/ui/info-docs/infoDocs';

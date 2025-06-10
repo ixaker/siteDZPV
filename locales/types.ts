@@ -15,6 +15,30 @@ export type Table = {
   tbody: string[][];
 };
 
+export type CorporateDoxPage = {
+  metaData: MetaData;
+  description: string;
+  heading: string;
+  title: string;
+  factory: string;
+  code: string;
+  dateLang: string;
+  sections: {
+    title: string;
+    type: string;
+    documents: {
+      title: string;
+      formats: {
+        type: string;
+        url: string;
+      }[];
+      date: {
+        value: string;
+      }[];
+    }[];
+  }[];
+};
+
 export type RollersPage = {
   metaData: MetaData;
   heading: string;
@@ -96,6 +120,7 @@ export type Translations = {
   mehobrobka: PageDefault;
   rollersPage: RollersPage;
   contacts: Contacts;
+  corporateDoxPage: CorporateDoxPage; //new added
   footer: {
     description: string;
   };

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<z:root xsi:schemaLocation="http://nssmc.gov.ua/Schem/IrregEm IrregEm.xsd" TTYPE="010" NREG="True" FID="2025-03-31T00:00:00" STD="2025-03-31T00:00:00" D_NAME="АКЦІОНЕРНЕ ТОВАРИСТВО “ДНІПРОПЕТРОВСЬКИЙ ЗАВОД ПРОКАТНИХ ВАЛКІВ”" D_EDRPOU="00187375" REGNUM="" REGDATE="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://nssmc.gov.ua/Schem/IrregEm">
+  <z:DTSTITUL_O>
+    <z:row POS_PODP="Директор" FIO_PODP="Коржевська С.М." E_NAME="АКЦІОНЕРНЕ ТОВАРИСТВО “ДНІПРОПЕТРОВСЬКИЙ ЗАВОД ПРОКАТНИХ ВАЛКІВ”" E_OPF="230" E_OBL="UA12000000000090473" E_POST="49000" E_ADRES="м. Дніпро" E_STREET="вул. Яхненківська, буд.2" E_PHONE="0562 348345" E_MAIL="dzpv@dzpv.dp.ua" ADR_WWW="https://dzpv.dp.ua/uk/" APA_NAME="Державна установа &quot;Агентство з розвитку інфраструктури фондового ринку України&quot;" APA_EDRPOU="21676262" APA_CONT="804" APA_LICNUM="DR/00002/ARM" />
+  </z:DTSTITUL_O>
+  <z:DTSPERSON_O>
+    <z:row NZP="1" DAT_POD="2025-03-31T00:00:00" ZMINY="0" POSADA="Головний бухгалтер" P_I_B="Сидоренко Тетяна Іванівна" VL_STAT="9E-06" ZMIST="Наказом Директора вiд 31.03.2025 року №5 звільнено, за угодою сторін, з посади Головного бухгалтера - Сидоренко Тетяну Іванівну. Володіє 0,000009% статутного капіталу емітента. Строк, протягом якого особа перебувала на посаді з 01.07.2008 по 31.03.2025. Непогашеної судимостi за корисливi та посадовi злочини посадова особа не має. Замість звільненої особи нікого не призначено на дану посаду." />
+  </z:DTSPERSON_O>
+</z:root>

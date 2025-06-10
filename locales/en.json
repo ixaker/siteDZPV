@@ -11,7 +11,8 @@
     { "name": "Casting", "href": "/lyttya-metalu" },
     { "name": "Heat Treatment", "href": "/termoobrobka" },
     { "name": "Machining", "href": "/mehobrobka" },
-    { "name": "Contacts", "href": "#contacts" }
+    { "name": "Contacts", "href": "#contacts" },
+    { "name": "Information for shareholders", "href": "/corporate-docs" }
   ],
 
   "modalInfo": {
@@ -436,6 +437,1833 @@
     "descriptionContact": "For any inquiries, please contact us using the details provided above. We are available from 8:00 AM to 5:00 PM, Monday to Friday. Email inquiries are processed within 24 hours.",
     "ourLocation": "We are here!",
     "buildRoute": "Build a route"
+  },
+
+  "corporateDoxPage": {
+    "metaData": {
+      "title": "Corporate Reporting for Shareholders and Stakeholders | Full Transparency and Openness",
+      "description": "Official documentation, reports, and financial information for investors and interested parties. Access to annual reports, audit conclusions, and special information.",
+      "srcImg": "/assets/gallery-photo2f.webp"
+    },
+    "heading": "Corporate reporting for shareholders and stakeholders",
+    "title": "Information for Shareholders and Stakeholders",
+    "factory": "JSC \" DNEPROPETROVSK ROLLING ROLLS PLANT\"",
+    "code": "Code according to USRENOU: 00187375",
+    "description": "Complete archive of official documents, reports, and financial information in compliance with legal requirements and corporate transparency principles.",
+    "srcImg": "/assets/corporate-main.webp",
+    "dateLang": "Publication date",
+    "sections": [
+      {
+        "title": "Regular Information",
+        "type": "regular",
+        "documents": [
+          {
+            "title": "Annual Information of Securities Issuer for 2022",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2022 рік .pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2022 рік (КЕП).pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2022 рік (в машиночитальному форматі).xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2022 рік (в машиночитальному форматі)()КЕП.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.12.2023"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2021",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2021 рік.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2021 рік(КЕП).pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2021 рік (в машиночитальному форматі).xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2021 рік (в машиночитальному форматі)(КЕП).xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.12.2023"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report and Financial Statements for 2020",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Аудиторський висновок та фінансова звітність за 2020 рік.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "25.05.2021"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2020",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2020 рік.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "29.04.2021"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2019",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2019 рік.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.12.2020"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2018",
+            "formats": [
+              {
+                "type": "Publication date",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2018 рік.rar"
+              }
+            ],
+            "date": [
+              {
+                "value": "26.04.2019"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2017",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2017 рік.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "27.04.2018"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2017",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Звіт Ревізійної комісії за 2017 рік.pdf" }
+            ],
+            "date": [
+              {
+                "value": "27.04.2018"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2016",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2016 рік.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.04.2017"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2015",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2015 рік.htm"
+              }
+            ],
+            "date": [
+              {
+                "value": "29.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2015",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2015 рік.pdf" }],
+            "date": [
+              {
+                "value": "29.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Annual Financial Statements for 2015",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Річна фінансова звітність за 2015 рік.pdf" }
+            ],
+            "date": [
+              {
+                "value": "29.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2015",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Звіт Ревізійної комісії за 2015 рік.pdf" }
+            ],
+            "date": [
+              {
+                "value": "20.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2014",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2014 рік.pdf" }],
+            "date": [
+              {
+                "value": "30.04.2015"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2014",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2014 рік.htm"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.04.2015"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2014",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Звіт ревізійної комісії за 2014р.pdf" }],
+            "date": [
+              {
+                "value": "11.04.2015"
+              }
+            ]
+          },
+          {
+            "title": "Income Statement (Statement of Comprehensive Income) for 2014 part 2",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Звіт про фінансові результати (Звіт про сукупний дохід) за 2014 рік ч.22014.jpg"
+              }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Statement of Equity for 2014 part 1",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Звіт про власний капітал за 2014 рік ч.1.jpg" }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Balance Sheet (Statement of Financial Position) as of 31.12.2014 part 2",
+            "formats": [
+              {
+                "type": "Publication date",
+                "url": "/docs/regular/Баланс (Звіт про фінансовий стан) на 31.12.2014 рік ч.2.jpg"
+              }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Balance Sheet (Statement of Financial Position) as of 31.12.2014 part 1",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Баланс (Звіт про фінансовий стан) на 31.12.2014 рік ч.1.jpg"
+              }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Income Statement (Statement of Comprehensive Income) for 2014 part 1",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Звіт про фінансові результати (Звіт про сукупний дохід) за 2014 рік ч.1.jpg"
+              }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Statement of Equity for 2014 part 2",
+            "formats": [
+              { "type": "ESK", "url": "/docs/regular/Звіт про власний капітал за 2014 рік ч.2.jpg" }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Cash Flow Statement for 2014 part 2",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Звіт про рух грошових коштів за 2014 рік ч.2.jpg" }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Cash Flow Statement for 2014 part 1",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Звіт про рух грошових коштів за 2014 рік ч.1.jpg" }
+            ],
+            "date": [
+              {
+                "value": "02.03.2015"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2013",
+            "formats": [
+              {
+                "type": "Publication date",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2013 рік.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.04.2014"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2013",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2013 рік.pdf" }],
+            "date": [
+              {
+                "value": "17.04.2014"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2013",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Звіт ревізійної комісії за 2013р..pdf" }],
+            "date": [
+              {
+                "value": "11.04.2014"
+              }
+            ]
+          },
+          {
+            "title": "Annual Financial Statements for 2013",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Річна фінансова звітність за 2013р..7z" }
+            ],
+            "date": [
+              {
+                "value": "11.04.2014"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2012",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2012 рік.html"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Annual Financial Statements for 2012",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Річна фінансова звітність за 2012р..pdf" }
+            ],
+            "date": [
+              {
+                "value": "25.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2012",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2012 рік.pdf" }],
+            "date": [
+              {
+                "value": "25.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2012",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Звіт ревізійної комісії за 2012р..pdf" }],
+            "date": [
+              {
+                "value": "11.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2011",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2011 рік.htm"
+              }
+            ],
+            "date": [
+              {
+                "value": "27.04.2012"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2011",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2011 рік.pdf" }],
+            "date": [
+              {
+                "value": "18.04.2012"
+              }
+            ]
+          },
+          {
+            "title": "Audit Committee Report for 2011",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Звіт ревізійної комісії за 2011р..pdf" }],
+            "date": [
+              {
+                "value": "10.04.2012"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2010",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2010 рік.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.04.2011"
+              }
+            ]
+          },
+          {
+            "title": "Audit Report for 2010",
+            "formats": [{ "type": "Document", "url": "/docs/regular/Аудиторський висновок за 2010 рік.pdf" }],
+            "date": [
+              {
+                "value": "21.03.2011"
+              }
+            ]
+          },
+          {
+            "title": "Annual Financial Statements for 2010",
+            "formats": [
+              { "type": "Document", "url": "/docs/regular/Річна фінансова звітність за 2010р..rar" }
+            ],
+            "date": [
+              {
+                "value": "21.03.2011"
+              }
+            ]
+          },
+          {
+            "title": "Annual Information of Securities Issuer for 2009",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/regular/Річна інформація емітента цінних паперів за 2009 рік.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.04.2010"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Special Information",
+        "type": "special",
+        "documents": [
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП).pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі).xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП).xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "03.06.2025"
+              }
+            ]
+          },
+          {
+            "title": "Information on Termination of the Issuer through Merger, Acquisition, Division, Transformation or Bankruptcy by Decision of the Issuer's Highest Body or Court",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання, поділу, перетворення або банкрутства за рішенням вищого органу емітента або суду .pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання, поділу, перетворення або банкрутства за рішенням вищого органу емітента або суду(КЕП).pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання, поділу, перетворення або банкрутства за рішенням вищого органу емітента або суду (в машиночитальному форматі).xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання, поділу, перетворення або банкрутства за рішенням вищого органу емітента або суду (в машиночитальному форматі)(КЕП).xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "03.06.2025"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 01.04.2025.pdff"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП) 01.04.2025.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 01.04.2025.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 01.04.2025.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "01.04.2025"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 30.09.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП) 30.09.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 30.09.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 30.09.2024t.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "30.09.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 10.07.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП) 10.07.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 10.07.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 10.07.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "10.07.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 05.07.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП) 05.07.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 05.07.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 05.07.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "05.07.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій 03.07.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій(КЕП) 03.07.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі) 03.07.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі)(КЕП) 03.07.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "03.07.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій 28.06.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій(КЕП) 28.06.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі) 28.06.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі)(КЕП) 28.06.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.06.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 25.04.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (КЕП) 25.04.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 25.04.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 25.04.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "25.04.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента 22.04.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента(КЕП) 22.04.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі) 22.04.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (в машиночитальному форматі)(КЕП) 22.04.2024t.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "22.04.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій 13.03.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій(КЕП) 13.03.2024.pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі) 13.03.2024.xml"
+              },
+              {
+                "type": "Machine-readable ESK",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій (в машиночитальному форматі)(КЕП) 13.03.2024.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "13.03.2024"
+              }
+            ]
+          },
+          {
+            "title": "Information on Acquisition of Controlling Stake Directly or Indirectly by a Person",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про набуття прямо або опосередковано особою контрольного пакета акцій 02.10.2023.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "02.10.2023"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій 15.09.2023.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "15.09.2023"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції, розмір пакета яких стає більшим, меншим або рівним пороговому значенню пакета акцій 13.09.2023.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "13.09.2023"
+              }
+            ]
+          },
+          {
+            "title": "Information on Decision to Grant Consent for Significant Transactions (05.10.2022)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про прийняття рішення про надання згоди на вчинення значних правочинів (05.10.2022) 06.10.2022.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "06.10.2022"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (18.08.2022)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (18.08.2022) 19.08.2022.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "19.08.2022"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (03.11.2021)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (03.11.2021) 04.11.2021.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "04.11.2021"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (16.04.2021)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (16.04.2021) 19.04.2021.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "19.04.2021"
+              }
+            ]
+          },
+          {
+            "title": "Information on Decision to Grant Preliminary Consent for Significant Transactions (16.04.2021)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про прийняття рішення про попереднє надання згоди на вчинення значних правочинів (16.04.2021) 19.04.2021.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "19.04.2021"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (16.12.2019)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (16.12.2019) 17.12.2019.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "17.12.2019"
+              }
+            ]
+          },
+          {
+            "title": "Information on Decision to Grant Preliminary Consent for Significant Transactions (16.04.2019)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про прийняття рішення про попереднє надання згоди на вчинення значних правочинів (16.04.2019) 17.04.2019.7z"
+              }
+            ],
+            "date": [
+              {
+                "value": "17.04.2019"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (24.09.2018)",
+            "formats": [
+              {
+                "type": "Publication date",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (24.09.2018) 28.09.2018.pdf"
+              }
+            ],
+            "date": [
+              {
+                "type": "Publication date",
+                "value": "28.09.2018"
+              }
+            ]
+          },
+          {
+            "title": "Information on Change of Type of Joint Stock Company",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну типу акціонерного товариства 28.09.2018.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "28.09.2018"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in the Composition of the Issuer's Officials (20.04.2018)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (20.04.2018) 27.04.2018.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "27.04.2018"
+              }
+            ]
+          },
+          {
+            "title": "Information on Decision to Grant Preliminary Consent for Significant Transactions (20.04.2018)",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про прийняття рішення про попереднє надання згоди на вчинення значних правочинів (20.04.2018) 27.04.2018.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "27.04.2018"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 28.04.2017.pdf" }
+            ],
+            "date": [
+              {
+                "value": "28.04.2017"
+              }
+            ]
+          },
+          {
+            "title": "Information on Changes in Shareholders Owning 10% or More of Voting Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну власників акцій, яким належить 10 і більше відсотків голосуючих акцій 25.04.2016.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "25.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 23.04.2016.pdf" }
+            ],
+            "date": [
+              {
+                "value": "23.04.2016"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 17.04.2015.pdf" }
+            ],
+            "date": [
+              {
+                "value": "17.04.2015"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 18.04.2014.pdf" }
+            ],
+            "date": [
+              {
+                "value": "18.04.2014"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 09.11.2013.htm" }
+            ],
+            "date": [
+              {
+                "value": "09.11.2013"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 17.04.2013.htm" }
+            ],
+            "date": [
+              {
+                "value": "17.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента(1) 17.04.2013.htm" }
+            ],
+            "date": [
+              {
+                "value": "17.04.2013"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 24.06.2011.pdf" }
+            ],
+            "date": [
+              {
+                "value": "24.06.2011"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 13.04.2011.pdf" }
+            ],
+            "date": [
+              {
+                "value": "13.04.2011"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 02.11.2009.pdf" }
+            ],
+            "date": [
+              {
+                "value": "02.11.2009"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 16.04.2009.pdf" }
+            ],
+            "date": [
+              {
+                "value": "16.04.2009"
+              }
+            ]
+          },
+          {
+            "title": "Special Information of the Issuer",
+            "formats": [
+              { "type": "Document", "url": "/docs/special/Особлива інформація емітента 17.03.2009.pdf" }
+            ],
+            "date": [
+              {
+                "value": "17.03.2009"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Shareholders Meetings",
+        "type": "shareholders",
+        "documents": [
+          {
+            "title": "Minutes of the General Shareholders Meeting 29.04.2025",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 08.05.2025.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів (КЕП) 08.05.2025.pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "08.05.2025" }]
+          },
+          {
+            "title": "Voting Results Report of the General Shareholders Meeting 29.04.2025",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів 08.05.2025.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів(КЕП) 08.05.2025.pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "08.05.2025" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 28.04.2025.pdf"
+              }
+            ],
+            "date": [{ "value": "28.04.2025" }]
+          },
+          {
+            "title": "Voting Ballot (Other Agenda Items, Except Election of Governing Bodies) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 29.04.2025",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства) на дистанційних Загальних зборах акціонерів АТ ДЗПВ, дата проведення 29.04.2025 17.04.2025.docx"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства) на дистанційних Загальних зборах акціонерів АТ ДЗПВ, дата проведення 29.04.2025  17.04.2025(КЕП) .docx.p7s"
+              }
+            ],
+            "date": [{ "value": "17.04.2025" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 27.03.2025.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 27.03.2025(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "27.03.2025" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 29.04.2025",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства 29.04.2025 27.03.2025.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства 29.04.2025 27.03.2025(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "27.03.2025" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting 01.07.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 01.07.2024 15.07.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 01.07.2024 15.07.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "15.07.2024" }]
+          },
+          {
+            "title": "Voting Results Report of the General Shareholders Meeting 01.07.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів 01.07.2024 15.07.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів 01.07.2024 15.07.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "15.07.2024" }]
+          },
+          {
+            "title": "Cumulative Voting Ballot (Agenda Items Subject to Cumulative Voting) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 01.07.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Бюлетень для кумулятивного голосування (з питань порядку денного, голосування за якими здійснюється шляхом кумулятивного голосування) 01.07.2024 25.06.2024.docx"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Бюлетень для кумулятивного голосування (з питань порядку денного, голосування за якими здійснюється шляхом кумулятивного голосування)  01.07.2024 25.06.2024(КЕП).docx.p7s"
+              }
+            ],
+            "date": [{ "value": "25.06.2024" }]
+          },
+          {
+            "title": "Voting Ballot (Other Agenda Items, Except Election of Governing Bodies) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 01.07.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства) 01.07.2024 19.06.2024.docx"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Бюлетень для голосування ( інших питань порядку денного, крім обрання органів товариства) 01.07.2024 19.06.2024(КЕП).docx.p7s"
+              }
+            ],
+            "date": [{ "value": "19.06.2024" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 28.05.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 28.05.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "28.05.2024" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 01.07.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (01.07.2024) 28.05.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (01.07.2024) 28.05.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "28.05.2024" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting 16.04.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 16.04.2024 29.04.2024.pdf"
+              }
+            ],
+            "date": [{ "value": "29.04.2024" }]
+          },
+          {
+            "title": "Voting Results Report of the General Shareholders Meeting 16.04.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів 16.04.2024 29.04.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протоколи про підсумки голосування на загальних зборах акціонерів 16.04.2024 29.04.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "29.04.2024" }]
+          },
+          {
+            "title": "Cumulative Voting Ballot (Agenda Items Subject to Cumulative Voting) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 16.04.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Бюлетень для кумулятивного голосування (з питань порядку денного, голосування за якими здійснюється шляхом кумулятивного голосування) 16.04.2024 10.04.2024.docx"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Бюлетень для кумулятивного голосування (з питань порядку денного, голосування за якими здійснюється шляхом кумулятивного голосування)16.04.2024 10.04.2024(КЕП).docx.p7s"
+              }
+            ],
+            "date": [{ "value": "10.04.2024" }]
+          },
+          {
+            "title": "Voting Ballot (Other Agenda Items, Except Election of Governing Bodies) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 16.04.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства) 16.04.2024 01.04.2024.docx"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства)16.04.2024 01.04.2024(КЕП).docx.p7s"
+              }
+            ],
+            "date": [{ "value": "01.04.2024" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 14.03.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 14.03.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "14.03.2024" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 16.04.2024",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (16.04.2024) 14.03.2024.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (16.04.2024) 14.03.2024(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "14.03.2024" }]
+          },
+          {
+            "title": "Voting Results of the General Shareholders Meeting 16.04.2021",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Підсумки голосування на загальних зборах 16042021 26.04.2021.7z"
+              }
+            ],
+            "date": [{ "value": "26.04.2021" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 15.04.2021.pdf"
+              }
+            ],
+            "date": [{ "value": "15.04.2021" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 16.04.2021",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (16.04.2021) 15.03.2021.7z"
+              }
+            ],
+            "date": [{ "value": "15.03.2021" }]
+          },
+          {
+            "title": "Cancellation Notice of General Shareholders Meeting 17.04.2020",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація про скасування проведення загальних зборів акціонерів 17.04.2020 14.04.2020.pdf"
+              }
+            ],
+            "date": [{ "value": "14.04.2020" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 17.04.2020",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (17.04.2020) 16.03.2020.7z"
+              }
+            ],
+            "date": [{ "value": "16.03.2020" }]
+          },
+          {
+            "title": "Voting Results of the General Shareholders Meeting 16.04.2019",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Підсумки голосування на загальних зборах 16042019 22.04.2019.7z"
+              }
+            ],
+            "date": [{ "value": "22.04.2019" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 15.04.2019.pdff"
+              }
+            ],
+            "date": [{ "value": "15.04.2019" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 16.04.2019",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (16.04.2019) 14.03.2019.7z"
+              }
+            ],
+            "date": [{ "value": "14.03.2019" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 20.04.2018 27.04.2018.pdf"
+              }
+            ],
+            "date": [{ "value": "27.04.2018" }]
+          },
+          {
+            "title": "Information for Shareholders on Number of Shares",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Інформація для акціонерів про кількість акцій 19.04.2018.pdf"
+              }
+            ],
+            "date": [{ "value": "19.04.2018" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 20.04.2018",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерного товариства (20.04.2018) 19.03.2018.pdf"
+              }
+            ],
+            "date": [{ "value": "19.03.2018" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 10.01.2018 and Draft Resolutions",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерів (10.01.2018) та проекти рішень 08.12.2017.pdf"
+              }
+            ],
+            "date": [{ "value": "08.12.2017" }]
+          },
+          {
+            "title": "Notice to Shareholders",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення акціонерам 08.12.2017.pdf"
+              }
+            ],
+            "date": [{ "value": "08.12.2017" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 05.12.2017 and Draft Resolutions",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів акціонерів (05.12.2017) та проекти рішень 03.11.2017.pdf"
+              }
+            ],
+            "date": [{ "value": "03.11.2017" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 21.04.2017.pdf"
+              }
+            ],
+            "date": [{ "value": "21.04.2017" }]
+          },
+          {
+            "title": "Agenda of the General Shareholders Meeting 21.04.2017 and Draft Resolutions",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Порядок денний загальних зборів акціонерів (21.04.2017) та проекти рішень 20.03.2017.pdf"
+              }
+            ],
+            "date": [{ "value": "20.03.2017" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 19.04.2016.pdf"
+              }
+            ],
+            "date": [{ "value": "19.04.2016" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 18.03.2016.pdf"
+              }
+            ],
+            "date": [{ "value": "18.03.2016" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів від 10.04.2015.pdf"
+              }
+            ],
+            "date": [{ "value": "10.04.2015" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting 10.04.2015",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 05.03.2015.doc"
+              }
+            ],
+            "date": [{ "value": "05.03.2015" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 11.04.2014.pdf"
+              }
+            ],
+            "date": [{ "value": "11.04.2014" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 13.03.2014.pdf"
+              }
+            ],
+            "date": [{ "value": "13.03.2014" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 11.04.2013.pdf"
+              }
+            ],
+            "date": [{ "value": "11.04.2013" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 12.03.2013.pdf"
+              }
+            ],
+            "date": [{ "value": "12.03.2013" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 10.04.2012.pdf"
+              }
+            ],
+            "date": [{ "value": "10.04.2012" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 07.03.2012.pdf"
+              }
+            ],
+            "date": [{ "value": "07.03.2012" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 08.04.2011.pdf"
+              }
+            ],
+            "date": [{ "value": "08.04.2011" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 23.02.2011.pdf"
+              }
+            ],
+            "date": [{ "value": "23.02.2011" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 21.05.2010.pdf"
+              }
+            ],
+            "date": [{ "value": "21.05.2010" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 25.03.2010.pdf"
+              }
+            ],
+            "date": [{ "value": "25.03.2010" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 10.04.2009.pdf"
+              }
+            ],
+            "date": [{ "value": "10.04.2009" }]
+          },
+          {
+            "title": "Notice of General Shareholders Meeting",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Повідомлення про проведення загальних зборів 11.02.2009.pdf"
+              }
+            ],
+            "date": [{ "value": "11.02.2009" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 11.04.2008.pdf"
+              }
+            ],
+            "date": [{ "value": "11.04.2008" }]
+          },
+          {
+            "title": "Minutes of the General Shareholders Meeting of PJSC DZPV",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол Загальних зборів ПАТ ДЗПВ від 20.04.2007.pdf"
+              }
+            ],
+            "date": [{ "value": "20.04.2007" }]
+          }
+        ]
+      },
+      {
+        "title": "Other Information",
+        "type": "other",
+        "documents": [
+          {
+            "title": "Public Irrevocable Demand",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Публічна безвідклична вимога.pdf" },
+              { "type": "ESK", "url": "/docs/other/Публічна безвідклична вимога(КЕП).p7s" }
+            ],
+            "date": [
+              {
+                "value": "18.03.2025"
+              }
+            ]
+          },
+          {
+            "title": "Notification of Acquisition of Ownership Right to Dominant Controlling Stake",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/other/Повідомлення про набуття права власності на домінуючий контрольний пакет акцій.pdf"
+              }
+            ],
+            "date": [
+              {
+                "value": "19.12.2024"
+              }
+            ]
+          },
+          {
+            "title": "Ownership Structure of QPART LLC",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Структура власності ТОВ КЬЮПАРТ.pdf" },
+              { "type": "ESK", "url": "/docs/other/Структура власності ТОВ КЬЮПАРТ(КЕП).pdf.p7s" }
+            ],
+            "date": [
+              {
+                "value": "19.12.2024"
+              }
+            ]
+          },
+          {
+            "title": "Ownership Structure of FERRUM-STEEL LLC",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Структура власності ТОВ ФЕРРУМ-СТІЛ.pdf" },
+              { "type": "ESK", "url": "/docs/other/Структура власності ТОВ ФЕРРУМ-СТІЛ(КЕП).p7s" }
+            ],
+            "date": [
+              {
+                "value": "19.12.2024"
+              }
+            ]
+          },
+          {
+            "title": "Certificate of Share Issue Registration",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Свідоцтво про реєстрацію випуску акцій.jpg" }
+            ],
+            "date": [
+              {
+                "value": "14.07.2011"
+              }
+            ]
+          },
+          {
+            "title": "Regulation on Branches and Representative Offices",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Положення про філії та представництва.pdf" }
+            ],
+            "date": [
+              {
+                "value": "08.04.2011"
+              }
+            ]
+          },
+          {
+            "title": "Principles (Code) of Corporate Governance",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Принципи (Кодекс) корпоративного управління.pdf" }
+            ],
+            "date": [
+              {
+                "value": "08.04.2011"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
 
   "footer": {

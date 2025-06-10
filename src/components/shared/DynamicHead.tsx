@@ -1,9 +1,16 @@
 import { NextSeo } from 'next-seo';
 import React, { useEffect, useState } from 'react';
-import { DefaultPage, HomeComponentProps, RollersPageProps } from '@/context/withStaticPathsAndProps';
+import {
+  CorporateDoxPageProps,
+  DefaultPage,
+  HomeComponentProps,
+  RollersPageProps,
+} from '@/context/withStaticPathsAndProps';
 import Script from 'next/script';
 
-const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage> = (componentProps) => {
+const DynamicHead: React.FC<HomeComponentProps | RollersPageProps | DefaultPage | CorporateDoxPageProps> = (
+  componentProps
+) => {
   const pageData = componentProps.translationsPage.metaData;
 
   const [fullUrl, setFullUrl] = useState('');
