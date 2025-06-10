@@ -1589,6 +1589,20 @@
         "type": "shareholders",
         "documents": [
           {
+            "title": "Minutes of the general meeting of shareholders 02.06.2025",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 02.06.2025 10.06.2025.pdf"
+              },
+              {
+                "type": "ESK",
+                "url": "/docs/shareholders/Протокол загальних зборів акціонерів 02.06.2025 10.06.2025(КЕП).pdf.p7s"
+              }
+            ],
+            "date": [{ "value": "10.06.2025" }]
+          },
+          {
             "title": "Minutes of the General Shareholders Meeting 29.04.2025",
             "formats": [
               {
