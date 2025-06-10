@@ -4,6 +4,7 @@ import * as Shared from '@/shared';
 
 const InfoDocs: React.FC<CorporateDoxPage> = ({ heading, factory, code, sections, dateLang }) => {
   const [openSections, setOpenSections] = useState<Record<number, boolean>>({});
+  // function for parce date
   const parseDate = (str: string | undefined): number => {
     if (!str) return 0;
     // Формат "MM.DD.YYYY"
