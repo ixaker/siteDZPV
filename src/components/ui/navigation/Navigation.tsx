@@ -13,7 +13,7 @@ const Navigation: React.FC<NavigationProps> = ({ setIsMenuOpen, translations, la
 
   return (
     <nav className="flex w-auto justify-end items-start">
-      <ul className="flex justify-end flex-col items-end w-full gap-5 sm:gap-7 relative z-10">
+      <ul className="flex justify-end flex-col items-end w-full gap-3 sm:gap-4 relative z-10">
         {listMenu.map((item, index) => (
           <li
             onClick={() => {
@@ -22,7 +22,24 @@ const Navigation: React.FC<NavigationProps> = ({ setIsMenuOpen, translations, la
             key={index}
           >
             <Link
-              className=" text-white font-bold hover:text-activeColor transition-all duration-300 ease-in-out text-[18px] md:text-[20] lg:text-[25px] xl:text-[35px] text-nowrap no-underline "
+              className="inline-block
+                text-white
+                font-bold
+                hover:text-activeColor
+                transition-all
+                duration-300
+                ease-in-out
+                text-[18px]
+                md:text-[20px]
+                lg:text-[25px]
+                xl:text-[35px]
+                no-underline
+                whitespace-normal
+                max-w-full
+                text-right
+                hover:translate-x-[-5px]
+                transform
+                px-2"
               href={`/${lang}${item.href}`}
             >
               {item.name}

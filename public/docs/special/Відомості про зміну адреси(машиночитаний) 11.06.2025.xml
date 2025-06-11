@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<z:root xsi:schemaLocation="http://nssmc.gov.ua/Schem/IrregEm IrregEm.xsd" TTYPE="010" NREG="True" FID="2025-06-11T00:00:00" STD="2025-06-11T00:00:00" D_NAME="АКЦІОНЕРНЕ ТОВАРИСТВО &quot;ДНІПРОПЕТРОВСЬКИЙ ЗАВОД ПРОКАТНИХ ВАЛКІВ&quot;" D_EDRPOU="00187375" REGNUM="61/19" REGDATE="2025-06-11T00:00:00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:z="http://nssmc.gov.ua/Schem/IrregEm">
+  <z:DTSTITUL_O>
+    <z:row POS_PODP="Голова комісії з припинення" FIO_PODP="Коржевська С.М." E_NAME="АКЦІОНЕРНЕ ТОВАРИСТВО &quot;ДНІПРОПЕТРОВСЬКИЙ ЗАВОД ПРОКАТНИХ ВАЛКІВ&quot;" E_OPF="230" E_OBL="UA12000000000090473" E_POST="49023" E_ADRES="Дніпро" E_STREET="Яхненківська 2" E_PHONE="380675688076" E_MAIL="dzpv@dzpv.dp.ua" ADR_WWW="https://dzpv.dp.ua/" DAT_WWW="2025-06-11T00:00:00" APA_NAME="Державна установа &quot;Агентство з розвитку інфраструктури фондового ринку України&quot;" APA_EDRPOU="21676262" APA_CONT="804" APA_LICNUM="DR/00002/ARM" />
+  </z:DTSTITUL_O>
+  <z:DTSWEBSITE>
+    <z:row NZP="1" OLD_URL="http://ucap.dp.ua/00187375/" DAT_URL="2025-06-11T00:00:00" NEW_URL="https://dzpv.dp.ua/" OLD_EMAIL="-" DAT_EMAIL="" NEW_EMAIL="-" ZMIST="11.06.2025 р. емітент змінив адресу власного вебсайту, на якому здійснюється розкриття регульованої інформації.&#xD;&#xA;&#xD;&#xA;Адреса електронної пошти, яка є офіційним каналом зв'язку з емітентом, не змінювалася." />
+  </z:DTSWEBSITE>
+</z:root>

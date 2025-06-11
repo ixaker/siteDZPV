@@ -12,7 +12,7 @@
     { "name": "Heat Treatment", "href": "/termoobrobka" },
     { "name": "Machining", "href": "/mehobrobka" },
     { "name": "Contacts", "href": "#contacts" },
-    { "name": "Information for shareholders", "href": "/corporate-docs" }
+    { "name": "Information for shareholders and stakeholders", "href": "/corporate-docs" }
   ],
 
   "modalInfo": {
@@ -447,8 +447,8 @@
     },
     "heading": "Corporate reporting for shareholders and stakeholders",
     "title": "Information for Shareholders and Stakeholders",
-    "factory": "JSC \" DNEPROPETROVSK ROLLING ROLLS PLANT\"",
-    "code": "Code according to USRENOU: 00187375",
+    "factory": "JSC \"DNEPROPETROVSK ROLLING ROLLS PLANT\"",
+    "code": "Identification code: 00187375",
     "description": "Complete archive of official documents, reports, and financial information in compliance with legal requirements and corporate transparency principles.",
     "srcImg": "/assets/corporate-main.webp",
     "dateLang": "Publication date",
@@ -953,6 +953,32 @@
         "title": "Special Information",
         "type": "special",
         "documents": [
+          {
+            "title": "Information about the change of the issuer's website address",
+            "formats": [
+              {
+                "type": "Document",
+                "url": "/docs/special/Відомості про зміну адреси 11.06.2025.pdf"
+              },
+              {
+                "type": "QES",
+                "url": "/docs/special/Відомості про зміну адреси 11.06.2025(КЕП).pdf.p7s"
+              },
+              {
+                "type": "Machine-readable",
+                "url": "/docs/special/Відомості про зміну адреси(машиночитаний) 11.06.2025.xml"
+              },
+              {
+                "type": "Machine-readable QES",
+                "url": "/docs/special/Відомості про зміну адреси(машиночитаний)(КЕП) 11.06.2025.xml.p7s"
+              }
+            ],
+            "date": [
+              {
+                "value": "11.06.2025"
+              }
+            ]
+          },
           {
             "title": "Information on Changes in the Composition of the Issuer's Officials",
             "formats": [

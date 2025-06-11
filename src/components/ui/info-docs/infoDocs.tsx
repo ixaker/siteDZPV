@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { CorporateDoxPage } from '../../../../locales/types';
 import * as Shared from '@/shared';
 
-const InfoDocs: React.FC<CorporateDoxPage> = ({ heading, factory, code, sections, dateLang }) => {
+const InfoDocs: React.FC<CorporateDoxPage> = ({ title, factory, code, sections, dateLang }) => {
   const [openSections, setOpenSections] = useState<Record<number, boolean>>({});
   // function for parce date
   const parseDate = (str: string | undefined): number => {
@@ -37,7 +37,7 @@ const InfoDocs: React.FC<CorporateDoxPage> = ({ heading, factory, code, sections
 
   return (
     <div className="space-y-8">
-      <Shared.Heading level="h1" text={heading} style="text-[#ef8535]" />
+      <Shared.Heading level="h1" text={title} style="text-[#ef8535]" />
       <Shared.Heading level="h2" text={factory} />
       <Shared.Paragraph text={code} />
 
