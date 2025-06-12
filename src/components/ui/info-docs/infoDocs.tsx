@@ -4,22 +4,22 @@ import * as Shared from '@/shared';
 
 const InfoDocs: React.FC<CorporateDoxPage> = ({ title, factory, code, sections, dateLang }) => {
   const [openSections, setOpenSections] = useState<Record<number, boolean>>({});
-  // function for parce date
+
+  // Список идентификаторов "документа" для разных языков
+  const documentTypes = ['Документ', 'Document', 'Документ', '文档']; // добавьте другие языки по необходимости
+
   const parseDate = (str: string | undefined): number => {
     if (!str) return 0;
-    // Формат "MM.DD.YYYY"
     if (str.includes('.')) {
       const [day, month, year] = str.split('.').map(Number);
       return new Date(year, month - 1, day).getTime();
     }
 
-    // Формат "MM/DD/YYYY"
     if (str.includes('/')) {
       const [day, month, year] = str.split('/').map(Number);
       return new Date(year, month - 1, day).getTime();
     }
 
-    // Попытка создать напрямую (например, ISO: "YYYY-MM-DD")
     const parsed = new Date(str).getTime();
     return isNaN(parsed) ? 0 : parsed;
   };
@@ -74,7 +74,6 @@ const InfoDocs: React.FC<CorporateDoxPage> = ({ title, factory, code, sections, 
                       .sort((a, b) => {
                         const dateA = parseDate(a.date[0]?.value);
                         const dateB = parseDate(b.date[0]?.value);
-
                         return dateB - dateA;
                       })
                       .map((doc, docIndex) => (
@@ -86,30 +85,55 @@ const InfoDocs: React.FC<CorporateDoxPage> = ({ title, factory, code, sections, 
                               {dateLang}: {d.value}
                             </p>
                           ))}
-                          <div className="flex gap-4  flex-wrap">
-                            {doc.formats.map((format, formatIndex) => (
-                              <a
-                                key={formatIndex}
-                                href={format.url}
-                                className="text-[#ef8535] hover:underline flex items-center gap-1"
-                                download
-                              >
-                                <span>{format.type}</span>
-                                <svg
-                                  className="w-4 h-4"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
+                          <div className="flex gap-4 flex-wrap">
+                            {doc.formats.map((format, formatIndex) =>
+                              documentTypes.includes(format.type) ? (
+                                <a
+                                  key={formatIndex}
+                                  href={format.url}
+                                  className="text-[#ef8535] hover:underline flex items-center gap-1"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
                                 >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                                  />
-                                </svg>
-                              </a>
-                            ))}
+                                  <span>{format.type}</span>
+                                  <svg
+                                    className="w-4 h-4"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                    />
+                                  </svg>
+                                </a>
+                              ) : (
+                                <a
+                                  key={formatIndex}
+                                  href={format.url}
+                                  className="text-[#ef8535] hover:underline flex items-center gap-1"
+                                  download
+                                >
+                                  <span>{format.type}</span>
+                                  <svg
+                                    className="w-4 h-4"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                    />
+                                  </svg>
+                                </a>
+                              )
+                            )}
                           </div>
                         </div>
                       ))}
