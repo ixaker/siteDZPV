@@ -68,6 +68,18 @@ const InfoCard: React.FC<InfoCardProps> = ({
             className={`w-full h-full object-cover ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             loading="lazy"
           />
+          {/* <Shared.Image
+            src={`${srcImg}${version}.webp`}
+            alt={srcImg} 
+            width={100}
+            height={100}
+            className={`w-full h-full object-cover transition-opacity duration-300 ${
+              isVisible ? 'opacity-100' : 'opacity-0'
+            }`}
+            loading="lazy" 
+            decoding="async" 
+            sizes="(max-width: 768px) 50vw, 100vw" 
+          /> */}
         </div>
         {/* Text */}
         <div

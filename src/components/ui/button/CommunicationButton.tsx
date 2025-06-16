@@ -17,7 +17,7 @@ const CommunicationButton: React.FC<PropsCommunicationButton> = ({ email, phone 
   const secondaryColor = currentTheme.palette.secondary.main;
 
   return (
-    <div className="flex flex-col gap-3 fixed bottom-12 right-4 z-[99]">
+    <div className="flex flex-col gap-6 fixed bottom-10 right-4 z-[99]">
       <a href="mailto:info@qpart.com.ua">
         <CustomButton
           ariaLabel="Send Email"
@@ -26,7 +26,7 @@ const CommunicationButton: React.FC<PropsCommunicationButton> = ({ email, phone 
             color: secondaryColor,
           }}
           variant="communication-button"
-          className="!px-[10px] !py-[10px]"
+          className="relative !px-[10px] !py-[10px] after:content-[''] after:absolute after:-inset-2"
         >
           {email}
         </CustomButton>
@@ -39,7 +39,7 @@ const CommunicationButton: React.FC<PropsCommunicationButton> = ({ email, phone 
             color: secondaryColor,
           }}
           variant="communication-button"
-          className="!px-[10px] !py-[10px]"
+          className="relative !px-[10px] !py-[10px] after:content-[''] after:absolute after:-inset-2"
         >
           {phone}
         </CustomButton>
@@ -52,7 +52,7 @@ const CommunicationButton: React.FC<PropsCommunicationButton> = ({ email, phone 
             color: secondaryColor,
           }}
           variant="communication-button"
-          className="!px-[10px] !py-[10px]"
+          className="relative !px-[10px] !py-[10px] after:content-[''] after:absolute after:-inset-2"
         >
           <WhatsAppIcon className="!text-[#1f854a]  transition-all duration-300 ease-in-out font-bold size-[35px] md:size-10 lg:size-12" />
         </CustomButton>

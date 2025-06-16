@@ -42,7 +42,7 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
             WebkitOverflowScrolling: 'touch', // Дополнительно для тачскринов
           }}
         >
-          <button onClick={() => scroll('left')} className="rounded border-1">
+          <button onClick={() => scroll('left')} className="rounded border-1" aria-label="chevron lef">
             <ArrowBackIosIcon fontSize="large" />
           </button>
           <div
@@ -66,7 +66,7 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
               </div>
             ))}
           </div>
-          <button onClick={() => scroll('right')}>
+          <button onClick={() => scroll('right')} aria-label="chevron right">
             <ArrowBackIosIcon fontSize="large" sx={{ rotate: '180deg' }} />
           </button>
         </div>
@@ -76,7 +76,7 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
             className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-[999]"
             onClick={() => setCurrentIndex(NaN)}
           >
-            <button onClick={(e) => changesPhoto(e, -1)} className="h-full">
+            <button onClick={(e) => changesPhoto(e, -1)} className="h-full" aria-label="chevron left">
               <ArrowBackIosIcon fontSize="large" sx={{ color: 'white' }} />
             </button>
             <div className="relative max-w-4xl max-h-[80vh]">
@@ -88,7 +88,7 @@ const CustomGallery: React.FC<Shared.HomeComponentProps | DefaultPage | RollersP
                 className="rounded-lg"
               />
             </div>
-            <button onClick={(e) => changesPhoto(e, 1)} className="h-full">
+            <button onClick={(e) => changesPhoto(e, 1)} className="h-full" aria-label="chevron right">
               <ArrowBackIosIcon fontSize="large" sx={{ rotate: '180deg', color: 'white' }} />
             </button>
           </div>

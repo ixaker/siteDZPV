@@ -26,9 +26,7 @@ const config: Config = {
       boxShadowColor: {
         default: '[0_10px_30px_#000]',
       },
-      backgroundImage: {
-        bgImg: "url('/bg.jpg')",
-      },
+      backgroundImage: {},
       height: {
         'fill-available': '-webkit-fill-available',
       },

@@ -555,7 +555,7 @@
             "title": "Annual Information of Securities Issuer for 2018",
             "formats": [
               {
-                "type": "Publication date",
+                "type": "Document",
                 "url": "/docs/regular/Річна інформація емітента цінних паперів за 2018 рік.rar"
               }
             ],
@@ -710,7 +710,7 @@
             "title": "Balance Sheet (Statement of Financial Position) as of 31.12.2014 part 2",
             "formats": [
               {
-                "type": "Publication date",
+                "type": "Document",
                 "url": "/docs/regular/Баланс (Звіт про фінансовий стан) на 31.12.2014 рік ч.2.jpg"
               }
             ],
@@ -751,7 +751,7 @@
           {
             "title": "Statement of Equity for 2014 part 2",
             "formats": [
-              { "type": "ESK", "url": "/docs/regular/Звіт про власний капітал за 2014 рік ч.2.jpg" }
+              { "type": "Document", "url": "/docs/regular/Звіт про власний капітал за 2014 рік ч.2.jpg" }
             ],
             "date": [
               {
@@ -785,7 +785,7 @@
             "title": "Annual Information of Securities Issuer for 2013",
             "formats": [
               {
-                "type": "Publication date",
+                "type": "Document",
                 "url": "/docs/regular/Річна інформація емітента цінних паперів за 2013 рік.pdf"
               }
             ],
@@ -961,7 +961,7 @@
                 "url": "/docs/special/Відомості про зміну адреси 12.06.2025.pdf"
               },
               {
-                "type": "QES",
+                "type": "ESK",
                 "url": "/docs/special/Відомості про зміну адреси 12.06.2025(КЕП).pdf.p7s"
               },
               {
@@ -969,7 +969,7 @@
                 "url": "/docs/special/Відомості про зміну адреси(машиночитаний) 12.06.2025.xml"
               },
               {
-                "type": "Machine-readable QES",
+                "type": "Machine-readable ESK",
                 "url": "/docs/special/Відомості про зміну адреси(машиночитаний)(КЕП) 12.06.2025.xml.p7s"
               }
             ],
@@ -1009,19 +1009,19 @@
             "title": "Information on Termination of the Issuer through Merger, Acquisition, Division, Transformation or Bankruptcy by Decision of the Issuer's Highest Body or Court",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/special/Відомості про припинення емітента шляхом злиття.pdf"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/special/Відомості про припинення емітента шляхом злиття (КЕП).pdf.p7s"
               },
               {
-                "type": "Машиночитаний",
+                "type": "Machine-readable",
                 "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання, поділу (в машиночитальному форматі).xml"
               },
               {
-                "type": "Машиночитаний КЕП",
+                "type": "Machine-readable ESK",
                 "url": "/docs/special/Відомості про припинення емітента шляхом злиття, приєднання (в машиночитальному форматі)(КЕП).xml.p7s"
               }
             ],
@@ -1139,19 +1139,19 @@
             "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції 03.07.2024.pdf"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (КЕП) 03.07.2024.pdf.p7s"
               },
               {
-                "type": "Машиночитаний",
+                "type": "Machine-readable",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі) 03.07.2024.xml"
               },
               {
-                "type": "Машиночитаний КЕП",
+                "type": "Machine-readable ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі)(КЕП) 03.07.2024.xml.p7s"
               }
             ],
@@ -1165,19 +1165,19 @@
             "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції 28.06.2024.pdf"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (КЕП) 28.06.2024.pdf.p7s"
               },
               {
-                "type": "Машиночитаний",
+                "type": "Machine-readable",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі) 28.06.2024.xml"
               },
               {
-                "type": "Машиночитаний КЕП",
+                "type": "Machine-readable ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі)(КЕП) 28.06.2024.xml.p7s"
               }
             ],
@@ -1243,19 +1243,19 @@
             "title": "Information on Changes in Shareholders Owning Voting Shares Where the Size of the Stake Becomes Larger, Smaller or Equal to the Threshold Value",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції 13.03.2024.pdf"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (КЕП) 13.03.2024.pdf.p7s"
               },
               {
-                "type": "Машиночитаний",
+                "type": "Machine-readable",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі) 13.03.2024.xml"
               },
               {
-                "type": "Машиночитаний КЕП",
+                "type": "Machine-readable ESK",
                 "url": "/docs/special/Відомості про зміну акціонерів, яким належать голосуючі акції (в машиночитальному форматі)(КЕП) 13.03.2024.xml.p7s"
               }
             ],
@@ -1409,13 +1409,12 @@
             "title": "Information on Changes in the Composition of the Issuer's Officials (24.09.2018)",
             "formats": [
               {
-                "type": "Publication date",
+                "type": "Document",
                 "url": "/docs/special/Відомості про зміну складу посадових осіб емітента (24.09.2018) 28.09.2018.pdf"
               }
             ],
             "date": [
               {
-                "type": "Publication date",
                 "value": "28.09.2018"
               }
             ]
@@ -1670,11 +1669,11 @@
             "title": "Voting Ballot (Other Agenda Items, Except Election of Governing Bodies) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 29.04.2025",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства)17.04.2025.docx"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/shareholders/Бюлетень для голосування (щодо інших питань порядку денного, крім обрання органів товариства)17.04.2025(КЕП).docx.p7s"
               }
             ],
@@ -1820,11 +1819,11 @@
             "title": "Cumulative Voting Ballot (Agenda Items Subject to Cumulative Voting) for Remote General Shareholders Meeting of PJSC DZPV, Meeting Date 16.04.2024",
             "formats": [
               {
-                "type": "Документ",
+                "type": "Document",
                 "url": "/docs/shareholders/Бюлетень для кумулятивного голосування 10.04.2024.docx"
               },
               {
-                "type": "КЕП",
+                "type": "ESK",
                 "url": "/docs/shareholders/Бюлетень для кумулятивного голосування 10.04.2024(КЕП).docx.p7s"
               }
             ],
@@ -2218,6 +2217,18 @@
         "title": "Other Information",
         "type": "other",
         "documents": [
+          {
+            "title": "Notification to creditors of JSC DZPV on the termination of JSC DZPV by transformation",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/ПОВІДОМЛЕННЯ КРЕДИТОРІВ 16.06.2025.pdf" },
+              { "type": "ESK", "url": "/docs/other/ПОВІДОМЛЕННЯ КРЕДИТОРІВ(КЕП)16.06.2025.pdf.p7s" }
+            ],
+            "date": [
+              {
+                "value": "16.06.2025"
+              }
+            ]
+          },
           {
             "title": "Public Irrevocable Demand",
             "formats": [
