@@ -2218,6 +2218,18 @@
         "type": "other",
         "documents": [
           {
+            "title": "Order №9",
+            "formats": [
+              { "type": "Document", "url": "/docs/other/Наказ 9, 110825.pdf" },
+              { "type": "ESK", "url": "/docs/other/Наказ 9, 110825.pdf.p7s" }
+            ],
+            "date": [
+              {
+                "value": "14.08.2025"
+              }
+            ]
+          },
+          {
             "title": "Notification to creditors of JSC DZPV on the termination of JSC DZPV by transformation",
             "formats": [
               { "type": "Document", "url": "/docs/other/ПОВІДОМЛЕННЯ КРЕДИТОРІВ 16.06.2025.pdf" },
